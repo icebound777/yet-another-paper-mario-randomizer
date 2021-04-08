@@ -1,0 +1,1 @@
+bl_starting_location = 0x168080
