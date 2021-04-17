@@ -17,12 +17,22 @@ f.seek(0x20)
 assert(f.read(11) == b'PAPER MARIO')
 
 # Don't start the game from Mario's house
-#print(f'{f.tell()}')
 f.seek(bl_starting_location)
-#print(f'{f.tell()}')
-#f.write(byte_locations.get('kmr_03'))
-f.write((0x2402004F).to_bytes(4,'big'))
-#print(f'{f.tell()}')
+#f.write(byte_locations.get('isk_03').get('bytes'))
+f.write((0x24020087).to_bytes(4,'big'))
+
+#code patch: start with goombario out
+# f.seek(0x808A8)
+# f.write((0xA0820012).to_bytes(4,'big'))
+# f.write((0xA082000A).to_bytes(4,'big')) # enable action command
+# f.write((0x2402FFFF).to_bytes(4,'big'))
+# f.seek(0x808E4)
+# f.write((0xA0800000).to_bytes(4,'big'))
+# #have every party member
+# f.write((0xA0A20014).to_bytes(4,'big'))
+# #enable menus
+# f.seek(0x168074)
+# f.write((0x2406FF81).to_bytes(4,'big'))
 
 # Save randomized file and fix bootcode
 f.close()
