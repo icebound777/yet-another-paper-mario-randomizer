@@ -1,7 +1,7 @@
 import os
 
 from statics.version import __version__
-from bytelocations.bytes import bl_starting_location, byte_locations
+from bytelocations.bytes import bl_starting_location, byte_locations, bl_text_firstplay, byte_text_randomizer_1, byte_text_randomizer_2, byte_text_randomizer_3
 
 print(f'YaPMR v.{__version__}')
 
@@ -16,10 +16,16 @@ f=open(outfile,'rb+')
 f.seek(0x20)
 assert(f.read(11) == b'PAPER MARIO')
 
+# Overwrite "First Play" text on new file with "Randomized"
+f.seek(bl_text_firstplay)
+f.write(byte_text_randomizer_1)
+f.write(byte_text_randomizer_2)
+f.write(byte_text_randomizer_3)
+
 # Don't start the game from Mario's house
 f.seek(bl_starting_location)
 #f.write(byte_locations.get('isk_03').get('bytes'))
-f.write((0x24020087).to_bytes(4,'big'))
+f.write((0x240200CA).to_bytes(4,'big'))
 
 #code patch: start with goombario out
 # f.seek(0x808A8)

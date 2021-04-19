@@ -1,7 +1,69 @@
 # ByteLocations in ROM
 bl_starting_location = 0x168080
+bl_text_firstplay = 0x16C0DC
+
+# Lowercase letters
+ll_a = (0x41)
+ll_b = (0x42)
+ll_c = (0x43)
+ll_d = (0x44)
+ll_e = (0x45)
+ll_f = (0x46)
+ll_g = (0x47)
+ll_h = (0x48)
+ll_i = (0x49)
+ll_j = (0x4A)
+ll_k = (0x4B)
+ll_l = (0x4C)
+ll_m = (0x4D)
+ll_n = (0x4E)
+ll_o = (0x4F)
+ll_p = (0x50)
+ll_q = (0x51)
+ll_r = (0x52)
+ll_s = (0x53)
+ll_t = (0x54)
+ll_u = (0x55)
+ll_v = (0x56)
+ll_w = (0x57)
+ll_x = (0x58)
+ll_y = (0x59)
+ll_z = (0x5A)
+
+# Capital letters
+cl_a = (0x21)
+cl_b = (0x22)
+cl_c = (0x23)
+cl_d = (0x24)
+cl_e = (0x25)
+cl_f = (0x26)
+cl_g = (0x27)
+cl_h = (0x28)
+cl_i = (0x29)
+cl_j = (0x2A)
+cl_k = (0x2B)
+cl_l = (0x2C)
+cl_m = (0x2D)
+cl_n = (0x2E)
+cl_o = (0x2F)
+cl_p = (0x30)
+cl_q = (0x31)
+cl_r = (0x32)
+cl_s = (0x33)
+cl_t = (0x34)
+cl_u = (0x35)
+cl_v = (0x36)
+cl_w = (0x37)
+cl_x = (0x38)
+cl_y = (0x39)
+cl_z = (0x3A)
+cl_space = (0xF7)
 
 # ByteValues to write into ROM
+byte_text_randomizer_1 = (0x32414E44).to_bytes(4,'big') # Rand
+byte_text_randomizer_2 = (0x4F4D495A).to_bytes(4,'big') # omiz
+byte_text_randomizer_3 = (0x4544FD00).to_bytes(4,'big') # ed
+
 byte_locations = {
     "kmr_00":{"bytes":(0x24020000).to_bytes(4,"big"),
               "nickname":"Goomba Region: Forest Clearing"},
@@ -275,4 +337,142 @@ byte_locations = {
               "nickname":"Bowser's Castle: Lower Jail"},
     "kpa_32":{"bytes":(0x24020087).to_bytes(4,"big"),
               "nickname":"Bowser's Castle: Lower Grand Hall"},
+    "kpa_33":{"bytes":(0x24020088).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Upper Grand Hall"},
+    "kpa_40":{"bytes":(0x24020089).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Maze Guide Room"},
+    "kpa_41":{"bytes":(0x2402008A).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Maze Room"},
+    "kpa_50":{"bytes":(0x2402008B).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hall to Guard Door 1"},
+    "kpa_51":{"bytes":(0x2402008C).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hall to Water Puzzle"},
+    "kpa_52":{"bytes":(0x2402008D).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Split Level Hall"},
+    "kpa_53":{"bytes":(0x2402008E).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Fake Peach Hallway"},
+    "kpa_60":{"bytes":(0x2402008F).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Ship Enter/Exit Scenes"},
+    "kpa_61":{"bytes":(0x24020090).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Battlement"},
+    "kpa_62":{"bytes":(0x24020091).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Front Door Exterior"}, # similar to kpa_60 ?
+    "kpa_63":{"bytes":(0x24020092).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hanger"}, # default spawnlocation traps Mario
+    "kpa_70":{"bytes":(0x24020093).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Entry Lava Hall"},
+    "kpa_81":{"bytes":(0x24020094).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Guard Door 1"},
+    "kpa_82":{"bytes":(0x24020095).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Guard Door 2"},
+    "kpa_83":{"bytes":(0x24020096).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Guard Door 3"},
+    "kpa_90":{"bytes":(0x24020097).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Stairs to East Upper Jail"},
+    "kpa_91":{"bytes":(0x24020098).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: East Upper Jail"},
+    "kpa_94":{"bytes":(0x24020099).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Stairs to West Upper Jail"},
+    "kpa_95":{"bytes":(0x2402009A).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: West Upper Jail"},
+    "kpa_96":{"bytes":(0x2402009B).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Item Shop"},
+    "kpa_100":{"bytes":(0x2402009C).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Castle Key Room"},
+    "kpa_101":{"bytes":(0x2402009D).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Ultra Shroom Room"},
+    "kpa_102":{"bytes":(0x2402009E).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Blue Fire Bridge"},
+    "kpa_111":{"bytes":(0x2402009F).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Room with Hidden Door 1"},
+    "kpa_112":{"bytes":(0x240200A0).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hidden Passage 1"},
+    "kpa_113":{"bytes":(0x240200A1).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Room with Hidden Door 2"},
+    "kpa_114":{"bytes":(0x240200A2).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hidden Passage 2"}, # spawn under ground on load
+    "kpa_115":{"bytes":(0x240200A3).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Room with Hidden Door 3"},
+    "kpa_116":{"bytes":(0x240200A4).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Dead End Passage"},
+    "kpa_117":{"bytes":(0x240200A5).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Dead End Room"},
+    "kpa_118":{"bytes":(0x240200A6).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hidden Passage 3"},
+    "kpa_119":{"bytes":(0x240200A7).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Hidden Key Room"},
+    "kpa_121":{"bytes":(0x240200A8).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Exit to Peach's Castle"},
+    "kpa_130":{"bytes":(0x240200A9).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Bill Blaster Hall"},
+    "kpa_133":{"bytes":(0x240200AA).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Left Water Puzzle"},
+    "kpa_134":{"bytes":(0x240200AB).to_bytes(4,"big"),
+              "nickname":"Bowser's Castle: Right Water Puzzle"},
+    "osr_00":{"bytes":(0x240200AC).to_bytes(4,"big"),
+              "nickname":"Peach's Castle Grounds: Intro Castle Grounds"},
+    "osr_01":{"bytes":(0x240200AD).to_bytes(4,"big"),
+              "nickname":"Peach's Castle Grounds: Ruined Castle Grounds"},
+    "osr_02":{"bytes":(0x240200AE).to_bytes(4,"big"),
+              "nickname":"Peach's Castle Grounds: Hijacked Castle Entrance"},
+    "osr_03":{"bytes":(0x240200AF).to_bytes(4,"big"),
+              "nickname":"Peach's Castle Grounds: Outside Hijacked Castle"}, # ???
+    "osr_04":{"bytes":(0x240200B0).to_bytes(4,"big"),
+              "nickname":"Peach's Castle Grounds: Castle Hijacking Scene"},
+    "kkj_00":{"bytes":(0x240200B1).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Intro Entry Hall (1F)"},
+    "kkj_01":{"bytes":(0x240200B2).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Intro Upper Hall (2F)"},
+    "kkj_02":{"bytes":(0x240200B3).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Intro Stairs Hallway (3F)"},
+    "kkj_03":{"bytes":(0x240200B4).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Intro Window Hallway (4F)"},
+    "kkj_10":{"bytes":(0x240200B5).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Entry Hall (1F)"},
+    "kkj_11":{"bytes":(0x240200B6).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Upper Hall (2F)"},
+    "kkj_12":{"bytes":(0x240200B7).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Stairs Hallway (3F)"},
+    "kkj_13":{"bytes":(0x240200B8).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Window Hallway (4F)"},
+    "kkj_14":{"bytes":(0x240200B9).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Peach's Room (2F)"},
+    "kkj_15":{"bytes":(0x240200BA).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Passage Outlet (2F)"},
+    "kkj_16":{"bytes":(0x240200BB).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Library (2F)"},
+    "kkj_17":{"bytes":(0x240200BC).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Storeroom (2F)"},
+    "kkj_18":{"bytes":(0x240200BD).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Dining Room (2F)"},
+    "kkj_19":{"bytes":(0x240200BE).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Kitchen (1F)"},
+    "kkj_20":{"bytes":(0x240200BF).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Guest Room (1F)"},
+    "kkj_21":{"bytes":(0x240200C0).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Inactive Quiz-Off (1F)"},
+    "kkj_22":{"bytes":(0x240200C1).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Double Staircase (4F)"},
+    "kkj_23":{"bytes":(0x240200C2).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Rooftop (5F)"},
+    "kkj_24":{"bytes":(0x240200C3).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Tower Staircase (5F)"},
+    "kkj_25":{"bytes":(0x240200C4).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Final Boss Arena (6F)"}, # crashes on load if without partners
+    "kkj_26":{"bytes":(0x240200C5).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Balcony (2F)"},
+#    "kkj_26.5":{"bytes":(0x240200C6).to_bytes(4,"big"),
+#              "nickname":"Peach's Castle: Balcony ???"}, # kkj_26 w/ weird background ??
+    "kkj_27":{"bytes":(0x240200C7).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Secret Passage (2F)"},
+    "kkj_28":{"bytes":(0x240200C8).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Darkened Quiz-Off (1F)"},
+    "kkj_29":{"bytes":(0x240200C9).to_bytes(4,"big"),
+              "nickname":"Peach's Castle: Quiz-Off Room (1F)"},
+#    "crash012":{"bytes":(0x240200CA).to_bytes(4,"big"),
+#              "nickname":"Blackscreen"}, # jan_00 ?
+#    "crash013":{"bytes":(0x240200CB).to_bytes(4,"big"),
+#              "nickname":"Blackscreen"}, # jan_01 ?
+    "jan_02":{"bytes":(0x240200CC).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Village Cove"},
 }
