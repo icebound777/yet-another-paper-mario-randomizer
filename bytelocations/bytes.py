@@ -475,4 +475,106 @@ byte_locations = {
 #              "nickname":"Blackscreen"}, # jan_01 ?
     "jan_02":{"bytes":(0x240200CC).to_bytes(4,"big"),
               "nickname":"Jade Jungle: Village Cove"},
+    "jan_03":{"bytes":(0x240200CD).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Village Buildings"},
+    "jan_04":{"bytes":(0x240200CE).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Sushi Tree"},
+#    "crash014":{"bytes":(0x240200CF).to_bytes(4,"big"),
+#              "nickname":"Blackscreen"}, # jan_05 ?
+#    "crash015":{"bytes":(0x240200D0).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_06 ?
+    "jan_07":{"bytes":(0x240200D1).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Small Jungle Ledge"},
+#    "crash016":{"bytes":(0x240200D2).to_bytes(4,"big"),
+#              "nickname":"Blackscreen"}, # jan_08 ?
+#    "crash017":{"bytes":(0x240200D3).to_bytes(4,"big"),
+#              "nickname":"Blackscreen"}, # jan_09 ?
+    "jan_10":{"bytes":(0x240200D4).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Western Dead End"}, # Mario walks on water on load
+    "jan_11":{"bytes":(0x240200D5).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Root Cavern"}, # Game freezes shortly after load
+#    "crash018":{"bytes":(0x240200D6).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_12 ?
+#    "crash019":{"bytes":(0x240200D7).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_13 ?
+    "jan_14":{"bytes":(0x240200D8).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Deep Jungle 3"},
+#    "crash020":{"bytes":(0x240200D9).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_15 ?
+#    "crash021":{"bytes":(0x240200DA).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_16 ?
+#    "crash022":{"bytes":(0x240200DB).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_17 ?
+    "jan_18":{"bytes":(0x240200DC).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Great Tree Vine Ascent"},
+#    "crash023":{"bytes":(0x240200DD).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_19 ?
+#    "crash024":{"bytes":(0x240200DE).to_bytes(4,"big"),
+#              "nickname":"Crash on Load"}, # jan_22 ?
+    "jan_23":{"bytes":(0x240200DF).to_bytes(4,"big"),
+              "nickname":"Jade Jungle: Great Treetop Roost"},
+    "mim_01":{"bytes":(0x240200E0).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Flower Sounds"},
+    "mim_02":{"bytes":(0x240200E1).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Stump Eyes"},
+    "mim_03":{"bytes":(0x240200E2).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Flowers (Oaklie)"},
+    "mim_04":{"bytes":(0x240200E3).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Tree Face (Bub-ulb)"},
+    "mim_05":{"bytes":(0x240200E4).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Mushrooms (HP Plus)"}, # is it? no HP Plus or is it hidden?
+    "mim_06":{"bytes":(0x240200E5).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Bee Hive (Path Splits)"}, # is it? can't tell
+    "mim_07":{"bytes":(0x240200E6).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Flowers Vanish"}, # is it? no flowers here!
+    "mim_08":{"bytes":(0x240200E7).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Laughing Rock"}, # is it? it has a bee hive and HP Plus??
+    "mim_09":{"bytes":(0x240200E8).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Flowers Appear (FP Plus)"},
+    "mim_10":{"bytes":(0x240200E9).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Exit to Toad Town"},
+    "mim_11":{"bytes":(0x240200EA).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Outside Boo's Mansion"},
+    "mim_12":{"bytes":(0x240200EB).to_bytes(4,"big"),
+              "nickname":"Forever Forest: Exit to Gusty Gulch"},
+    "obk_01":{"bytes":(0x240200EC).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Foyer"},
+    "obk_02":{"bytes":(0x240200ED).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Basement Stairs"},
+    "obk_03":{"bytes":(0x240200EE).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Basement"},
+    "obk_04":{"bytes":(0x240200EF).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Super Boots Room"},
+    "obk_05":{"bytes":(0x240200F0).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Pot Room"},
+    "obk_06":{"bytes":(0x240200F1).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Library"},
+    "obk_07":{"bytes":(0x240200F2).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Record Player Room"},
+    "obk_08":{"bytes":(0x240200F3).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Record Room"},
+    "obk_09":{"bytes":(0x240200F4).to_bytes(4,"big"),
+              "nickname":"Boo's Mansion: Lady Bow's Room"},
+    "arn_02":{"bytes":(0x240200F5).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Wasteland Ascent 1"},
+    "arn_03":{"bytes":(0x240200F6).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Ghost Town 1"}, # unsure, since Mario spawns oob and crashes
+    "arn_04":{"bytes":(0x240200F7).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Wasteland Ascent 2"},
+    "arn_05":{"bytes":(0x240200F8).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Ghost Town 2"}, # Mario spawns below floor but moves back inbounds
+    "arn_07":{"bytes":(0x240200F9).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Windmill Exterior"}, # cool spawn location
+    "arn_08":{"bytes":(0x240200FA).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Windmill Interior"}, # spawn inside well to fall down immediately
+    "arn_09":{"bytes":(0x240200FB).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Windmill Tunnel Entry"},
+    "arn_10":{"bytes":(0x240200FC).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Tunnel 1"},
+    "arn_11":{"bytes":(0x240200FD).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Tubba's Heart Chamber"},
+    "arn_12":{"bytes":(0x240200FE).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Tunnel 2"},
+    "arn_13":{"bytes":(0x240200FF).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Tunnel 3"},
 }
