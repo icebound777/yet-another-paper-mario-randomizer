@@ -3,26 +3,6 @@ bl_starting_location = 0x168080
 bl_text_firstplay = 0x16C0DC
 
 # ByteValues to write into ROM for text
-byte_text_icons = {
-    "icon_star":(0x91),
-    "icon_arrow_up":(0x92),
-    "icon_arrow_down":(0x93),
-    "icon_arrow_left":(0x94),
-    "icon_arrow_right":(0x95),
-    "icon_correct":(0x96),
-    "icon_wrong":(0x97),
-    "icon_button_a":(0x98),
-    "icon_button_b":(0x99),
-    "icon_button_l":(0x9A),
-    "icon_button_r":(0x9B),
-    "icon_button_z":(0x9C),
-    "icon_button_cup":(0x9D),
-    "icon_button_cdown":(0x9E),
-    "icon_button_cleft":(0x9F),
-    "icon_button_cright":(0xA0),
-    "icon_button_start":(0xA1),
-}
-
 byte_locations = {
     "kmr_00":{"bytes":(0x24020000).to_bytes(4,"big"),
               "nickname":"Goomba Region: Forest Clearing"},
