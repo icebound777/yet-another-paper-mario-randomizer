@@ -2,6 +2,7 @@
 bl_starting_location = 0x168080
 bl_text_firstplay = 0x16C0DC
 
+# ByteValues to write into ROM for text
 byte_text_characters = {
     "A":(0x21),
     "B":(0x22),
@@ -83,11 +84,6 @@ byte_text_characters = {
     "icon_button_cright":(0xA0),
     "icon_button_start":(0xA1),
 }
-
-# ByteValues to write into ROM
-byte_text_randomizer_1 = (0x32414E44).to_bytes(4,'big') # Rand
-byte_text_randomizer_2 = (0x4F4D495A).to_bytes(4,'big') # omiz
-byte_text_randomizer_3 = (0x4544FD00).to_bytes(4,'big') # ed
 
 byte_locations = {
     "kmr_00":{"bytes":(0x24020000).to_bytes(4,"big"),
@@ -602,4 +598,6 @@ byte_locations = {
               "nickname":"Gusty Gulch: Tunnel 2"},
     "arn_13":{"bytes":(0x240200FF).to_bytes(4,"big"),
               "nickname":"Gusty Gulch: Tunnel 3"},
+    "arn_20":{"bytes":(0x24020100).to_bytes(4,"big"),
+              "nickname":"Gusty Gulch: Tubba's Manor Exterior"},
 }
