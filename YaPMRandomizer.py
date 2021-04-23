@@ -1,7 +1,14 @@
 import os
+from math import pow
 
 from statics.version import __version__
-from bytelocations.bytes import bl_starting_location, byte_locations, bl_text_firstplay, byte_text_randomizer_1, byte_text_randomizer_2, byte_text_randomizer_3
+from bytelocations.bytes import bl_starting_location, byte_locations, bl_text_firstplay, byte_text_characters
+
+def conv_chars_to_bytes(charstring):
+    hexval = 0
+    for i in reversed(range(0, len(charstring))):
+        hexval += byte_text_characters.get(charstring[i]) * pow(256, (len(charstring) - 1 - i))
+    return(int(hexval).to_bytes(len(charstring),'big'))
 
 print(f'YaPMR v.{__version__}')
 
@@ -18,14 +25,14 @@ assert(f.read(11) == b'PAPER MARIO')
 
 # Overwrite "First Play" text on new file with "Randomized"
 f.seek(bl_text_firstplay)
-f.write(byte_text_randomizer_1)
-f.write(byte_text_randomizer_2)
-f.write(byte_text_randomizer_3)
+f.write(conv_chars_to_bytes('Rand'))
+f.write(conv_chars_to_bytes('omiz'))
+f.write(conv_chars_to_bytes('ed'))
 
 # Don't start the game from Mario's house
 f.seek(bl_starting_location)
 #f.write(byte_locations.get('isk_03').get('bytes'))
-f.write((0x240200CA).to_bytes(4,'big'))
+f.write((0x24020101).to_bytes(4,'big'))
 
 #code patch: start with goombario out
 # f.seek(0x808A8)
