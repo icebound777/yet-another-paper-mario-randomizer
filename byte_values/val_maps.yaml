@@ -1,0 +1,467 @@
+kmr: {
+    nickname: Goomba Region,
+    kmr_00: {nickname: Forest Clearing, bytes: 0x24020000},
+    kmr_02: {nickname: Goomba Village,  bytes: 0x24020001},
+    kmr_04: {nickname: Jr. Troopa's Playground, bytes: 0x24020002},
+    kmr_03: {nickname: Bottom of the Cliff, bytes: 0x24020003},
+    kmr_05: {nickname: Behind the Village, bytes: 0x24020004},
+    kmr_06: {nickname: Goomba Road 2, bytes: 0x24020005},
+    kmr_07: {nickname: Goomba Road 3, bytes: 0x24020006},
+    kmr_09: {nickname: Goomba Road 1, bytes: 0x24020007},
+    kmr_10: {nickname: Toad Town Entrance, bytes: 0x24020008},
+    kmr_11: {nickname: Goomba King's Castle, bytes: 0x24020009},
+    kmr_12: {nickname: Goomba Road 4, bytes: 0x2402000A},
+    kmr_20: {nickname: Mario's House, bytes: 0x2402000B},
+#   kmr_21: {nickname: Title Screen, bytes: 0x2402000C}, # pretty useless for init spawn
+#   kmr_22: {nickname: Chapter Start, bytes: 0x2402000D}, # pretty useless for init spawn
+#   kmr_23: {nickname: Chapter End, bytes: 0x2402000E}, # pretty useless for init spawn
+#   kmr_24: {nickname: Save and Continue, bytes: 0x2402000F}, # pretty useless for init spawn
+#   kmr_30: {nickname: Mario's House (Ending), bytes: 0x24020010}, # pretty useless for init spawn
+}
+mgm: {
+    nickname: Minigame,
+    mgm_00: {nickname: Playroom Lobby, bytes: 0x24020180},
+    mgm_01: {nickname: Jump Attack Minigame, bytes: 0x24020181},
+#   mgm_02: {nickname: Smash Attack Minigame, bytes: 0x24020182}, # Blackscreen on load
+#   mgm_03: {nickname: Large Debug Room, bytes: 0x24020183},
+}
+osr: {
+    nickname: Peach's Castle Grounds,
+    osr_00: {nickname: Intro Castle Grounds, bytes: 0x240200AC},
+    osr_01: {nickname: Ruined Castle Grounds, bytes: 0x240200AD},
+    osr_02: {nickname: Hijacked Castle Entrance, bytes: 0x240200AE},
+    osr_03: {nickname: Outside Hijacked Castle, bytes: 0x240200AF}, # ???
+    osr_04: {nickname: Castle Hijacking Scene, bytes: 0x240200B0},
+}
+hos: {
+    nickname: Shooting Star Summit,
+    hos_00: {nickname: Shooting Star Path, bytes: 0x24020071},
+    hos_01: {nickname: Shooting Star Summit, bytes: 0x24020072},
+    hos_02: {nickname: Star Way, bytes: 0x24020073}, # crashes quickly if without partners
+    hos_03: {nickname: Star Haven, bytes: 0x24020074}, # weird spawnlocation?
+    hos_04: {nickname: Outside the Sanctuary, bytes: 0x24020075}, # crashes on load if without partners
+    hos_05: {nickname: Star Sanctuary, bytes: 0x24020076},
+    hos_06: {nickname: Merluvlee's House, bytes: 0x24020077},
+    hos_10: {nickname: Ending Descent Scene, bytes: 0x24020078}, # pretty useless for init spawn
+    hos_20: {nickname: Riding Star Ship Scene, bytes: 0x24020079},
+}
+nok: {
+    nickname: Koopa Region,
+    nok_01: {nickname: Koopa Village 1, bytes: 0x24020068},
+    nok_02: {nickname: Koopa Village 2, bytes: 0x24020069},
+    nok_03: {nickname: Behind Koopa Village, bytes: 0x2402006A},
+    nok_04: {nickname: Fuzzy Forest, bytes: 0x2402006B},
+    nok_11: {nickname: Pleasant Path Entry, bytes: 0x2402006C},
+    nok_12: {nickname: Pleasant Path Bridge, bytes: 0x2402006D},
+    nok_13: {nickname: Pleasant Crossroads, bytes: 0x2402006E},
+    nok_14: {nickname: Path to Fortress 1, bytes: 0x2402006F},
+    nok_15: {nickname: Path to Fortress 2, bytes: 0x24020070},
+}
+trd: {
+    nickname: Koopa Bros Fortress,
+    trd_00: {nickname: Fortress Exterior, bytes: 0x2402005D},
+    trd_01: {nickname: Left Tower, bytes: 0x2402005E},
+    trd_02: {nickname: Left Stairway, bytes: 0x2402005F},
+    trd_03: {nickname: Central Hall, bytes: 0x24020060},
+    trd_04: {nickname: Right Starway, bytes: 0x24020061},
+    trd_05: {nickname: Right Tower, bytes: 0x24020062}, # crashes on load if without partners
+    trd_06: {nickname: Jail, bytes: 0x24020063}, # softlocks if without partners
+    trd_07: {nickname: Dungeon Trap, bytes: 0x24020064}, # enters from the right on load
+#   trd_08: {nickname: Dungeon Fire Room, bytes: 0x24020065}, # blackscreen on load
+    trd_09: {nickname: Battlement, bytes: 0x24020066},
+    trd_10: {nickname: Boss Battle Room, bytes: 0x24020067},
+}
+iwa: {
+    nickname: Mt Rugged,
+    iwa_00: {nickname: Mt Rugged 1, bytes: 0x24020014},
+    iwa_03: {nickname: Mt Rugged 4, bytes: 0x2402004B}, # spawn under ground on load
+    iwa_11: {nickname: Train Ride Scene, bytes: 0x24020017}, # going east?
+}
+sbk: {
+    nickname: Dry Dry Desert,
+    sbk_00: {nickname: N3W3, bytes: 0x2402001A}, # Mario runs in from non-existing entrance?
+    sbk_01: {nickname: N3W2, bytes: 0x2402001B},
+    sbk_02: {nickname: N3W1 Ruins Entrance, bytes: 0x2402001C},
+    sbk_03: {nickname: N3, bytes: 0x2402001D},
+    sbk_04: {nickname: N3E1, bytes: 0x2402001E},
+    sbk_05: {nickname: N3E2 Pokey Army, bytes: 0x2402001F},
+    sbk_06: {nickname: N3E3, bytes: 0x24020020},
+    sbk_10: {nickname: N2W3, bytes: 0x24020021},
+    sbk_11: {nickname: N2W2, bytes: 0x24020022},
+    sbk_12: {nickname: N2W1, bytes: 0x24020023},
+    sbk_13: {nickname: N2, bytes: 0x24020024},
+#   sbk_14: {nickname: N2E1 (Tweester A), bytes: 0x24020025}, # Crash on load, cause no partner?
+    sbk_15: {nickname: N2E2, bytes: 0x24020026},
+    sbk_16: {nickname: N2E3, bytes: 0x24020027},
+    sbk_20: {nickname: N1W3 Special Block, bytes: 0x24020028}, # Mario runs in from non-existing entrance?
+    sbk_21: {nickname: N1W2, bytes: 0x24020029},
+    sbk_22: {nickname: N1W1, bytes: 0x2402002A},
+#   sbk_23: {nickname: N1 (Tweester B), bytes: 0x2402002B}, # Crash on load, cause no partner?
+    sbk_24: {nickname: N1E1 Palm Trio, bytes: 0x2402002C},
+    sbk_25: {nickname: N1E2, bytes: 0x2402002D},
+    sbk_26: {nickname: N1E3, bytes: 0x2402002E},
+    sbk_30: {nickname: W3 Kolorado's Camp, bytes: 0x2402002F},
+    sbk_31: {nickname: W2, bytes: 0x24020030},
+    sbk_32: {nickname: W1, bytes: 0x24020031},
+#   sbk_33: {nickname: Center (Tweester C), bytes: 0x24020032}, # Crash on load, cause no partner?
+    sbk_34: {nickname: E1 Nomadimouse, bytes: 0x24020033},
+    sbk_35: {nickname: E2, bytes: 0x24020034},
+    sbk_36: {nickname: E3 Outside Outpost, bytes: 0x24020035},
+    sbk_40: {nickname: S1W3, bytes: 0x24020036},
+#   sbk_41: {nickname: S1W2 (Tweester D), bytes: 0x24020037}, # Crash on load, cause no partner?
+    sbk_42: {nickname: S1W1, bytes: 0x24020038},
+    sbk_43: {nickname: S1, bytes: 0x24020039},
+    sbk_44: {nickname: S1E1, bytes: 0x2402003A},
+    sbk_45: {nickname: S1E2 Small Bluffs, bytes: 0x2402003B},
+    sbk_46: {nickname: S1E3 North of Oasis, bytes: 0x2402003C},
+    sbk_50: {nickname: S2W3, bytes: 0x2402003D},
+    sbk_51: {nickname: S2W2, bytes: 0x2402003E},
+    sbk_52: {nickname: S2W1, bytes: 0x2402003F},
+    sbk_53: {nickname: S2, bytes: 0x24020040},
+#   sbk_54: {nickname: S2E1 Blue Cactus, bytes: 0x24020041}, # Crash on load, cause no partner?
+    sbk_55: {nickname: S2E2 West of Oasis, bytes: 0x24020042},
+    sbk_56: {nickname: S2E3 Oasis, bytes: 0x24020043},
+    sbk_60: {nickname: S3W3, bytes: 0x24020044},
+    sbk_61: {nickname: S3W2 Hidden AttackFX, bytes: 0x24020045},
+    sbk_62: {nickname: S3W1, bytes: 0x24020046},
+    sbk_63: {nickname: S3, bytes: 0x24020047},
+    sbk_64: {nickname: S3E1, bytes: 0x24020048},
+    sbk_65: {nickname: S3E2, bytes: 0x24020049},
+    sbk_66: {nickname: S3E3 South of Oasis, bytes: 0x2402004A}, # displaced camera on load?
+}
+dro: {
+    nickname: Dry Dry Outpost,
+    dro_01: {nickname: Outpost 1, bytes: 0x24020018},
+    dro_02: {nickname: Outpost 2, bytes: 0x24020019},
+}
+isk: {
+    nickname: Dry Dry Ruins,
+    isk_01: {nickname: Entrance, bytes: 0x2402004C},
+    isk_02: {nickname: Sarcophagus Hall 1, bytes: 0x2402004D},
+    isk_03: {nickname: Sand Drainage Room 1, bytes: 0x2402004E},
+    isk_04: {nickname: Descending Stairs 1, bytes: 0x2402004F},
+    isk_05: {nickname: Pyramid Stone Room, bytes: 0x24020050},
+    isk_06: {nickname: Sand Drainage Room 2, bytes: 0x24020051},
+    isk_07: {nickname: Sarcophagus Hall 2, bytes: 0x24020052},
+    isk_08: {nickname: Descending Stairs 2, bytes: 0x24020053},
+    isk_09: {nickname: Super Hammer Room, bytes: 0x24020054},
+    isk_10: {nickname: Vertical Shaft, bytes: 0x24020055},
+    isk_11: {nickname: Stone Puzzle Room, bytes: 0x24020056},
+    isk_12: {nickname: Sand Drainage Room 3, bytes: 0x24020057},
+    isk_13: {nickname: Lunar Stone Room, bytes: 0x24020058},
+    isk_14: {nickname: Diamond Stone Room, bytes: 0x24020059},
+    isk_16: {nickname: Tutankoopa Room, bytes: 0x2402005A},
+    isk_18: {nickname: Deep Tunnel, bytes: 0x2402005B},
+    isk_19: {nickname: Boss Antechamber, bytes: 0x2402005C},
+}
+mim: {
+    nickname: Forever Forest,
+    mim_01: {nickname: Flower Sounds, bytes: 0x240200E0}, 
+    mim_02: {nickname: Stump Eyes, bytes: 0x240200E1}, 
+    mim_03: {nickname: Flowers (Oaklie), bytes: 0x240200E2}, 
+    mim_04: {nickname: Tree Face (Bub-ulb), bytes: 0x240200E3}, 
+    mim_05: {nickname: Mushrooms (HP Plus), bytes: 0x240200E4}, # is it? no HP Plus or is it hidden?
+    mim_06: {nickname: Bee Hive (Path Splits), bytes: 0x240200E5}, # is it? can't tell
+    mim_07: {nickname: Flowers Vanish, bytes: 0x240200E6}, # is it? no flowers here!
+    mim_08: {nickname: Laughing Rock, bytes: 0x240200E7}, # is it? it has a bee hive and HP Plus??
+    mim_09: {nickname: Flowers Appear (FP Plus), bytes: 0x240200E8},
+    mim_10: {nickname: Exit to Toad Town, bytes: 0x240200E9},
+    mim_11: {nickname: Outside Boo's Mansion, bytes: 0x240200EA},
+    mim_12: {nickname: Exit to Gusty Gulch, bytes: 0x240200EB},
+}
+obk: {
+    nickname: Boo's Mansion,
+    obk_01: {nickname: Foyer, bytes: 0x240200EC}, 
+    obk_02: {nickname: Basement Stairs, bytes: 0x240200ED}, 
+    obk_03: {nickname: Basement, bytes: 0x240200EE}, 
+    obk_04: {nickname: Super Boots Room, bytes: 0x240200EF}, 
+    obk_05: {nickname: Pot Room, bytes: 0x240200F0}, 
+    obk_06: {nickname: Library, bytes: 0x240200F1}, 
+    obk_07: {nickname: Record Player Room, bytes: 0x240200F2}, 
+    obk_08: {nickname: Record Room, bytes: 0x240200F3}, 
+    obk_09: {nickname: Lady Bow's Room, bytes: 0x240200F4}, 
+}
+arn: {
+    nickname: Gusty Gulch,
+    arn_02: {nickname: Wasteland Ascent 1, bytes: 0x240200F5},
+#   arn_03: {nickname: Ghost Town 1, bytes: 0x240200F6}, # unsure, since Mario spawns oob and crashes
+    arn_04: {nickname: Wasteland Ascent 2, bytes: 0x240200F7},
+    arn_05: {nickname: Ghost Town 2, bytes: 0x240200F8}, # Mario spawns below floor but moves back inbounds
+    arn_07: {nickname: Windmill Exterior, bytes: 0x240200F9}, # cool spawn location
+    arn_08: {nickname: Windmill Interior, bytes: 0x240200FA}, # spawn inside well to fall down immediately
+    arn_09: {nickname: Windmill Tunnel Entry, bytes: 0x240200FB},
+    arn_10: {nickname: Tunnel 1, bytes: 0x240200FC},
+    arn_11: {nickname: Tubba's Heart Chamber, bytes: 0x240200FD},
+    arn_12: {nickname: Tunnel 2, bytes: 0x240200FE},
+    arn_13: {nickname: Tunnel 3, bytes: 0x240200FF},
+    arn_20: {nickname: Tubba's Manor Exterior, bytes: 0x24020100},
+}
+dgb: {
+    nickname: Tubba's Castle,
+#   dgb_00: {nickname: Escape Scene, bytes: ?}, # missing?
+    dgb_01: {nickname: Great Hall, bytes: 0x24020101},
+    dgb_02: {nickname: West Hall (1F), bytes: 0x24020102},
+    dgb_03: {nickname: Table/Clock Room (1/2F), bytes: 0x24020103},
+    dgb_04: {nickname: Stairs to Basement, bytes: 0x24020104},
+    dgb_05: {nickname: Stairs Above Basement, bytes: 0x24020105},
+    dgb_06: {nickname: Basement, bytes: 0x24020106},
+    dgb_07: {nickname: Study (1F), bytes: 0x24020107}, # easy open item
+    dgb_08: {nickname: East Hall (1/2F), bytes: 0x24020108},
+    dgb_09: {nickname: West Hall (2F), bytes: 0x24020109},
+    dgb_10: {nickname: Sealed Room (2F), bytes: 0x2402010A},
+    dgb_11: {nickname: Covered Tables Room (1F), bytes: 0x2402010B},
+    dgb_12: {nickname: Spike Trap Room (2F), bytes: 0x2402010C},
+    dgb_13: {nickname: Hidden Bedroom (2F), bytes: 0x2402010D},
+    dgb_14: {nickname: Stairs to Third Floor, bytes: 0x2402010E}, # easy boxed item
+    dgb_15: {nickname: West Hall (3F), bytes: 0x2402010F},
+    dgb_16: {nickname: Sleeping Clubbas Room (3F), bytes: 0x24020110},
+    dgb_17: {nickname: Save Room (3F), bytes: 0x24020111}, # Mario spawns below floor but moves back inbounds
+    dgb_18: {nickname: Master Bedroom (3F), bytes: 0x24020112},
+}
+omo: {
+    nickname: Shy Guy's Toybox,
+    omo_01: {nickname: BLU Large Playroom, bytes: 0x24020164},
+#   omo_02: {nickname: RED Boss Barricade, bytes: 0x24020165}, # Blackscreen on load
+    omo_03: {nickname: BLU Station, bytes: 0x24020166},
+#   omo_04: {nickname: BLU Block City, bytes: 0x24020167}, # Blackscreen on load
+    omo_05: {nickname: PNK Gourmet Guy Crossing, bytes: 0x24020168},
+#   omo_06: {nickname: PNK Station, bytes: 0x24020169}, # Mario spawns in map but out of bounds
+#   omo_07: {nickname: PNK Playhouse, bytes: 0x2402016A}, # Blackscreen on load
+#   omo_08: {nickname: GRN Station, bytes: 0x2402016B}, # Mario spawns in map but out of bounds
+#   omo_09: {nickname: GRN Treadmills/Slot Machine, bytes: 0x2402016C}, # Blackscreen on load
+    omo_10: {nickname: RED Station, bytes: 0x2402016D}, # Mario spawns in map but out of bounds, can move inbounds
+#   omo_11: {nickname: RED Moving Platforms, bytes: 0x2402016E}, # Blackscreen on load
+    omo_12: {nickname: RED Lantern Ghost, bytes: 0x2402016F}, # Mario spawns in range of ghost
+    omo_13: {nickname: BLU Anti-Guy Hall, bytes: 0x24020170},
+    omo_14: {nickname: RED Boss Antechamber, bytes: 0x24020171},
+    omo_15: {nickname: RED General Guy Room, bytes: 0x24020172},
+#   omo_16: {nickname: Riding the Train, bytes: 0x24020173}, # Crash on load
+    omo_17: {nickname: PNK Tracks Hallway, bytes: 0x24020174},
+}
+jan: {
+    nickname: Jade Jungle,
+#   jan_00: {nickname: Whale Cove, bytes: 0x240200CA}, # Blackscreen on load
+#   jan_01: {nickname: Beach, bytes: 0x240200CB}, # Blackscreen on load
+    jan_02: {nickname: Village Cove, bytes: 0x240200CC}, 
+    jan_03: {nickname: Village Buildings, bytes: 0x240200CD}, 
+    jan_04: {nickname: Sushi Tree, bytes: 0x240200CE}, 
+#   jan_05: {nickname: SE Jungle (Quake Hammer), bytes: 0x240200CE}, # Blackscreen on load
+#   jan_06: {nickname: NE Jungle (Raven Statue), bytes: 0x240200CE}, # Crash on load
+    jan_07: {nickname: Small Jungle Ledge, bytes: 0x240200D1}, 
+#   jan_08: {nickname: SW Jungle (Super Block), bytes: 0x240200D2}, # Blackscreen on load
+#   jan_09: {nickname: NW Jungle (Large Ledge), bytes: 0x240200D3}, # Blackscreen on load
+#   jan_10: {nickname: Western Dead End, bytes: 0x240200D4}, # Mario walks on water on load and is softlocked
+#   jan_11: {nickname: Root Cavern, bytes: 0x240200D5}, # Game freezes shortly after load
+#   jan_12: {nickname: Deep Jungle 1, bytes: 0x240200D6}, # Crash on load
+#   jan_13: {nickname: Deep Jungle 2 (Block Puzzle), bytes: 0x240200D7}, # Crash on load
+    jan_14: {nickname: Deep Jungle 3, bytes: 0x240200D8},
+#   jan_15: {nickname: Deep Jungle 4 (Ambush), bytes: 0x240200D9}, # Crash on load
+#   jan_16: {nickname: Base of Great Tree, bytes: 0x240200DA}, # Crash on load
+#   jan_17: {nickname: Lower Great Tree Interior, bytes: 0x240200DB}, # Crash on load
+    jan_18: {nickname: Great Tree Vine Ascent, bytes: 0x240200DC},
+#   jan_19: {nickname: Upper Great Tree Interior, bytes: 0x240200DD}, # Crash on load
+#   jan_22: {nickname: Path to the Volcano, bytes: 0x240200DE}, # Crash on load
+    jan_23: {nickname: Great Treetop Roost, bytes: 0x240200DF},
+}
+kzn: {
+    nickname: Mt Lavalava,
+    kzn_01: {nickname: Volcano Entrance, bytes: 0x24020113},
+    kzn_02: {nickname: First Lava Lake, bytes: 0x24020114},
+    kzn_03: {nickname: Central Cavern, bytes: 0x24020115}, # Mario spawns below floor but moves back inbounds
+#   kzn_04: {nickname: Fire Bar Bridge, bytes: 0x24020116}, # Blackscreen on load
+    kzn_05: {nickname: Descent Toward Ultra Hammer, bytes: 0x24020117},
+    kzn_06: {nickname: Flowing Lava Puzzle, bytes: 0x24020118},
+    kzn_07: {nickname: Ultra Hammer Room, bytes: 0x24020119},
+    kzn_08: {nickname: Dizzy Stomp Room, bytes: 0x2402011A},
+    kzn_09: {nickname: Zipline Cavern, bytes: 0x2402011B},
+    kzn_10: {nickname: Descent Toward Boss, bytes: 0x2402011C},
+#   kzn_11: {nickname: Second Lava Lake, bytes: 0x2402011D}, # Blackscreen on load
+    kzn_17: {nickname: Spike Roller Trap, bytes: 0x2402011E},
+    kzn_18: {nickname: Boss Antechamber, bytes: 0x2402011F}, # Mario spawns below floor but moves back inbounds after beating a piranhagoomba
+    kzn_19: {nickname: Boss Room, bytes: 0x24020120},
+    kzn_20: {nickname: Rising Lava 1, bytes: 0x24020121},
+    kzn_22: {nickname: Rising Lava 2, bytes: 0x24020122},
+    kzn_23: {nickname: Volcano Escape, bytes: 0x24020123}, # cutscene into Peach intermission
+}
+flo: {
+    nickname: Flower Fields,
+    flo_00: {nickname: Center, bytes: 0x24020124},
+    flo_03: {nickname: (East) Petunia's Field, bytes: 0x24020125},
+    flo_07: {nickname: (SW) Posie and Crystal Tree, bytes: 0x24020126},
+    flo_08: {nickname: (SE) Briar Platforming, bytes: 0x24020127},
+    flo_09: {nickname: (East) Triple Tree Path, bytes: 0x24020128},
+    flo_10: {nickname: (SE) Lily's Fountain, bytes: 0x24020129},
+    flo_11: {nickname: (West) Maze, bytes: 0x2402012A},
+    flo_12: {nickname: (West) Rosie's Trellis, bytes: 0x2402012B},
+    flo_13: {nickname: (NW) Lakilester, bytes: 0x2402012C},
+    flo_14: {nickname: (NW) Bubble Flower, bytes: 0x2402012D},
+    flo_15: {nickname: (NW) Sun Tower, bytes: 0x2402012E},
+    flo_16: {nickname: (NE) Elevators, bytes: 0x2402012F},
+    flo_17: {nickname: (NE) Fallen Logs, bytes: 0x24020130},
+    flo_18: {nickname: (NE) Puff Puff Machine, bytes: 0x24020131},
+    flo_19: {nickname: Cloudy Climb, bytes: 0x24020132},
+    flo_21: {nickname: Huff N Puff Room, bytes: 0x24020133},
+    flo_22: {nickname: (East) Old Well, bytes: 0x24020134},
+    flo_23: {nickname: (West) Path to Maze, bytes: 0x24020135},
+    flo_24: {nickname: (SE) Water Level Room, bytes: 0x24020136},
+    flo_25: {nickname: (SW) Path to Crystal Tree, bytes: 0x24020137},
+}
+sam: {
+    nickname: Mt Shiver,
+    sam_01: {nickname: Shiver City Mayor Area, bytes: 0x24020138},
+    sam_02: {nickname: Shiver City Center, bytes: 0x24020139},
+    sam_03: {nickname: Road to Shiver Snowfield, bytes: 0x2402013A},
+    sam_04: {nickname: Shiver Snowfield, bytes: 0x2402013B},
+    sam_05: {nickname: Path to Starborn Valley, bytes: 0x2402013C},
+    sam_06: {nickname: Starborn Valley, bytes: 0x2402013D}, # talking cutscene on load
+    sam_07: {nickname: Shiver Mountain Passage, bytes: 0x2402013E},
+#   sam_08: {nickname: Shiver Mountain Hills, bytes: 0x2402013F}, # Blackscreen on load
+    sam_09: {nickname: Shiver Mountain Tunnel, bytes: 0x24020140},
+#   sam_10: {nickname: Shiver Mountain Peaks, bytes: 0x24020141}, # Blackscreen on load
+    sam_11: {nickname: Shiver City Pond Area, bytes: 0x24020142},
+    sam_12: {nickname: Merlar's Sanctuary, bytes: 0x24020143},
+}
+pra: {
+    nickname: Crystal Palace,
+    pra_01: {nickname: Entrance, bytes: 0x24020144},
+    pra_02: {nickname: Entry Hall, bytes: 0x24020145},
+    pra_03: {nickname: Save Room, bytes: 0x24020146},
+    pra_04: {nickname: Reflected Save Room, bytes: 0x24020147},
+    pra_05: {nickname: Blue Key Room, bytes: 0x24020148},
+    pra_06: {nickname: Shooting Star Room, bytes: 0x24020149},
+    pra_09: {nickname: Red Key Hall, bytes: 0x2402014A},
+    pra_10: {nickname: P-Down, D-Up Hall, bytes: 0x2402014B},
+    pra_11: {nickname: Red Key Room, bytes: 0x2402014C}, # easy small chest item (story item)
+    pra_12: {nickname: P-Down, D-Up Room, bytes: 0x2402014D}, # easy small chest item (badge)
+    pra_13: {nickname: Blue Mirror Hall 1, bytes: 0x2402014E},
+    pra_14: {nickname: Blue Mirror Hall 2, bytes: 0x2402014F},
+    pra_15: {nickname: Star Piece Cave, bytes: 0x24020150},
+    pra_16: {nickname: Red Mirror Hall, bytes: 0x24020151},
+    pra_18: {nickname: Bridge Mirror Hall, bytes: 0x24020152},
+    pra_19: {nickname: Reflection Mimic Room, bytes: 0x24020153},
+    pra_20: {nickname: Mirrored Door Room, bytes: 0x24020154},
+    pra_21: {nickname: Huge Statue Room, bytes: 0x24020155},
+    pra_22: {nickname: Small Statue Room, bytes: 0x24020156},
+    pra_27: {nickname: Palace Key Room, bytes: 0x24020157},
+    pra_28: {nickname: P-Up, D-Down Room, bytes: 0x24020158},
+    pra_29: {nickname: Hidden Bridge Room, bytes: 0x24020159},
+    pra_31: {nickname: Dino Puzzle Room, bytes: 0x2402015A},
+    pra_32: {nickname: Crystal Summit, bytes: 0x2402015B},
+    pra_33: {nickname: Turnstyle Room, bytes: 0x2402015C},
+    pra_34: {nickname: Mirror Hole Room, bytes: 0x2402015D},
+    pra_35: {nickname: Triple Dip Room, bytes: 0x2402015E},
+    pra_36: {nickname: Palace Key Hall, bytes: 0x2402015F},
+    pra_37: {nickname: P-Up, D-Down Hall, bytes: 0x24020160},
+    pra_38: {nickname: Blue Key Hall, bytes: 0x24020161},
+    pra_39: {nickname: Shooting Star Hall, bytes: 0x24020162},
+    pra_40: {nickname: Boss Antechamber, bytes: 0x24020163},
+}
+kkj: {
+    nickname: Peach's Castle,
+    kkj_00: {nickname: Intro Entry Hall (1F), bytes: 0x240200B1},
+    kkj_01: {nickname: Intro Upper Hall (2F), bytes: 0x240200B2},
+    kkj_02: {nickname: Intro Stairs Hallway (3F), bytes: 0x240200B3},
+    kkj_03: {nickname: Intro Window Hallway (4F), bytes: 0x240200B4},
+    kkj_10: {nickname: Entry Hall (1F), bytes: 0x240200B5},
+    kkj_11: {nickname: Upper Hall (2F), bytes: 0x240200B6},
+    kkj_12: {nickname: Stairs Hallway (3F), bytes: 0x240200B7},
+    kkj_13: {nickname: Window Hallway (4F), bytes: 0x240200B8},
+    kkj_14: {nickname: Peach's Room (2F), bytes: 0x240200B9},
+    kkj_15: {nickname: Passage Outlet (2F), bytes: 0x240200BA},
+    kkj_16: {nickname: Library (2F), bytes: 0x240200BB},
+    kkj_17: {nickname: Storeroom (2F), bytes: 0x240200BC},
+    kkj_18: {nickname: Dining Room (2F), bytes: 0x240200BD},
+    kkj_19: {nickname: Kitchen (1F), bytes: 0x240200BE},
+    kkj_20: {nickname: Guest Room (1F), bytes: 0x240200BF},
+    kkj_21: {nickname: Inactive Quiz-Off (1F), bytes: 0x240200C0},
+    kkj_22: {nickname: Double Staircase (4F), bytes: 0x240200C1},
+    kkj_23: {nickname: Rooftop (5F), bytes: 0x240200C2},
+    kkj_24: {nickname: Tower Staircase (5F), bytes: 0x240200C3},
+    kkj_25: {nickname: Final Boss Arena (6F), bytes: 0x240200C4}, # crashes on load if without partners
+    kkj_26: {nickname: Balcony (2F), bytes: 0x240200C5},
+#   kkj_26.5: {nickname: Balcony (2F), bytes: 0x240200C6}, # kkj_26 w/ weird background ??
+    kkj_27: {nickname: Secret Passage (2F), bytes: 0x240200C7},
+    kkj_28: {nickname: Darkened Quiz-Off (1F), bytes: 0x240200C8},
+    kkj_29: {nickname: Quiz-Off Room (1F), bytes: 0x240200C9},
+}
+kpa: {
+    nickname: Bowser's Castle,
+    kpa_01: {nickname: Dark Cave 1, bytes: 0x2402007A},
+    kpa_03: {nickname: Dark Cave 2, bytes: 0x2402007B},
+    kpa_04: {nickname: Cave Exit, bytes: 0x2402007C},
+    kpa_08: {nickname: Castle Key Timing Puzzle, bytes: 0x2402007D},
+    kpa_09: {nickname: Ultra Shroom Timing Puzzle, bytes: 0x2402007E}, # spawn on puzzle solved side
+    kpa_10: {nickname: Outside Lower Jail (No Lava), bytes: 0x2402007F},
+    kpa_11: {nickname: Outside Lower Jail (Lava), bytes: 0x24020080},
+    kpa_12: {nickname: Lava Channel 1, bytes: 0x24020081},
+    kpa_13: {nickname: Lava Channel 2, bytes: 0x24020082},
+    kpa_14: {nickname: Lava Channel 3, bytes: 0x24020083},
+#   kpa_15: {nickname: Lava Key Room, bytes: 0x24020084}, # pretty useless for init spawn
+#   kpa_16: {nickname: Lava Control Room, bytes: 0x24020085}, # pretty useless for init spawn
+    kpa_17: {nickname: Lower Jail, bytes: 0x24020086},
+    kpa_32: {nickname: Lower Grand Hall, bytes: 0x24020087},
+    kpa_33: {nickname: Upper Grand Hall, bytes: 0x24020088},
+    kpa_40: {nickname: Maze Guide Room, bytes: 0x24020089},
+    kpa_41: {nickname: Maze Room, bytes: 0x2402008A},
+    kpa_50: {nickname: Hall to Guard Door 1, bytes: 0x2402008B},
+    kpa_51: {nickname: Hall to Water Puzzle, bytes: 0x2402008C},
+    kpa_52: {nickname: Split Level Hall, bytes: 0x2402008D},
+    kpa_53: {nickname: Fake Peach Hallway, bytes: 0x2402008E},
+    kpa_60: {nickname: Ship Enter/Exit Scenes, bytes: 0x2402008F},
+    kpa_61: {nickname: Battlement, bytes: 0x24020090},
+    kpa_62: {nickname: Front Door Exterior, bytes: 0x24020091}, # similar to kpa_60 ?
+#   kpa_63: {nickname: Hanger, bytes: 0x24020092}, # default spawnlocation traps Mario
+    kpa_70: {nickname: Entry Lava Hall, bytes: 0x24020093},
+    kpa_81: {nickname: Guard Door 1, bytes: 0x24020094},
+    kpa_82: {nickname: Guard Door 2, bytes: 0x24020095},
+    kpa_83: {nickname: Guard Door 3, bytes: 0x24020096},
+    kpa_90: {nickname: Stairs to East Upper Jail, bytes: 0x24020097},
+    kpa_91: {nickname: East Upper Jail, bytes: 0x24020098},
+    kpa_94: {nickname: Stairs to West Upper Jail, bytes: 0x24020099},
+    kpa_95: {nickname: West Upper Jail, bytes: 0x2402009A},
+    kpa_96: {nickname: Item Shop, bytes: 0x2402009B},
+   kpa_100: {nickname: Castle Key Room, bytes: 0x2402009C},
+   kpa_101: {nickname: Ultra Shroom Room, bytes: 0x2402009D},
+   kpa_102: {nickname: Blue Fire Bridge, bytes: 0x2402009E},
+   kpa_111: {nickname: Room with Hidden Door 1, bytes: 0x2402009F},
+   kpa_112: {nickname: Hidden Passage 1, bytes: 0x240200A0},
+   kpa_113: {nickname: Room with Hidden Door 2, bytes: 0x240200A1},
+   kpa_114: {nickname: Hidden Passage 2, bytes: 0x240200A2}, # spawn under ground on load
+   kpa_115: {nickname: Room with Hidden Door 3, bytes: 0x240200A3},
+   kpa_116: {nickname: Dead End Passage, bytes: 0x240200A4},
+   kpa_117: {nickname: Dead End Room, bytes: 0x240200A5},
+   kpa_118: {nickname: Hidden Passage 3, bytes: 0x240200A6},
+   kpa_119: {nickname: Hidden Key Room, bytes: 0x240200A7},
+   kpa_121: {nickname: Exit to Peach's Castle, bytes: 0x240200A8},
+   kpa_130: {nickname: Bill Blaster Hall, bytes: 0x240200A9},
+   kpa_133: {nickname: Left Water Puzzle, bytes: 0x240200AA},
+   kpa_134: {nickname: Right Water Puzzle, bytes: 0x240200AB},
+}
+#end: {
+#    nickname: Ending,
+#    end_00: {nickname: Parade (Day), bytes: 0x2402017E},
+#    end_01: {nickname: Parade (Night), bytes: 0x2402017F},
+#}
+#gv: {
+#    nickname: Game Over,
+#    gv_01: {nickname: Game Over Screen, bytes: 0x24020184},
+#}
+#tst: {
+#    nickname: Testing,
+#    tst_01: {nickname: Jump Width Test, bytes: 0x24020175},
+#    tst_02: {nickname: Jump Height Test, bytes: 0x24020176},
+#    tst_03: {nickname: Entity Test, bytes: 0x24020177},
+#    tst_04: {nickname: Moving Platforms Test, bytes: 0x24020178},
+#    tst_10: {nickname: Entry and Camera Test, bytes: 0x24020179},
+#    tst_11: {nickname: Reflection Test, bytes: 0x2402017A},
+#    tst_12: {nickname: Flower Fields Test, bytes: 0x2402017B}, # Blackscreen on load
+#    tst_13: {nickname: Partners and Shockwave, bytes: 0x2402017C},
+#    tst_20: {nickname: Pipes Gallery, bytes: 0x2402017D},
+#}
+#crashes:
+#    0x24020185,
+#    0x24020186,
+#    0x24020187,
+#    0x24020188,
+#    0x24020189,
+#    0x2402018A,

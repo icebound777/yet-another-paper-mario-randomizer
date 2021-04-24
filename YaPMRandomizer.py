@@ -4,7 +4,6 @@ from math import pow
 import yaml
 
 from statics.version import __version__
-from byte_values.bytes import bl_starting_location, byte_locations, bl_text_firstplay
 
 def conv_chars_to_bytes(charstring):
     hexval = 0
@@ -12,10 +11,14 @@ def conv_chars_to_bytes(charstring):
         hexval += byte_text_characters.get(charstring[i]) * pow(256, (len(charstring) - 1 - i))
     return(int(hexval).to_bytes(len(charstring),'big'))
 
-print(f'YaPMR v.{__version__}')
-
-with open('byte_values/text_characters.yaml', 'r') as yamlfile:
+with open('byte_values/val_text_characters.yaml', 'r') as yamlfile:
     byte_text_characters = yaml.safe_load(yamlfile)
+with open('byte_values/loc_maps.yaml', 'r') as yamlfile:
+    bl_starting_location = (yaml.safe_load(yamlfile)).get('initial_map')
+with open('byte_values/loc_text.yaml', 'r') as yamlfile:
+    bl_text_firstplay = (yaml.safe_load(yamlfile)).get('text_firstplay')
+
+print(f'YaPMR v.{__version__}')
 
 infile = 'Paper Mario (U) [!].z64'
 outfile = 'PMRandomized.z64'
@@ -37,7 +40,7 @@ f.write(conv_chars_to_bytes('ed'))
 # Don't start the game from Mario's house
 f.seek(bl_starting_location)
 #f.write(byte_locations.get('isk_03').get('bytes'))
-f.write((0x24020115).to_bytes(4,'big'))
+f.write((0x2402018A).to_bytes(4,'big'))
 
 #code patch: start with goombario out
 # f.seek(0x808A8)
