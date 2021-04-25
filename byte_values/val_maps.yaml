@@ -212,7 +212,7 @@ dgb: {
     dgb_11: {nickname: Covered Tables Room (1F), bytes: 0x2402010B},
     dgb_12: {nickname: Spike Trap Room (2F), bytes: 0x2402010C},
     dgb_13: {nickname: Hidden Bedroom (2F), bytes: 0x2402010D},
-    dgb_14: {nickname: Stairs to Third Floor, bytes: 0x2402010E}, # easy boxed item
+    dgb_14: {nickname: Stairs to Third Floor, bytes: 0x2402010E}, # easy boxed item (maple syrup)
     dgb_15: {nickname: West Hall (3F), bytes: 0x2402010F},
     dgb_16: {nickname: Sleeping Clubbas Room (3F), bytes: 0x24020110},
     dgb_17: {nickname: Save Room (3F), bytes: 0x24020111}, # Mario spawns below floor but moves back inbounds
@@ -237,6 +237,10 @@ omo: {
     omo_15: {nickname: RED General Guy Room, bytes: 0x24020172},
 #   omo_16: {nickname: Riding the Train, bytes: 0x24020173}, # Crash on load
     omo_17: {nickname: PNK Tracks Hallway, bytes: 0x24020174},
+}
+kgr: {
+    nickname: Inside the Whale,
+    kgr_02: {nickname: Whale Stomach, bytes: 0x2401FFFF},
 }
 jan: {
     nickname: Jade Jungle,
@@ -458,10 +462,3 @@ kpa: {
 #    tst_13: {nickname: Partners and Shockwave, bytes: 0x2402017C},
 #    tst_20: {nickname: Pipes Gallery, bytes: 0x2402017D},
 #}
-#crashes:
-#    0x24020185,
-#    0x24020186,
-#    0x24020187,
-#    0x24020188,
-#    0x24020189,
-#    0x2402018A,
