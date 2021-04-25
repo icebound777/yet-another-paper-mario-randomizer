@@ -1,0 +1,118 @@
+Nothing:        {bytes: 0x00, isKeyItem: false}
+Boots:          {bytes: 0x01, isKeyItem: false} # does nothing when collected from box
+Super Boots:    {bytes: 0x02, isKeyItem: false} # does nothing when collected from box
+Ultra Boots:    {bytes: 0x03, isKeyItem: false} # does nothing when collected from box
+Hammer:         {bytes: 0x04, isKeyItem: false} # does nothing when collected from box
+Super Hammer:   {bytes: 0x05, isKeyItem: false} # does nothing when collected from box
+Ultra Hammer:   {bytes: 0x06, isKeyItem: false} # does nothing when collected from box
+Lucky Star:     {bytes: 0x07, isKeyItem: false} # does nothing when collected from box
+Present??:      {bytes: 0x08, isKeyItem: false} # does nothing when collected from box
+Present2??:     {bytes: 0x09, isKeyItem: false} # does nothing when collected from box
+Diploma1star??: {bytes: 0x0A, isKeyItem: false} # does nothing when collected from box
+Diploma2star??: {bytes: 0x0B, isKeyItem: false} # does nothing when collected from box
+Diploma3star??: {bytes: 0x0C, isKeyItem: false} # does nothing when collected from box
+Diploma4star??: {bytes: 0x0D, isKeyItem: false} # does nothing when collected from box
+Diploma5star??: {bytes: 0x0E, isKeyItem: false} # does nothing when collected from box
+RedPearl??:     {bytes: 0x0F, isKeyItem: false} # does nothing when collected from box
+Fortress Key:   {bytes: 0x10, isKeyItem: true} # Koopa Bros Fortress
+Ruins Key:      {bytes: 0x11, isKeyItem: true} # Dry Dry Ruins
+Pulse Stone:    {bytes: 0x12, isKeyItem: true} # Opens Dry Dry Ruins 
+Castle Key (T): {bytes: 0x13, isKeyItem: true} # Tubba's Castle (Green)
+Palace Key:     {bytes: 0x14, isKeyItem: true} # Crystal Palace (Blue)
+Lunar Stone:    {bytes: 0x15, isKeyItem: true} # Dry Dry Ruins
+Pyramid Stone:  {bytes: 0x16, isKeyItem: true} # Dry Dry Ruins
+Diamond Stone:  {bytes: 0x17, isKeyItem: true} # Dry Dry Ruins
+Golden Jar:     {bytes: 0x18, isKeyItem: true} # Dry Dry Outpost Moustafa
+Kooper's Shell: {bytes: 0x19, isKeyItem: true} # Koopa Village
+Castle Key (B): {bytes: 0x1A, isKeyItem: true} # Bowser's Castle (Golden)
+#a:             {bytes: 0x1B, isKeyItem: ?} # Card w/ pine tree print
+Weight:         {bytes: 0x1C, isKeyItem: true} # Boo's Mansion
+Boo's Portrait: {bytes: 0x1D, isKeyItem: true} # Boo's Mansion
+Crystal Berry:  {bytes: 0x1E, isKeyItem: true} # Flower Fields
+Mystical Key:   {bytes: 0x1F, isKeyItem: true} # Gusty Gulch Windmill
+Storeroom Key:  {bytes: 0x20, isKeyItem: true} # Toad Town shop
+Toy Train:      {bytes: 0x21, isKeyItem: true} # Shy Guy's Toybox
+Record:         {bytes: 0x22, isKeyItem: true} # Boo's Mansion
+Frying Pan:     {bytes: 0x23, isKeyItem: true} # Tayce T.
+Dictionary:     {bytes: 0x24, isKeyItem: true} # Shy Guy's Toybox / Russ T.
+Mystery Note:   {bytes: 0x25, isKeyItem: true} # Shy Guy's Toybox / Russ T.
+#a:             {bytes: 0x26, isKeyItem: ?} # dark Mystery Note
+Crystal Ball:   {bytes: 0x27, isKeyItem: true} # Merluvlee
+#a:             {bytes: 0x28, isKeyItem: ?} # screwdriver? pin? green diode?
+Cookbook:       {bytes: 0x29, isKeyItem: true} # Tayce T.
+Jade Raven:     {bytes: 0x2A, isKeyItem: true} # Jade Jungle
+Magical Seed 1: {bytes: 0x2B, isKeyItem: true} # Flower Fields (pink, upleft)
+Magical Seed 2: {bytes: 0x2C, isKeyItem: true} # Flower Fields (purple, downright)
+Magical Seed 3: {bytes: 0x2D, isKeyItem: true} # Flower Fields (light teal, downleft)
+Magical Seed 4: {bytes: 0x2E, isKeyItem: true} # Flower Fields (light beige, upright)
+#a:             {bytes: 0x2F, isKeyItem: true} # toad doll?
+Calculator:     {bytes: 0x30, isKeyItem: true} # Shy Guy's Toybox / Rowf
+Bucket:         {bytes: 0x31, isKeyItem: true} # Snowman attire
+Scarf:          {bytes: 0x32, isKeyItem: true} # Snowman attire
+Red Key:        {bytes: 0x33, isKeyItem: true} # Crystal Palace (Red)
+Blue Key:       {bytes: 0x34, isKeyItem: true} # Crystal Palace (Blue)
+#a:             {bytes: 0x35, isKeyItem: true} # letter?
+Letter (01):    {bytes: 0x36, isKeyItem: true} # To Merlon in Toad Town
+Letter (02):    {bytes: 0x37, isKeyItem: true} # To Goompa in Goomba Village
+Letter (03):    {bytes: 0x38, isKeyItem: true} # To Mort T. in Koopa Village
+Letter (04):    {bytes: 0x39, isKeyItem: true} # To Russ T. in Toad Town
+Letter (05):    {bytes: 0x3A, isKeyItem: true} # To Mayor Penguin in Shiver City
+Letter (06):    {bytes: 0x3B, isKeyItem: true} # To Merlow at Shooting Star Summit
+Letter (07):    {bytes: 0x3C, isKeyItem: true} # To Fice T. near Forever Forest
+Letter (08):    {bytes: 0x3D, isKeyItem: true} # To traveling Nomadimouse
+Letter (09):    {bytes: 0x3E, isKeyItem: true} # To Minh T. in Toad Town
+#a:             {bytes: 0x3F, isKeyItem: true} # letter?
+Letter (10):    {bytes: 0x40, isKeyItem: true} # To Goompapa in Goomba Village
+Letter (11):    {bytes: 0x41, isKeyItem: true} # To Igor in Boo's Shop
+#a:             {bytes: 0x42, isKeyItem: true} # letter?
+#a:             {bytes: 0x43, isKeyItem: true} # letter?
+#a:             {bytes: 0x44, isKeyItem: true} # letter?
+Letter (12):    {bytes: 0x45, isKeyItem: true} # To Franky in Boo's Mansion
+Letter (13):    {bytes: 0x46, isKeyItem: true} # To Muss T. near Peach's Castle
+Letter (14):    {bytes: 0x47, isKeyItem: true} # To Koover in Koopa Village
+Letter (15):    {bytes: 0x48, isKeyItem: true} # To Fishmael at Toad Town Port
+Letter (16):    {bytes: 0x49, isKeyItem: true} # To Koover in Koopa Village 2
+Letter (17):    {bytes: 0x4A, isKeyItem: true} # To Mr. E. in Dry Dry Outpost
+Letter (18):    {bytes: 0x4B, isKeyItem: true} # To Miss T. near Toad Town Dojo
+Letter (19):    {bytes: 0x4C, isKeyItem: true} # To Little Mouser in Dry Dry Outpost shop
+#a:             {bytes: 0x4D, isKeyItem: true} # letter?
+Letter (20):    {bytes: 0x4E, isKeyItem: true} # To Dane T. near Toad Town Station
+Letter (21):    {bytes: 0x4F, isKeyItem: true} # To Red Yoshi Kid in Yoshi's Village
+Letter (22):    {bytes: 0x50, isKeyItem: true} # To Dane T. near Toad Town Station 2
+Letter (23):    {bytes: 0x51, isKeyItem: true} # To Frost T. in Starborn Valley
+Letter (24):    {bytes: 0x52, isKeyItem: true} # To Goompapa in Goomba Village 2
+Artifact:       {bytes: 0x53, isKeyItem: true} # Dry Dry Ruins
+Letter (25):    {bytes: 0x54, isKeyItem: true} # To Kolorado
+#a:             {bytes: 0x55, isKeyItem: true} # letter?
+Dolly:          {bytes: 0x56, isKeyItem: true} # Goomba Village
+Water Stone:    {bytes: 0x57, isKeyItem: true} # Flower Fields
+Magical Bean:   {bytes: 0x58, isKeyItem: true} # Flower Fields
+Fertile Soil:   {bytes: 0x59, isKeyItem: true} # Flower Fields
+Miracle Water:  {bytes: 0x5A, isKeyItem: true} # Flower Fields
+Volcano Vase:   {bytes: 0x5B, isKeyItem: true} # Mt. Lavalava
+Tape:           {bytes: 0x5C, isKeyItem: true} # Koopa Koot fetchquest
+Sugar:          {bytes: 0x5D, isKeyItem: true} # Peach cake
+Salt:           {bytes: 0x5E, isKeyItem: true} # Peach cake
+Egg:            {bytes: 0x5F, isKeyItem: true} # Peach cake
+Strawberry:     {bytes: 0x61, isKeyItem: true} # Peach cake
+Butter:         {bytes: 0x62, isKeyItem: true} # Peach cake
+Cleanser:       {bytes: 0x63, isKeyItem: true} # Peach cake
+Water:          {bytes: 0x64, isKeyItem: true} # Peach cake
+Flour:          {bytes: 0x65, isKeyItem: true} # Peach cake
+Milk:           {bytes: 0x66, isKeyItem: true} # Peach cake
+Lyrics:         {bytes: 0x67, isKeyItem: true} # Pop Diva sidequest
+
+Mystery?:     {bytes: 0x96, isKeyItem: false}
+Repel Gel:    {bytes: 0x97, isKeyItem: false}
+Fright Jar:   {bytes: 0x98, isKeyItem: false}
+#a:          {bytes: 0x99, isKeyItem: ?}
+Dizzy Dial:   {bytes: 0x9A, isKeyItem: false}
+Super Soda:   {bytes: 0x9B, isKeyItem: false}
+Lemon:        {bytes: 0x9C, isKeyItem: false}
+Lime:         {bytes: 0x9D, isKeyItem: false}
+Blue Berry:   {bytes: 0x9E, isKeyItem: false}
+Red Berry:    {bytes: 0x9F, isKeyItem: false}
+Yellow Berry: {bytes: 0xA0, isKeyItem: false}
+Bubble Berry: {bytes: 0xA1, isKeyItem: false}
+Jammin Jelly: {bytes: 0xA2, isKeyItem: false}
+Maple Syrup:  {bytes: 0xA3, isKeyItem: false}
