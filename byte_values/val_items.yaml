@@ -1,118 +1,350 @@
-Nothing:        {bytes: 0x00, isKeyItem: false}
-Boots:          {bytes: 0x01, isKeyItem: false} # does nothing when collected from box
-Super Boots:    {bytes: 0x02, isKeyItem: false} # does nothing when collected from box
-Ultra Boots:    {bytes: 0x03, isKeyItem: false} # does nothing when collected from box
-Hammer:         {bytes: 0x04, isKeyItem: false} # does nothing when collected from box
-Super Hammer:   {bytes: 0x05, isKeyItem: false} # does nothing when collected from box
-Ultra Hammer:   {bytes: 0x06, isKeyItem: false} # does nothing when collected from box
-Lucky Star:     {bytes: 0x07, isKeyItem: false} # does nothing when collected from box
-Present??:      {bytes: 0x08, isKeyItem: false} # does nothing when collected from box
-Present2??:     {bytes: 0x09, isKeyItem: false} # does nothing when collected from box
-Diploma1star??: {bytes: 0x0A, isKeyItem: false} # does nothing when collected from box
-Diploma2star??: {bytes: 0x0B, isKeyItem: false} # does nothing when collected from box
-Diploma3star??: {bytes: 0x0C, isKeyItem: false} # does nothing when collected from box
-Diploma4star??: {bytes: 0x0D, isKeyItem: false} # does nothing when collected from box
-Diploma5star??: {bytes: 0x0E, isKeyItem: false} # does nothing when collected from box
-RedPearl??:     {bytes: 0x0F, isKeyItem: false} # does nothing when collected from box
-Fortress Key:   {bytes: 0x10, isKeyItem: true} # Koopa Bros Fortress
-Ruins Key:      {bytes: 0x11, isKeyItem: true} # Dry Dry Ruins
-Pulse Stone:    {bytes: 0x12, isKeyItem: true} # Opens Dry Dry Ruins 
-Castle Key (T): {bytes: 0x13, isKeyItem: true} # Tubba's Castle (Green)
-Palace Key:     {bytes: 0x14, isKeyItem: true} # Crystal Palace (Blue)
-Lunar Stone:    {bytes: 0x15, isKeyItem: true} # Dry Dry Ruins
-Pyramid Stone:  {bytes: 0x16, isKeyItem: true} # Dry Dry Ruins
-Diamond Stone:  {bytes: 0x17, isKeyItem: true} # Dry Dry Ruins
-Golden Jar:     {bytes: 0x18, isKeyItem: true} # Dry Dry Outpost Moustafa
-Kooper's Shell: {bytes: 0x19, isKeyItem: true} # Koopa Village
-Castle Key (B): {bytes: 0x1A, isKeyItem: true} # Bowser's Castle (Golden)
-#a:             {bytes: 0x1B, isKeyItem: ?} # Card w/ pine tree print
-Weight:         {bytes: 0x1C, isKeyItem: true} # Boo's Mansion
-Boo's Portrait: {bytes: 0x1D, isKeyItem: true} # Boo's Mansion
-Crystal Berry:  {bytes: 0x1E, isKeyItem: true} # Flower Fields
-Mystical Key:   {bytes: 0x1F, isKeyItem: true} # Gusty Gulch Windmill
-Storeroom Key:  {bytes: 0x20, isKeyItem: true} # Toad Town shop
-Toy Train:      {bytes: 0x21, isKeyItem: true} # Shy Guy's Toybox
-Record:         {bytes: 0x22, isKeyItem: true} # Boo's Mansion
-Frying Pan:     {bytes: 0x23, isKeyItem: true} # Tayce T.
-Dictionary:     {bytes: 0x24, isKeyItem: true} # Shy Guy's Toybox / Russ T.
-Mystery Note:   {bytes: 0x25, isKeyItem: true} # Shy Guy's Toybox / Russ T.
-#a:             {bytes: 0x26, isKeyItem: ?} # dark Mystery Note
-Crystal Ball:   {bytes: 0x27, isKeyItem: true} # Merluvlee
-#a:             {bytes: 0x28, isKeyItem: ?} # screwdriver? pin? green diode?
-Cookbook:       {bytes: 0x29, isKeyItem: true} # Tayce T.
-Jade Raven:     {bytes: 0x2A, isKeyItem: true} # Jade Jungle
-Magical Seed 1: {bytes: 0x2B, isKeyItem: true} # Flower Fields (pink, upleft)
-Magical Seed 2: {bytes: 0x2C, isKeyItem: true} # Flower Fields (purple, downright)
-Magical Seed 3: {bytes: 0x2D, isKeyItem: true} # Flower Fields (light teal, downleft)
-Magical Seed 4: {bytes: 0x2E, isKeyItem: true} # Flower Fields (light beige, upright)
-#a:             {bytes: 0x2F, isKeyItem: true} # toad doll?
-Calculator:     {bytes: 0x30, isKeyItem: true} # Shy Guy's Toybox / Rowf
-Bucket:         {bytes: 0x31, isKeyItem: true} # Snowman attire
-Scarf:          {bytes: 0x32, isKeyItem: true} # Snowman attire
-Red Key:        {bytes: 0x33, isKeyItem: true} # Crystal Palace (Red)
-Blue Key:       {bytes: 0x34, isKeyItem: true} # Crystal Palace (Blue)
-#a:             {bytes: 0x35, isKeyItem: true} # letter?
-Letter (01):    {bytes: 0x36, isKeyItem: true} # To Merlon in Toad Town
-Letter (02):    {bytes: 0x37, isKeyItem: true} # To Goompa in Goomba Village
-Letter (03):    {bytes: 0x38, isKeyItem: true} # To Mort T. in Koopa Village
-Letter (04):    {bytes: 0x39, isKeyItem: true} # To Russ T. in Toad Town
-Letter (05):    {bytes: 0x3A, isKeyItem: true} # To Mayor Penguin in Shiver City
-Letter (06):    {bytes: 0x3B, isKeyItem: true} # To Merlow at Shooting Star Summit
-Letter (07):    {bytes: 0x3C, isKeyItem: true} # To Fice T. near Forever Forest
-Letter (08):    {bytes: 0x3D, isKeyItem: true} # To traveling Nomadimouse
-Letter (09):    {bytes: 0x3E, isKeyItem: true} # To Minh T. in Toad Town
-#a:             {bytes: 0x3F, isKeyItem: true} # letter?
-Letter (10):    {bytes: 0x40, isKeyItem: true} # To Goompapa in Goomba Village
-Letter (11):    {bytes: 0x41, isKeyItem: true} # To Igor in Boo's Shop
-#a:             {bytes: 0x42, isKeyItem: true} # letter?
-#a:             {bytes: 0x43, isKeyItem: true} # letter?
-#a:             {bytes: 0x44, isKeyItem: true} # letter?
-Letter (12):    {bytes: 0x45, isKeyItem: true} # To Franky in Boo's Mansion
-Letter (13):    {bytes: 0x46, isKeyItem: true} # To Muss T. near Peach's Castle
-Letter (14):    {bytes: 0x47, isKeyItem: true} # To Koover in Koopa Village
-Letter (15):    {bytes: 0x48, isKeyItem: true} # To Fishmael at Toad Town Port
-Letter (16):    {bytes: 0x49, isKeyItem: true} # To Koover in Koopa Village 2
-Letter (17):    {bytes: 0x4A, isKeyItem: true} # To Mr. E. in Dry Dry Outpost
-Letter (18):    {bytes: 0x4B, isKeyItem: true} # To Miss T. near Toad Town Dojo
-Letter (19):    {bytes: 0x4C, isKeyItem: true} # To Little Mouser in Dry Dry Outpost shop
-#a:             {bytes: 0x4D, isKeyItem: true} # letter?
-Letter (20):    {bytes: 0x4E, isKeyItem: true} # To Dane T. near Toad Town Station
-Letter (21):    {bytes: 0x4F, isKeyItem: true} # To Red Yoshi Kid in Yoshi's Village
-Letter (22):    {bytes: 0x50, isKeyItem: true} # To Dane T. near Toad Town Station 2
-Letter (23):    {bytes: 0x51, isKeyItem: true} # To Frost T. in Starborn Valley
-Letter (24):    {bytes: 0x52, isKeyItem: true} # To Goompapa in Goomba Village 2
-Artifact:       {bytes: 0x53, isKeyItem: true} # Dry Dry Ruins
-Letter (25):    {bytes: 0x54, isKeyItem: true} # To Kolorado
-#a:             {bytes: 0x55, isKeyItem: true} # letter?
-Dolly:          {bytes: 0x56, isKeyItem: true} # Goomba Village
-Water Stone:    {bytes: 0x57, isKeyItem: true} # Flower Fields
-Magical Bean:   {bytes: 0x58, isKeyItem: true} # Flower Fields
-Fertile Soil:   {bytes: 0x59, isKeyItem: true} # Flower Fields
-Miracle Water:  {bytes: 0x5A, isKeyItem: true} # Flower Fields
-Volcano Vase:   {bytes: 0x5B, isKeyItem: true} # Mt. Lavalava
-Tape:           {bytes: 0x5C, isKeyItem: true} # Koopa Koot fetchquest
-Sugar:          {bytes: 0x5D, isKeyItem: true} # Peach cake
-Salt:           {bytes: 0x5E, isKeyItem: true} # Peach cake
-Egg:            {bytes: 0x5F, isKeyItem: true} # Peach cake
-Strawberry:     {bytes: 0x61, isKeyItem: true} # Peach cake
-Butter:         {bytes: 0x62, isKeyItem: true} # Peach cake
-Cleanser:       {bytes: 0x63, isKeyItem: true} # Peach cake
-Water:          {bytes: 0x64, isKeyItem: true} # Peach cake
-Flour:          {bytes: 0x65, isKeyItem: true} # Peach cake
-Milk:           {bytes: 0x66, isKeyItem: true} # Peach cake
-Lyrics:         {bytes: 0x67, isKeyItem: true} # Pop Diva sidequest
-
-Mystery?:     {bytes: 0x96, isKeyItem: false}
-Repel Gel:    {bytes: 0x97, isKeyItem: false}
-Fright Jar:   {bytes: 0x98, isKeyItem: false}
-#a:          {bytes: 0x99, isKeyItem: ?}
-Dizzy Dial:   {bytes: 0x9A, isKeyItem: false}
-Super Soda:   {bytes: 0x9B, isKeyItem: false}
-Lemon:        {bytes: 0x9C, isKeyItem: false}
-Lime:         {bytes: 0x9D, isKeyItem: false}
-Blue Berry:   {bytes: 0x9E, isKeyItem: false}
-Red Berry:    {bytes: 0x9F, isKeyItem: false}
-Yellow Berry: {bytes: 0xA0, isKeyItem: false}
-Bubble Berry: {bytes: 0xA1, isKeyItem: false}
-Jammin Jelly: {bytes: 0xA2, isKeyItem: false}
-Maple Syrup:  {bytes: 0xA3, isKeyItem: false}
+Nothing:        {bytes: 0x0000, isKeyItem: false, isBadge: false}
+Boots:          {bytes: 0x0001, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Super Boots:    {bytes: 0x0002, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Ultra Boots:    {bytes: 0x0003, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Hammer:         {bytes: 0x0004, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Super Hammer:   {bytes: 0x0005, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Ultra Hammer:   {bytes: 0x0006, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Lucky Star:     {bytes: 0x0007, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Present??:      {bytes: 0x0008, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Present2??:     {bytes: 0x0009, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma1star??: {bytes: 0x000A, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma2star??: {bytes: 0x000B, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma3star??: {bytes: 0x000C, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma4star??: {bytes: 0x000D, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma5star??: {bytes: 0x000E, isKeyItem: false, isBadge: false} # does nothing when collected from box
+RedPearl??:     {bytes: 0x000F, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Fortress Key:   {bytes: 0x0010, isKeyItem: true, isBadge: false} # Koopa Bros Fortress
+Ruins Key:      {bytes: 0x0011, isKeyItem: true, isBadge: false} # Dry Dry Ruins
+Pulse Stone:    {bytes: 0x0012, isKeyItem: true, isBadge: false} # Opens Dry Dry Ruins 
+Castle Key (T): {bytes: 0x0013, isKeyItem: true, isBadge: false} # Tubba's Castle (Green)
+Palace Key:     {bytes: 0x0014, isKeyItem: true, isBadge: false} # Crystal Palace (Blue)
+Lunar Stone:    {bytes: 0x0015, isKeyItem: true, isBadge: false} # Dry Dry Ruins
+Pyramid Stone:  {bytes: 0x0016, isKeyItem: true, isBadge: false} # Dry Dry Ruins
+Diamond Stone:  {bytes: 0x0017, isKeyItem: true, isBadge: false} # Dry Dry Ruins
+Golden Jar:     {bytes: 0x0018, isKeyItem: true, isBadge: false} # Dry Dry Outpost Moustafa
+Kooper's Shell: {bytes: 0x0019, isKeyItem: true, isBadge: false} # Koopa Village
+Castle Key (B): {bytes: 0x001A, isKeyItem: true, isBadge: false} # Bowser's Castle (Golden)
+#a:             {bytes: 0x001B, isKeyItem: ?} # Card w/ pine tree print
+Weight:         {bytes: 0x001C, isKeyItem: true, isBadge: false} # Boo's Mansion
+Boo's Portrait: {bytes: 0x001D, isKeyItem: true, isBadge: false} # Boo's Mansion
+Crystal Berry:  {bytes: 0x001E, isKeyItem: true, isBadge: false} # Flower Fields
+Mystical Key:   {bytes: 0x001F, isKeyItem: true, isBadge: false} # Gusty Gulch Windmill
+Storeroom Key:  {bytes: 0x0020, isKeyItem: true, isBadge: false} # Toad Town shop
+Toy Train:      {bytes: 0x0021, isKeyItem: true, isBadge: false} # Shy Guy's Toybox
+Record:         {bytes: 0x0022, isKeyItem: true, isBadge: false} # Boo's Mansion
+Frying Pan:     {bytes: 0x0023, isKeyItem: true, isBadge: false} # Tayce T.
+Dictionary:     {bytes: 0x0024, isKeyItem: true, isBadge: false} # Shy Guy's Toybox / Russ T.
+Mystery Note:   {bytes: 0x0025, isKeyItem: true, isBadge: false} # Shy Guy's Toybox / Russ T.
+#a:             {bytes: 0x0026, isKeyItem: ?} # dark Mystery Note
+Crystal Ball:   {bytes: 0x0027, isKeyItem: true, isBadge: false} # Merluvlee
+#a:             {bytes: 0x0028, isKeyItem: ?} # screwdriver? pin? green diode?
+Cookbook:       {bytes: 0x0029, isKeyItem: true, isBadge: false} # Tayce T.
+Jade Raven:     {bytes: 0x002A, isKeyItem: true, isBadge: false} # Jade Jungle
+Magical Seed 1: {bytes: 0x002B, isKeyItem: true, isBadge: false} # Flower Fields (pink, upleft)
+Magical Seed 2: {bytes: 0x002C, isKeyItem: true, isBadge: false} # Flower Fields (purple, downright)
+Magical Seed 3: {bytes: 0x002D, isKeyItem: true, isBadge: false} # Flower Fields (light teal, downleft)
+Magical Seed 4: {bytes: 0x002E, isKeyItem: true, isBadge: false} # Flower Fields (light beige, upright)
+#a:             {bytes: 0x002F, isKeyItem: true} # toad doll?
+Calculator:     {bytes: 0x0030, isKeyItem: true, isBadge: false} # Shy Guy's Toybox / Rowf
+Bucket:         {bytes: 0x0031, isKeyItem: true, isBadge: false} # Snowman attire
+Scarf:          {bytes: 0x0032, isKeyItem: true, isBadge: false} # Snowman attire
+Red Key:        {bytes: 0x0033, isKeyItem: true, isBadge: false} # Crystal Palace (Red)
+Blue Key:       {bytes: 0x0034, isKeyItem: true, isBadge: false} # Crystal Palace (Blue)
+#a:             {bytes: 0x0035, isKeyItem: true} # letter?
+Letter (01):    {bytes: 0x0036, isKeyItem: true, isBadge: false} # To Merlon in Toad Town
+Letter (02):    {bytes: 0x0037, isKeyItem: true, isBadge: false} # To Goompa in Goomba Village
+Letter (03):    {bytes: 0x0038, isKeyItem: true, isBadge: false} # To Mort T. in Koopa Village
+Letter (04):    {bytes: 0x0039, isKeyItem: true, isBadge: false} # To Russ T. in Toad Town
+Letter (05):    {bytes: 0x003A, isKeyItem: true, isBadge: false} # To Mayor Penguin in Shiver City
+Letter (06):    {bytes: 0x003B, isKeyItem: true, isBadge: false} # To Merlow at Shooting Star Summit
+Letter (07):    {bytes: 0x003C, isKeyItem: true, isBadge: false} # To Fice T. near Forever Forest
+Letter (08):    {bytes: 0x003D, isKeyItem: true, isBadge: false} # To traveling Nomadimouse
+Letter (09):    {bytes: 0x003E, isKeyItem: true, isBadge: false} # To Minh T. in Toad Town
+#a:             {bytes: 0x003F, isKeyItem: true} # letter?
+Letter (10):    {bytes: 0x0040, isKeyItem: true, isBadge: false} # To Goompapa in Goomba Village
+Letter (11):    {bytes: 0x0041, isKeyItem: true, isBadge: false} # To Igor in Boo's Shop
+#a:             {bytes: 0x0042, isKeyItem: true} # letter?
+#a:             {bytes: 0x0043, isKeyItem: true} # letter?
+#a:             {bytes: 0x0044, isKeyItem: true} # letter?
+Letter (12):    {bytes: 0x0045, isKeyItem: true, isBadge: false} # To Franky in Boo's Mansion
+Letter (13):    {bytes: 0x0046, isKeyItem: true, isBadge: false} # To Muss T. near Peach's Castle
+Letter (14):    {bytes: 0x0047, isKeyItem: true, isBadge: false} # To Koover in Koopa Village
+Letter (15):    {bytes: 0x0048, isKeyItem: true, isBadge: false} # To Fishmael at Toad Town Port
+Letter (16):    {bytes: 0x0049, isKeyItem: true, isBadge: false} # To Koover in Koopa Village 2
+Letter (17):    {bytes: 0x004A, isKeyItem: true, isBadge: false} # To Mr. E. in Dry Dry Outpost
+Letter (18):    {bytes: 0x004B, isKeyItem: true, isBadge: false} # To Miss T. near Toad Town Dojo
+Letter (19):    {bytes: 0x004C, isKeyItem: true, isBadge: false} # To Little Mouser in Dry Dry Outpost shop
+#a:             {bytes: 0x004D, isKeyItem: true} # letter?
+Letter (20):    {bytes: 0x004E, isKeyItem: true, isBadge: false} # To Dane T. near Toad Town Station
+Letter (21):    {bytes: 0x004F, isKeyItem: true, isBadge: false} # To Red Yoshi Kid in Yoshi's Village
+Letter (22):    {bytes: 0x0050, isKeyItem: true, isBadge: false} # To Dane T. near Toad Town Station 2
+Letter (23):    {bytes: 0x0051, isKeyItem: true, isBadge: false} # To Frost T. in Starborn Valley
+Letter (24):    {bytes: 0x0052, isKeyItem: true, isBadge: false} # To Goompapa in Goomba Village 2
+Artifact:       {bytes: 0x0053, isKeyItem: true, isBadge: false} # Dry Dry Ruins
+Letter (25):    {bytes: 0x0054, isKeyItem: true, isBadge: false} # To Kolorado
+#a:             {bytes: 0x0055, isKeyItem: true} # letter?
+Dolly:          {bytes: 0x0056, isKeyItem: true, isBadge: false} # Goomba Village
+Water Stone:    {bytes: 0x0057, isKeyItem: true, isBadge: false} # Flower Fields
+Magical Bean:   {bytes: 0x0058, isKeyItem: true, isBadge: false} # Flower Fields
+Fertile Soil:   {bytes: 0x0059, isKeyItem: true, isBadge: false} # Flower Fields
+Miracle Water:  {bytes: 0x005A, isKeyItem: true, isBadge: false} # Flower Fields
+Volcano Vase:   {bytes: 0x005B, isKeyItem: true, isBadge: false} # Mt. Lavalava
+Tape:           {bytes: 0x005C, isKeyItem: true, isBadge: false} # Koopa Koot fetchquest
+Sugar:          {bytes: 0x005D, isKeyItem: true, isBadge: false} # Peach cake
+Salt:           {bytes: 0x005E, isKeyItem: true, isBadge: false} # Peach cake
+Egg (KeyItem):  {bytes: 0x005F, isKeyItem: true, isBadge: false} # Peach cake
+Strawberry:     {bytes: 0x0061, isKeyItem: true, isBadge: false} # Peach cake
+Butter:         {bytes: 0x0062, isKeyItem: true, isBadge: false} # Peach cake
+Cleanser:       {bytes: 0x0063, isKeyItem: true, isBadge: false} # Peach cake
+Water:          {bytes: 0x0064, isKeyItem: true, isBadge: false} # Peach cake
+Flour:          {bytes: 0x0065, isKeyItem: true, isBadge: false} # Peach cake
+Milk:           {bytes: 0x0066, isKeyItem: true, isBadge: false} # Peach cake
+Lyrics:         {bytes: 0x0067, isKeyItem: true, isBadge: false} # Pop Diva sidequest
+Melody:         {bytes: 0x0068, isKeyItem: true, isBadge: false} # Pop Diva sidequest
+Mailbag:        {bytes: 0x0069, isKeyItem: true, isBadge: false} # Post Station post Shy Guy's Toybox start
+Castle Key (P): {bytes: 0x006A, isKeyItem: true, isBadge: false} # Peach's Castle
+Odd Key:        {bytes: 0x006B, isKeyItem: true, isBadge: false} # Odd House
+Star Stone:     {bytes: 0x006C, isKeyItem: true, isBadge: false} # Crystal Palace
+Sneaky Parasol: {bytes: 0x006D, isKeyItem: true, isBadge: false} # Peach's
+Koopa Legends:  {bytes: 0x006E, isKeyItem: true, isBadge: false} # Koopa Koot
+Autograph (L):  {bytes: 0x006F, isKeyItem: true, isBadge: false} # Koopa Koot (Luigi's)
+Empty Wallet:   {bytes: 0x0070, isKeyItem: true, isBadge: false} # Koopa Koot
+Autograph (M):  {bytes: 0x0071, isKeyItem: true, isBadge: false} # Koopa Koot (Merluvlee's)
+#a:             {bytes: 0x0072, isKeyItem: true} # koopa shell?
+Old Photo:      {bytes: 0x0073, isKeyItem: true, isBadge: false} # Koopa Koot
+Glasses:        {bytes: 0x0074, isKeyItem: true, isBadge: false} # Koopa Koot
+#a:             {bytes: 0x0075, isKeyItem: true} # Old Photo 2?
+Package:        {bytes: 0x0076, isKeyItem: true, isBadge: false} # Koopa Koot
+Red Jar:        {bytes: 0x0077, isKeyItem: true, isBadge: false} # Koopa Koot
+Castle Key (P2): {bytes: 0x0078, isKeyItem: true, isBadge: false} # Peach's Castle ??
+Warehouse Key:  {bytes: 0x0079, isKeyItem: true, isBadge: false} # Shiver City warehouse
+Prison Key:     {bytes: 0x007A, isKeyItem: true, isBadge: false} # Bowser's Castle
+Silver Credit:  {bytes: 0x007B, isKeyItem: true, isBadge: false} # Minigame access
+Gold Credit:    {bytes: 0x007C, isKeyItem: true, isBadge: false} # Minigame access
+#Prison Key:    {bytes: 0x007D, isKeyItem: true} # unused
+#Prison Key:    {bytes: 0x007E, isKeyItem: true} # unused
+#Prison Key:    {bytes: 0x007F, isKeyItem: true} # unused
+Fire Flower:    {bytes: 0x0080, isKeyItem: false, isBadge: false}
+Snowman Doll:   {bytes: 0x0081, isKeyItem: false, isBadge: false}
+Thunder Rage:   {bytes: 0x0082, isKeyItem: false, isBadge: false}
+Shooting Star:  {bytes: 0x0083, isKeyItem: false, isBadge: false}
+Thunder Bolt:   {bytes: 0x0084, isKeyItem: false, isBadge: false}
+Pebble:         {bytes: 0x0085, isKeyItem: false, isBadge: false}
+Dusty Hammer:   {bytes: 0x0086, isKeyItem: false, isBadge: false}
+#a:             {bytes: 0x0087, isKeyItem: ?} # vines?
+Stone Cap:      {bytes: 0x0088, isKeyItem: false, isBadge: false}
+Tasty Tonic:    {bytes: 0x0089, isKeyItem: false, isBadge: false}
+Mushroom:       {bytes: 0x008A, isKeyItem: false, isBadge: false}
+Volt Mushroom:  {bytes: 0x008B, isKeyItem: false, isBadge: false}
+Super Shroom:   {bytes: 0x008C, isKeyItem: false, isBadge: false}
+Dried Shroom:   {bytes: 0x008D, isKeyItem: false, isBadge: false}
+Ultra Shroom:   {bytes: 0x008E, isKeyItem: false, isBadge: false}
+Sleepy Sheep:   {bytes: 0x008F, isKeyItem: false, isBadge: false}
+POW Block:      {bytes: 0x0090, isKeyItem: false, isBadge: false}
+#a:             {bytes: 0x0091, isKeyItem: false} # bottle?
+Stop Watch:     {bytes: 0x0092, isKeyItem: false, isBadge: false}
+Whacka's Bump:  {bytes: 0x0093, isKeyItem: false, isBadge: false}
+Apple:          {bytes: 0x0094, isKeyItem: false, isBadge: false}
+Life Shroom:    {bytes: 0x0095, isKeyItem: false, isBadge: false}
+Mystery?:       {bytes: 0x0096, isKeyItem: false, isBadge: false}
+Repel Gel:      {bytes: 0x0097, isKeyItem: false, isBadge: false}
+Fright Jar:     {bytes: 0x0098, isKeyItem: false, isBadge: false}
+#a:             {bytes: 0x0099, isKeyItem: ?}
+Dizzy Dial:     {bytes: 0x009A, isKeyItem: false, isBadge: false}
+Super Soda:     {bytes: 0x009B, isKeyItem: false, isBadge: false}
+Lemon:          {bytes: 0x009C, isKeyItem: false, isBadge: false}
+Lime:           {bytes: 0x009D, isKeyItem: false, isBadge: false}
+Blue Berry:     {bytes: 0x009E, isKeyItem: false, isBadge: false}
+Red Berry:      {bytes: 0x009F, isKeyItem: false, isBadge: false}
+Yellow Berry:   {bytes: 0x00A0, isKeyItem: false, isBadge: false}
+Bubble Berry:   {bytes: 0x00A1, isKeyItem: false, isBadge: false}
+Jammin Jelly:   {bytes: 0x00A2, isKeyItem: false, isBadge: false}
+Maple Syrup:    {bytes: 0x00A3, isKeyItem: false, isBadge: false}
+Honey Syrup:    {bytes: 0x00A4, isKeyItem: false, isBadge: false}
+Goomnut:        {bytes: 0x00A5, isKeyItem: false, isBadge: false}
+Koopa Leaf:     {bytes: 0x00A6, isKeyItem: false, isBadge: false}
+Dried Pasta:    {bytes: 0x00A7, isKeyItem: false, isBadge: false}
+Dried Fruit:    {bytes: 0x00A8, isKeyItem: false, isBadge: false}
+Strange Leaf:   {bytes: 0x00A9, isKeyItem: false, isBadge: false}
+Cake Mix:       {bytes: 0x00AA, isKeyItem: false, isBadge: false}
+Egg:            {bytes: 0x00AB, isKeyItem: false, isBadge: false}
+Coconut:        {bytes: 0x00AC, isKeyItem: false, isBadge: false}
+Melon:          {bytes: 0x00AD, isKeyItem: false, isBadge: false}
+Stinky Herb:    {bytes: 0x00AE, isKeyItem: false, isBadge: false}
+Iced Potato:    {bytes: 0x00AF, isKeyItem: false, isBadge: false}
+Spicy Soup:     {bytes: 0x00B0, isKeyItem: false, isBadge: false} # From Tayce T.
+Apple Pie:      {bytes: 0x00B1, isKeyItem: false, isBadge: false} # From Tayce T.
+Honey Ultra:    {bytes: 0x00B2, isKeyItem: false, isBadge: false} # From Tayce T.
+Maple Ultra:    {bytes: 0x00B3, isKeyItem: false, isBadge: false} # From Tayce T.
+Jelly Ultra:    {bytes: 0x00B4, isKeyItem: false, isBadge: false} # From Tayce T.
+Koopasta:       {bytes: 0x00B5, isKeyItem: false, isBadge: false} # From Tayce T.
+Fried Shroom:   {bytes: 0x00B6, isKeyItem: false, isBadge: false} # From Tayce T.
+Shroom Cake:    {bytes: 0x00B7, isKeyItem: false, isBadge: false} # From Tayce T.
+Shroom Steak:   {bytes: 0x00B8, isKeyItem: false, isBadge: false} # From Tayce T.
+Hot Shroom:     {bytes: 0x00B9, isKeyItem: false, isBadge: false} # From Tayce T.
+Sweet Shroom:   {bytes: 0x00BA, isKeyItem: false, isBadge: false} # From Tayce T.
+Yummy Meal:     {bytes: 0x00BB, isKeyItem: false, isBadge: false} # From Tayce T.
+Healthy Juice:  {bytes: 0x00BC, isKeyItem: false, isBadge: false} # From Tayce T.
+Bland Meal:     {bytes: 0x00BD, isKeyItem: false, isBadge: false} # From Tayce T.
+Deluxe Meal:    {bytes: 0x00BE, isKeyItem: false, isBadge: false} # From Tayce T.
+Special Shake:  {bytes: 0x00BF, isKeyItem: false, isBadge: false} # From Tayce T.
+Big Cookie:     {bytes: 0x00C0, isKeyItem: false, isBadge: false} # From Tayce T.
+Cake:           {bytes: 0x00C1, isKeyItem: false, isBadge: false} # From Tayce T.
+Mistake:        {bytes: 0x00C2, isKeyItem: false, isBadge: false} # From Tayce T.
+Koopa Tea:      {bytes: 0x00C3, isKeyItem: false, isBadge: false} # From Tayce T.
+Honey Super:    {bytes: 0x00C4, isKeyItem: false, isBadge: false} # From Tayce T.
+Maple Super:    {bytes: 0x00C5, isKeyItem: false, isBadge: false} # From Tayce T.
+Jelly Super:    {bytes: 0x00C6, isKeyItem: false, isBadge: false} # From Tayce T.
+Spaghetti:      {bytes: 0x00C7, isKeyItem: false, isBadge: false} # From Tayce T.
+Egg Missile:    {bytes: 0x00C8, isKeyItem: false, isBadge: false} # From Tayce T.
+Fried Egg:      {bytes: 0x00C9, isKeyItem: false, isBadge: false} # From Tayce T.
+Honey Shroom:   {bytes: 0x00CA, isKeyItem: false, isBadge: false} # From Tayce T.
+Honey Candy:    {bytes: 0x00CB, isKeyItem: false, isBadge: false} # From Tayce T.
+Electro Pop:    {bytes: 0x00CC, isKeyItem: false, isBadge: false} # From Tayce T.
+Fire Pop:       {bytes: 0x00CD, isKeyItem: false, isBadge: false} # From Tayce T.
+Lime Candy:     {bytes: 0x00CE, isKeyItem: false, isBadge: false} # From Tayce T.
+Coco Pop:       {bytes: 0x00CF, isKeyItem: false, isBadge: false} # From Tayce T.
+Lemon Candy:    {bytes: 0x00D0, isKeyItem: false, isBadge: false} # From Tayce T.
+Jelly Pop:      {bytes: 0x00D1, isKeyItem: false, isBadge: false} # From Tayce T.
+Strange Cake:   {bytes: 0x00D2, isKeyItem: false, isBadge: false} # From Tayce T.
+Kooky Cookie:   {bytes: 0x00D3, isKeyItem: false, isBadge: false} # From Tayce T. (Koopa Koot) BUGGED check wiki!
+Frozen Fries:   {bytes: 0x00D4, isKeyItem: false, isBadge: false} # From Tayce T.
+Potato Salad:   {bytes: 0x00D5, isKeyItem: false, isBadge: false} # From Tayce T.
+Nutty Cake:     {bytes: 0x00D6, isKeyItem: false, isBadge: false} # From Tayce T.
+Maple Shroom:   {bytes: 0x00D7, isKeyItem: false, isBadge: false} # From Tayce T.
+Boiled Egg:     {bytes: 0x00D8, isKeyItem: false, isBadge: false} # From Tayce T.
+Yoshi Cookie:   {bytes: 0x00D9, isKeyItem: false, isBadge: false} # From Tayce T.
+Jelly Shroom:   {bytes: 0x00DA, isKeyItem: false, isBadge: false} # From Tayce T.
+#a:             {bytes: 0x00DB, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x00DC, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x00DD, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x00DE, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x00DF, isKeyItem: ?} # does nothing when collected from box
+Spin Smash:     {bytes: 0x00E0, isKeyItem: false, isBadge: true}
+Multibounce:    {bytes: 0x00E1, isKeyItem: false, isBadge: true}
+Power Plus:     {bytes: 0x00E2, isKeyItem: false, isBadge: true}
+Dodge Master:   {bytes: 0x00E3, isKeyItem: false, isBadge: true}
+Power Bounce:   {bytes: 0x00E4, isKeyItem: false, isBadge: true}
+Spike Shield:   {bytes: 0x00E5, isKeyItem: false, isBadge: true}
+First Attack:   {bytes: 0x00E6, isKeyItem: false, isBadge: true}
+HP Plus:        {bytes: 0x00E7, isKeyItem: false, isBadge: true}
+Quake Hammer:   {bytes: 0x00E8, isKeyItem: false, isBadge: true}
+Double Dip:     {bytes: 0x00E9, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x00EA, isKeyItem: ?} # present?
+Sleep Stomp:    {bytes: 0x00EB, isKeyItem: false, isBadge: true}
+Fire Shield:    {bytes: 0x00EC, isKeyItem: false, isBadge: true}
+Quick Change:   {bytes: 0x00ED, isKeyItem: false, isBadge: true}
+D-Down Pound:   {bytes: 0x00EE, isKeyItem: false, isBadge: true}
+Dizzy Stomp:    {bytes: 0x00EF, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x00F0, isKeyItem: ?} # wooden hammer charge badge?
+Pretty Lucky:   {bytes: 0x00F1, isKeyItem: false, isBadge: true}
+Feeling Fine:   {bytes: 0x00F2, isKeyItem: false, isBadge: true}
+Attack FX A:    {bytes: 0x00F3, isKeyItem: false, isBadge: true}
+All or Nothing: {bytes: 0x00F4, isKeyItem: false, isBadge: true}
+HP Drain:       {bytes: 0x00F5, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x00F6, isKeyItem: ?} # boots charge badge?
+Slow Go:        {bytes: 0x00F7, isKeyItem: false, isBadge: true}
+FP Plus:        {bytes: 0x00F8, isKeyItem: false, isBadge: true}
+Mega Rush:      {bytes: 0x00F9, isKeyItem: false, isBadge: true}
+Ice Power:      {bytes: 0x00FA, isKeyItem: false, isBadge: true}
+Defend Plus:    {bytes: 0x00FB, isKeyItem: false, isBadge: true}
+Pay-Off:        {bytes: 0x00FC, isKeyItem: false, isBadge: true}
+Money Money:    {bytes: 0x00FD, isKeyItem: false, isBadge: true}
+Chill Out:      {bytes: 0x00FE, isKeyItem: false, isBadge: true}
+Happy Heart:    {bytes: 0x00FF, isKeyItem: false, isBadge: true}
+Zap Tap:        {bytes: 0x0100, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0101, isKeyItem: ?} # angry face badge?
+Right On!:      {bytes: 0x0102, isKeyItem: false, isBadge: true}
+Runaway Pay:    {bytes: 0x0103, isKeyItem: false, isBadge: true}
+Refund:         {bytes: 0x0104, isKeyItem: false, isBadge: true}
+Flower Saver:   {bytes: 0x0105, isKeyItem: false, isBadge: true}
+Triple Dip:     {bytes: 0x0106, isKeyItem: false, isBadge: true}
+Hammer Throw:   {bytes: 0x0107, isKeyItem: false, isBadge: true}
+Mega Quake:     {bytes: 0x0108, isKeyItem: false, isBadge: true}
+Smash Charge:   {bytes: 0x0109, isKeyItem: false, isBadge: true}
+Jump Charge:    {bytes: 0x010A, isKeyItem: false, isBadge: true}
+S. Smash Chg.:  {bytes: 0x010B, isKeyItem: false, isBadge: true}
+S. Jump Chg.:   {bytes: 0x010C, isKeyItem: false, isBadge: true}
+Power Rush:     {bytes: 0x010D, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x010E, isKeyItem: ?} # golden boots badge?
+#a:             {bytes: 0x010F, isKeyItem: ?} # golden hammer badge?
+#a:             {bytes: 0x0110, isKeyItem: ?} # heart badge?
+Last Stand:     {bytes: 0x0111, isKeyItem: false, isBadge: true}
+Close Call:     {bytes: 0x0112, isKeyItem: false, isBadge: true}
+P-Up, D-Down:   {bytes: 0x0113, isKeyItem: false, isBadge: true}
+Lucky Day:      {bytes: 0x0114, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0115, isKeyItem: ?} # round pink heart badge?
+P-Down, D-Up:   {bytes: 0x0116, isKeyItem: false, isBadge: true}
+Power Quake:    {bytes: 0x0117, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0118, isKeyItem: ?} # blue boots badge?
+#a:             {bytes: 0x0119, isKeyItem: ?} # sun badge?
+Heart Finder:   {bytes: 0x011A, isKeyItem: false, isBadge: true}
+Flower Finder:  {bytes: 0x011B, isKeyItem: false, isBadge: true}
+Spin Attack:    {bytes: 0x011C, isKeyItem: false, isBadge: true}
+Dizzy Attack:   {bytes: 0x011D, isKeyItem: false, isBadge: true}
+I Spy:          {bytes: 0x011E, isKeyItem: false, isBadge: true}
+Speedy Spin:    {bytes: 0x011F, isKeyItem: false, isBadge: true}
+Bump Attack:    {bytes: 0x0120, isKeyItem: false, isBadge: true}
+Power Jump:     {bytes: 0x0121, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0122, isKeyItem: ?} # purple spike boots badge?
+Mega Jump:      {bytes: 0x0123, isKeyItem: false, isBadge: true}
+Power Smash:    {bytes: 0x0124, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0125, isKeyItem: ?} # purple spike hammer badge?
+Mega Smash:     {bytes: 0x0126, isKeyItem: false, isBadge: true}
+Power Smash 2:  {bytes: 0x0127, isKeyItem: false, isBadge: true} # present??
+Power Smash 3:  {bytes: 0x0128, isKeyItem: false, isBadge: true} # present??
+Deep Focus:     {bytes: 0x0129, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x012A, isKeyItem: ?} # golden deep focus badge?
+Shrink Smash:   {bytes: 0x012B, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x012C, isKeyItem: ?} # present?
+#a:             {bytes: 0x012D, isKeyItem: ?} # pink flower badge?
+D-Down Jump:    {bytes: 0x012E, isKeyItem: false, isBadge: true}
+Shrink Stomp:   {bytes: 0x012F, isKeyItem: false, isBadge: true}
+Damage Dodge:   {bytes: 0x0130, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0131, isKeyItem: ?} # snow boots badge?
+Deep Focus 2:   {bytes: 0x0132, isKeyItem: false, isBadge: true}
+Deep Focus 3:   {bytes: 0x0133, isKeyItem: false, isBadge: true}
+HP Plus 2:      {bytes: 0x0134, isKeyItem: false, isBadge: true}
+FP Plus 2:      {bytes: 0x0135, isKeyItem: false, isBadge: true}
+Happy Heart 2:  {bytes: 0x0136, isKeyItem: false, isBadge: true}
+Happy Heart 3:  {bytes: 0x0137, isKeyItem: false, isBadge: true}
+Flower Saver 2: {bytes: 0x0138, isKeyItem: false, isBadge: true}
+Flower Saver 3: {bytes: 0x0139, isKeyItem: false, isBadge: true}
+Damage Dodge 2: {bytes: 0x013A, isKeyItem: false, isBadge: true}
+Damage Dodge 3: {bytes: 0x013B, isKeyItem: false, isBadge: true}
+Power Plus 2:   {bytes: 0x013C, isKeyItem: false, isBadge: true}
+Power Plus 3:   {bytes: 0x013D, isKeyItem: false, isBadge: true}
+Defend Plus 2:  {bytes: 0x013E, isKeyItem: false, isBadge: true}
+Defend Plus 3:  {bytes: 0x013F, isKeyItem: false, isBadge: true}
+Happy Flower:   {bytes: 0x0140, isKeyItem: false, isBadge: true}
+Happy Flower 2: {bytes: 0x0141, isKeyItem: false, isBadge: true}
+Happy Flower 3: {bytes: 0x0142, isKeyItem: false, isBadge: true}
+Group Focus:    {bytes: 0x0143, isKeyItem: false, isBadge: true}
+Peekaboo:       {bytes: 0x0144, isKeyItem: false, isBadge: true}
+Attack FX D:    {bytes: 0x0145, isKeyItem: false, isBadge: true}
+Attack FX B:    {bytes: 0x0146, isKeyItem: false, isBadge: true}
+Attack FX E:    {bytes: 0x0147, isKeyItem: false, isBadge: true}
+Attack FX C:    {bytes: 0x0148, isKeyItem: false, isBadge: true}
+Attack FX F:    {bytes: 0x0149, isKeyItem: false, isBadge: true}
+HP Plus 3:      {bytes: 0x014A, isKeyItem: false, isBadge: true}
+HP Plus 4:      {bytes: 0x014B, isKeyItem: false, isBadge: true}
+HP Plus 5:      {bytes: 0x014C, isKeyItem: false, isBadge: true}
+FP Plus 3:      {bytes: 0x014D, isKeyItem: false, isBadge: true}
+FP Plus 4:      {bytes: 0x014E, isKeyItem: false, isBadge: true}
+FP Plus 5:      {bytes: 0x014F, isKeyItem: false, isBadge: true}
+#a:             {bytes: 0x0150, isKeyItem: ?} # emoticon badge?
+#a:             {bytes: 0x0151, isKeyItem: ?} # another Attack FX F?
+#a:             {bytes: 0x0152, isKeyItem: ?} # another Attack FX F?
+#a:             {bytes: 0x0153, isKeyItem: ?} # another Attack FX F?
+#a:             {bytes: 0x0154, isKeyItem: ?} # another Attack FX F?
+#a:             {bytes: 0x0155, isKeyItem: ?} # does nothing when collected from box
+Heart:          {bytes: 0x0156, isKeyItem: false, isBadge: false}
+Coin:           {bytes: 0x0157, isKeyItem: false, isBadge: false}
+#a:             {bytes: 0x0158, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x0159, isKeyItem: ?} # does nothing when collected from box
+#a:             {bytes: 0x015A, isKeyItem: ?} # does nothing when collected from box
+Flower:         {bytes: 0x015B, isKeyItem: false, isBadge: false}
+Star Piece:     {bytes: 0x015C, isKeyItem: false, isBadge: false}
+#a:             {bytes: 0x015D, isKeyItem: ?} # does nothing when collected from box
+#below here does nothing
