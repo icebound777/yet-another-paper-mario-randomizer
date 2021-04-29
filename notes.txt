@@ -1,5 +1,0 @@
-* Loading a Dry Dry Desert map with a Tweester in it as starting location
-    crashes on load
-* Getting flown away by a Tweester <without a partner>? crashes
-* Hitting an upgrade block without a partner gives "no suitable partner" message and
-    then crashes the game

@@ -1,0 +1,1721 @@
+machi
+    0x7e8270: 2147483648
+    0x7e8324: Mushroom
+    0x7e834c: Mushroom
+    0x7e83b0: Mushroom
+    0x7e83d4: Mushroom
+    0x7e83f8: Mushroom
+    0x7e841c: Mushroom
+    0x7e8440: Mushroom
+mac_00
+    0x7efffc: Star Piece
+    0x7f31b4: 4264967296
+    0x7f3338: 4264967296
+    0x7f3560: 4264967296
+    0x7f3ad4: 4264967302
+    0x7f3f30: Dictionary
+    0x7f5e04: 4264967296
+    0x7f6fe4: 4264967296
+    0x7f8f7c: Fright Jar
+    0x7f8f88: Sleepy Sheep
+    0x7f8f94: POW Block
+    0x7f8fa0: Fire Flower
+    0x7f8fac: Honey Syrup
+    0x7f8fb8: Mushroom
+    0x7f9b18: 4264967296
+    0x7f9d40: 4264967296
+    0x7fa2b4: 4264967302
+mac_01
+    0x80e280: 4264967296
+    0x80e4a8: 4264967296
+    0x80ea1c: 4264967302
+    0x81086c: Quick Change
+    0x810afc: Quick Change
+    0x81521c: 4264967296
+    0x817eb0: Mailbag
+    0x81c018: Calculator
+    0x8226dc: 4264967300
+    0x822740: 4264967300
+    0x822c34: 4264967301
+    0x822c98: 4264967301
+    0x822dc8: Star Piece
+mac_02
+    0x82855c: 4264967300
+    0x8285c0: 4264967300
+    0x828ab4: 4264967301
+    0x828b18: 4264967301
+    0x828f10: Odd Key
+    0x829150: Odd Key
+    0x82baf4: 4264967296
+    0x82bc78: 4264967296
+    0x82c5b4: Cake
+    0x82c778: Cake
+    0x82cc18: 4264967296
+    0x82cd78: 4264967304
+    0x82ce88: 4264967296
+    0x82d2a0: 4264967302
+    0x82d5bc: 4264967296
+    0x82db30: 4264967302
+    0x82e8a4: Frying Pan
+    0x82fbc4: Magical Seed 1
+mac_03
+    0x83a528: 4264967296
+    0x83a750: 4264967296
+    0x83acc4: 4264967302
+    0x83add4: Letter (21)
+    0x83aeb0: Letter (23)
+    0x83f93c: 4264967300
+    0x83f9a0: 4264967300
+    0x83fe94: 4264967301
+    0x83fef8: 4264967301
+    0x8410f8: 4264967300
+mac_04
+    0x845f1c: 4264967300
+    0x845f80: 4264967300
+    0x846474: 4264967301
+    0x8464d8: 4264967301
+    0x84683c: Stone Cap
+    0x846848: Dizzy Dial
+    0x846854: Thunder Rage
+    0x846860: Tasty Tonic
+    0x84686c: Volt Mushroom
+    0x846878: Super Shroom
+    0x84929c: 4264967296
+    0x8493f8: Toy Train
+    0x849820: Toy Train
+    0x84b61c: 65568
+    0x851be0: Storeroom Key
+    0x851f28: 131105
+    0x851fc4: 131201
+    0x851fe8: 131211
+    0x85200c: 131226
+mac_05
+    0x859904: 4264967296
+    0x859a88: 4264967296
+    0x859cb0: 4264967296
+    0x85a224: 4264967302
+    0x85fa8c: Lyrics
+    0x860304: 4264967296
+    0x8609e4: 4264967296
+mac_06
+tik_01
+tik_02
+    0x86d8d4: 4264967306
+    0x86d8f4: 4264967306
+    0x86d910: 4264967306
+    0x86d958: Shrink Stomp
+tik_03
+    0x871750: Snowman Doll
+    0x871788: Coin
+    0x8717c0: Coin
+tik_04
+tik_05
+    0x876694: 4264967306
+    0x8766b4: 4264967306
+    0x8766d0: 4264967306
+    0x876900: Power Smash
+tik_06
+tik_07
+    0x87dc24: Star Piece
+tik_08
+tik_09
+tik_10
+    0x888af0: Coin
+    0x888b38: Coin
+    0x888b80: Coin
+tik_12
+tik_14
+tik_15
+    0x89267c: Bump Attack
+    0x892760: 4264967307
+tik_17
+tik_18
+    0x89748c: Super Shroom
+tik_19
+tik_20
+    0x89d6f0: Shooting Star
+tik_21
+    0x89fd90: Coin
+    0x89fdc8: Coin
+    0x89fe00: Coin
+    0x89fe38: Coin
+    0x89fe70: Coin
+tik_22
+tik_23
+    0x8a5264: Maple Syrup
+    0x8a529c: Stop Watch
+    0x8a52d4: Volt Mushroom
+    0x8a530c: Coin
+tik_24
+    0x8a78ec: Life Shroom
+    0x8a7924: Coin
+    0x8a795c: Coin
+tik_25
+kgr_01
+kgr_02
+kmr_00
+kmr_02
+    0x8b7f5c: 4264967296
+    0x8b830c: 4264967296
+    0x8b8880: 4264967302
+    0x8b89c8: Lucky Day     # Reward for chain letter sidequest
+    0x8b8dd4: Dolly         #+ used in cutscene only?
+    0x8bab28: Power Jump    # given by Goompa at start of game
+    0x8bb768: Tape          #+ From Koopa Koot quest
+    0x8c519c: Shooting Star # on fixed veranda
+    0x8c728c: 4264967300
+    0x8c72f0: 4264967300
+    0x8c77e4: 4264967301
+    0x8c7848: 4264967301
+    0x8c79a8: Coin          # bush
+    0x8c7a20: Goomnut       # * hit tree with hammer
+kmr_03
+    0x8c9598: Repel Gel   # grey block > hidden block
+    0x8c9618: Coin        # 3 mid-air, 1 in hammerblock, 1 ??
+    0x8c9664: Coin
+    0x8c9688: Coin
+    0x8c96ac: Coin
+    0x8c96d0: Coin
+    0x8c96f4: Fire Flower # on ledge
+    0x8c99fc: 4264967300
+    0x8c9a60: 4264967300
+    0x8c9f54: 4264967301
+    0x8c9fb8: 4264967301
+    0x8ca1b8: Mushroom    # only 1 shroom. from tree near yellow block
+    0x8ca1e4: Mushroom
+kmr_04
+    0x8ccc0c: 4264967300
+    0x8ccc70: 4264967300
+    0x8cd164: 4264967301
+    0x8cd1c8: 4264967301
+    0x8cd39c: Hammer     #+ upgrade
+    0x8cd8ec: Coin       # 4x 1 in bushes, 2x 1 in trees, 1x 2 in center bush, 1x coin block
+    0x8cd934: Coin
+    0x8cd97c: Coin
+    0x8cd998: Coin
+    0x8cd9e0: Coin
+    0x8cda28: Coin
+    0x8cdb00: Coin
+    0x8cdb70: Coin
+    0x8cdc24: Dolly      #+ give to Goombaria for a Star Piece
+kmr_05
+    0x8d090c: Star Piece # end of upper left edge
+    0x8d0bbc: 4264967300
+    0x8d0c20: 4264967300
+    0x8d1114: 4264967301
+    0x8d1178: 4264967301
+    0x8d13b8: Coin       # 1 coin in tree on ledge, 1 ??
+    0x8d13e4: Coin
+kmr_06
+    0x8d3b04: Close Call
+    0x8d3c70: Mushroom
+kmr_07
+kmr_09
+    0x8d83d0: Coin
+    0x8d842c: Coin
+kmr_10
+    0x8d91c4: 4264967306
+    0x8d91e4: 4264967306
+    0x8d9200: 4264967306
+    0x8d9578: Sleepy Sheep
+    0x8d9518: Hammer Throw
+    0x8d98fc: 4264967300
+    0x8d9960: 4264967300
+    0x8d9e54: 4264967301
+    0x8d9eb8: 4264967301
+kmr_11
+    0x8db56c: 4264967300
+    0x8db5d0: 4264967300
+    0x8dbac4: 4264967301
+    0x8dbb28: 4264967301
+    0x8dff60: Super Shroom
+    0x8e0124: Super Shroom
+    0x8e07ac: 4264967300
+    0x8e0810: 4264967300
+    0x8e0d04: 4264967301
+    0x8e0d68: 4264967301
+    0x8e0f20: Star Piece
+    0x8e0f90: Coin
+kmr_12
+kmr_20
+    0x8f045c: 4264967300
+    0x8f04c0: 4264967300
+    0x8f09b4: 4264967301
+    0x8f0a18: 4264967301
+    0x8f1e7c: 4264967300
+    0x8f1ee0: 4264967300
+    0x8f23d4: 4264967301
+    0x8f2438: 4264967301
+    0x8f288c: 4264967300
+    0x8f28f0: 4264967300
+    0x8f2de4: 4264967301
+    0x8f2e48: 4264967301
+    0x8f69b4: 4264967296
+    0x8facdc: 4264967300
+    0x8fad40: 4264967300
+    0x8fb234: 4264967301
+    0x8fb298: 4264967301
+kmr_21
+kmr_22
+kmr_23
+kmr_24
+kmr_30
+iwa_00
+    0x90d2d8: Coin
+    0x90d2fc: Coin
+    0x90d320: Coin
+    0x90d358: Sleepy Sheep
+    0x90ebd4: Whacka's Bump
+iwa_01
+    0x912fe0: Quake Hammer
+    0x913004: Letter (01)
+iwa_02
+    0x9171f4: Star Piece
+    0x9186c4: Magical Seed 2
+iwa_03
+    0x91a1b4: 4264967306
+    0x91a1d4: 4264967306
+    0x91a1f0: 4264967306
+    0x91a45c: Coin
+    0x91a494: Mushroom
+    0x91a4cc: Honey Syrup
+    0x91a4f0: Letter (25)
+    0x91a514: Star Piece
+    0x91a538: Coin
+    0x91a55c: Coin
+    0x91a580: Coin
+    0x91a5a4: Coin
+    0x91a5c8: Coin
+    0x91a5ec: Coin
+    0x91a610: Coin
+    0x91a634: Coin
+    0x91a3ac: Damage Dodge 2
+iwa_04
+    0x91cf70: Letter (10)
+iwa_10
+    0x924898: 4264967296
+    0x925a04: Letter (01)
+    0x925a14: Letter (25)
+    0x925a24: Letter (10)
+    0x9260fc: 4264967300
+    0x926160: 4264967300
+    0x926654: 4264967301
+    0x9266b8: 4264967301
+    0x9267f0: Coin
+    0x926838: Coin
+    0x926880: Coin
+    0x9268c8: Egg
+iwa_11
+dro_01
+    0x962a9c: 4264967296
+    0x962cc4: 4264967296
+    0x963238: 4264967302
+    0x964334: Melody
+    0x9666fc: Thunder Bolt
+    0x966708: Dusty Hammer
+    0x966714: Honey Syrup
+    0x966720: Dried Shroom
+    0x96672c: Dried Pasta
+    0x966738: Mushroom
+    0x966a40: Red Jar
+    0x96883c: 4264967300
+    0x9688a0: 4264967300
+    0x968d94: 4264967301
+    0x968df8: 4264967301
+    0x968f38: Coin
+dro_02
+    0x96cd9c: Letter (08)
+    0x9715c4: Crystal Ball
+    0x9719fc: 4264967296
+    0x971b80: 4264967296
+    0x974494: 4264967296
+    0x974a08: 4264967302
+    0x976048: Pulse Stone
+sbk_00
+    0x929a20: Fright Jar
+    0x929a58: Coin
+sbk_01
+sbk_02
+    0x92b500: Pulse Stone
+    0x92e3a8: 4264967296
+    0x92f2a0: 4264967296
+sbk_03
+sbk_04
+sbk_05
+    0x9310fc: Fire Flower
+sbk_06
+    0x932c38: Coin
+    0x9333dc: 4264967300
+    0x933440: 4264967300
+    0x933934: 4264967301
+    0x933998: 4264967301
+    0x933ad8: Coin
+sbk_10
+    0x933ff0: Thunder Rage
+sbk_11
+    0x934578: Coin
+sbk_12
+sbk_13
+    0x935d18: Coin
+sbk_14
+    0x936c38: Coin
+    0x936c70: Honey Syrup
+sbk_15
+sbk_16
+    0x937d7c: 4264967300
+    0x937de0: 4264967300
+    0x9382d4: 4264967301
+    0x938338: 4264967301
+sbk_20
+    0x938abc: Mushroom
+    0x938b8c: Super Shroom
+    0x938c5c: Ultra Shroom
+    0x938cf8: Mushroom
+    0x938d48: Super Shroom
+    0x938d98: Ultra Shroom
+    0x938e18: Coin
+sbk_21
+sbk_22
+    0x939e68: Coin
+    0x93a630: Coin
+    0x93a668: Coin
+    0x93a6a0: Coin
+    0x93a6d8: Coin
+    0x93a710: Fire Flower
+sbk_23
+sbk_24
+    0x93b408: Coin
+    0x93b740: Runaway Pay
+    0x93b9ec: 4264967300
+    0x93ba50: 4264967300
+    0x93bf44: 4264967301
+    0x93bfa8: 4264967301
+sbk_25
+    0x93c9e8: Coin
+    0x93d38c: 4264967300
+    0x93d3f0: 4264967300
+    0x93d8e4: 4264967301
+    0x93d948: 4264967301
+sbk_26
+    0x93e3d8: Coin
+    0x93edfc: 4264967300
+    0x93ee60: 4264967300
+    0x93f354: 4264967301
+    0x93f3b8: 4264967301
+    0x93f4f8: Coin
+sbk_30
+    0x9416c4: 4264967296
+    0x941848: 4264967296
+    0x941a70: 4264967296
+    0x941fe4: 4264967302
+    0x94363c: 4264967300
+    0x9436a0: 4264967300
+    0x943b94: 4264967301
+    0x943bf8: 4264967301
+sbk_31
+    0x944518: Coin
+sbk_32
+    0x945008: Coin
+sbk_33
+sbk_34
+    0x946d8c: 4264967296
+    0x946fb4: 4264967296
+    0x947528: 4264967302
+    0x947efc: 4264967300
+    0x947f60: 4264967300
+    0x948454: 4264967301
+    0x9484b8: 4264967301
+    0x9485f8: Coin
+sbk_35
+    0x948e08: Coin
+    0x9495ac: 4264967300
+    0x949610: 4264967300
+    0x949b04: 4264967301
+    0x949b68: 4264967301
+    0x949ca8: Coin
+sbk_36
+    0x94a6ec: 4264967300
+    0x94a750: 4264967300
+    0x94ac44: 4264967301
+    0x94aca8: 4264967301
+    0x94ade8: Coin
+    0x94ae3c: Coin
+    0x94af2c: Coin
+    0x94afe8: Letter (03)
+sbk_40
+    0x94b848: Coin
+sbk_41
+sbk_42
+    0x94ca28: Coin
+sbk_43
+    0x94d550: Coin
+sbk_44
+    0x94dad8: Coin
+sbk_45
+    0x94e934: Stop Watch
+    0x94e958: Spin Attack
+sbk_46
+    0x94f0b8: Coin
+    0x94fcdc: 4264967300
+    0x94fd40: 4264967300
+    0x950234: 4264967301
+    0x950298: 4264967301
+    0x95040c: Coin
+    0x950590: Coin
+    0x9505c8: Life Shroom
+sbk_50
+sbk_51
+    0x950ea8: Coin
+sbk_52
+sbk_53
+sbk_54
+sbk_55
+    0x95379c: 4264967300
+    0x953800: 4264967300
+    0x953cf4: 4264967301
+    0x953d58: 4264967301
+    0x953e98: Coin
+    0x953f70: Tasty Tonic
+sbk_56
+    0x955d3c: 4264967300
+    0x955da0: 4264967300
+    0x956294: 4264967301
+    0x9562f8: 4264967301
+    0x956438: Lemon
+    0x95648c: Lime
+    0x9564e0: Coin
+    0x956638: Coin
+sbk_60
+sbk_61
+    0x957300: Attack FX C
+sbk_62
+sbk_63
+sbk_64
+    0x958900: Coin
+sbk_65
+sbk_66
+    0x959328: Coin
+    0x95a4bc: 4264967300
+    0x95a520: 4264967300
+    0x95aa14: 4264967301
+    0x95aa78: 4264967301
+    0x95ac20: Coin
+sbk_99
+isk_01
+isk_02
+    0x978b80: Ruins Key
+    0x9791a4: Spike Shield
+isk_03
+    0x97b28c: Ruins Key
+isk_04
+    0x97c6c0: Ruins Key
+isk_05
+    0x97fd0c: Pyramid Stone
+isk_06
+    0x980d4c: Star Piece
+    0x980d70: Ruins Key
+isk_07
+    0x9829a0: Ruins Key
+    0x982c74: Artifact
+    0x982e78: Ruins Key
+    0x983ec0: Ruins Key
+isk_08
+isk_09
+    0x986ca4: 4264967306
+    0x986cc4: 4264967306
+    0x986ce0: 4264967306
+    0x986f48: Slow Go
+isk_10
+isk_11
+    0x98c330: Lunar Stone
+    0x98c334: Pyramid Stone
+    0x98c338: Diamond Stone
+    0x98c464: 4124967452
+    0x98c4b0: 4124967453
+    0x98c4fc: 4124967454
+    0x98c548: 4124967455
+    0x98c594: 4124967456
+    0x98c6c8: 4124967452
+    0x98c830: 4124967452
+    0x98c990: 4124967453
+    0x98caf8: 4124967453
+    0x98cc58: 4124967454
+    0x98cdc0: 4124967454
+    0x98cf20: 4124967455
+    0x98d088: 4124967455
+    0x98d1e8: 4124967456
+    0x98d350: 4124967456
+    0x98d3c0: Ruins Key
+isk_12
+    0x98dc80: Ruins Key
+isk_13
+    0x991abc: Lunar Stone
+isk_14
+    0x994714: Diamond Stone
+isk_16
+isk_18
+isk_19
+trd_00
+    0x99b084: 4264967306
+    0x99b0a4: 4264967306
+    0x99b0c0: 4264967306
+    0x99b108: Refund
+    0x99b154: FP Plus 2
+trd_01
+    0x99f57c: Fortress Key
+    0x99fcfc: Smash Charge
+    0x99fd40: Fortress Key
+    0x9a04f4: Fortress Key
+trd_02
+    0x9a350c: Fortress Key
+trd_03
+    0x9a6074: Fortress Key
+    0x9a6098: Fortress Key
+    0x9a60bc: Power Bounce
+trd_04
+    0x9ac19c: Fortress Key
+trd_05
+trd_06
+trd_07
+trd_08
+    0x9bc16c: Fortress Key
+    0x9bc420: Coin
+    0x9bc498: Coin
+trd_09
+    0x9bde54: Maple Syrup
+trd_10
+nok_01
+    0x9cda08: 4264967296
+    0x9cdc30: 4264967296
+    0x9ce1a4: 4264967302
+    0x9ce718: Coin
+    0x9d4f4c: Dizzy Dial
+    0x9d4f58: POW Block
+    0x9d4f64: Fire Flower
+    0x9d4f70: Honey Syrup
+    0x9d4f7c: Volt Mushroom
+    0x9d4f88: Mushroom
+    0x9d61fc: 4264967300
+    0x9d6260: 4264967300
+    0x9d6754: 4264967301
+    0x9d67b8: 4264967301
+    0x9d68f0: Coin
+    0x9d6a48: Dried Shroom
+    0x9d6a80: Koopa Leaf
+    0x9d6abc: Coin
+nok_02
+    0x9dc510: 4264967296
+    0x9dce20: Star Piece
+    0x9e07cc: 4264967296
+    0x9e0a3c: 4264967296
+    0x9e0fb0: 4264967302
+    0x9e1eec: Coin
+    0x9e5644: Koopa Legends
+    0x9e94dc: 4264967296
+    0x9e9660: 4264967296
+    0x9e9d3c: Silver Credit
+    0x9e9da4: Gold Credit
+    0x9ea8ac: 4264967300
+    0x9ea910: 4264967300
+    0x9eae04: 4264967301
+    0x9eae68: 4264967301
+    0x9eafa4: Koopa Leaf
+    0x9eb1c0: Coin
+nok_03
+    0x9ecb9c: HP Plus 2
+nok_04
+    0x9f0f64: Kooper's Shell
+    0x9f32e4: Kooper's Shell
+    0x9f3614: Heart
+    0x9f3668: Coin
+nok_11
+    0x9f7074: Coin
+    0x9f70d0: Dizzy Attack
+    0x9f7150: Fright Jar
+    0x9f76fc: 4264967300
+    0x9f7760: 4264967300
+    0x9f7c54: 4264967301
+    0x9f7cb8: 4264967301
+nok_12
+    0x9fd2c0: POW Block
+    0x9fd3b8: Star Piece
+    0x9fd3dc: Sleepy Sheep
+    0x9fe27c: 4264967300
+    0x9fe2e0: 4264967300
+    0x9fe7d4: 4264967301
+    0x9fe838: 4264967301
+nok_13
+    0xa02164: Attack FX B
+    0xa0238c: Attack FX B
+    0xa023f0: Honey Syrup
+nok_14
+    0xa055d4: Coin
+    0xa055f8: Coin
+    0xa0561c: Coin
+    0xa05640: Coin
+    0xa05664: Coin
+    0xa056bc: Thunder Bolt
+    0xa05728: Fire Flower
+nok_15
+    0xa0b43c: 4264967300
+    0xa0b4a0: 4264967300
+    0xa0b994: 4264967301
+    0xa0b9f8: 4264967301
+    0xa0bb38: Star Piece
+hos_00
+    0xa0f3b8: Lucky Star
+    0xa0f6d4: 4264967296
+hos_01
+    0xa158a4: Star Piece
+hos_02
+hos_03
+    0xa1fa6c: 4264967300
+    0xa1fad0: 4264967300
+    0xa1ffc4: 4264967301
+    0xa20028: 4264967301
+    0xa20530: 4264967301
+    0xa20594: 4264967301
+    0xa26c5c: Stop Watch
+    0xa26c68: Shooting Star
+    0xa26c74: Super Soda
+    0xa26c80: Maple Syrup
+    0xa26c8c: Life Shroom
+    0xa26c98: Super Shroom
+hos_04
+hos_05
+hos_06
+    0xa3c208: 4264967296
+    0xa3c430: 4264967296
+    0xa3c9a4: 4264967302
+    0xa3cfb4: 4264967296
+    0xa3db6c: 4264967296
+    0xa3ecfc: Autograph (M)
+    0xa3f628: 4264967296
+    0xa3f6ac: 4264967296
+hos_10
+hos_20
+kpa_01
+    0xa48520: POW Block
+kpa_03
+    0xa4be00: Shooting Star
+kpa_04
+kpa_08
+kpa_09
+kpa_10
+    0xa52874: Life Shroom
+kpa_11
+    0xa53dc0: Castle Key (B)
+    0xa53e00: Life Shroom
+    0xa53fb4: Castle Key (B)
+    0xa54028: Castle Key (B)
+kpa_12
+kpa_13
+kpa_14
+    0xa58e1c: Castle Key (B)
+    0xa59010: Mystery?
+    0xa59034: Thunder Rage
+kpa_15
+    0xa59f04: 4264967306
+    0xa59f24: 4264967306
+    0xa59f40: 4264967306
+    0xa59f88: Castle Key (B)
+kpa_16
+kpa_17
+    0xa5cb44: 4294967295
+    0xa5cb6c: Tasty Tonic
+    0xa5cba4: Life Shroom
+kpa_32
+kpa_33
+kpa_40
+kpa_41
+kpa_50
+kpa_51
+kpa_52
+    0xa68510: Castle Key (B)
+kpa_53
+kpa_60
+    0xa6d010: Castle Key (B)
+    0xa6d218: Deep Focus 3
+kpa_61
+    0xa71fe0: Super Shroom
+    0xa72018: Maple Syrup
+    0xa72050: Super Shroom
+    0xa72074: Jammin Jelly
+kpa_62
+    0xa72740: Castle Key (B)
+    0xa72948: Deep Focus 3
+kpa_63
+kpa_70
+kpa_81
+    0xa79314: 4264967296
+    0xa79498: 4264967296
+kpa_82
+    0xa7b1dc: 4264967296
+    0xa7b360: 4264967296
+kpa_83
+kpa_90
+kpa_91
+    0xa8bef8: Prison Key
+    0xa8bf6c: Prison Key
+    0xa8c230: Prison Key
+    0xa8c434: Prison Key
+kpa_94
+kpa_95
+    0xa8e450: Prison Key
+    0xa8e654: Prison Key
+    0xa92138: Prison Key
+    0xa921ac: Prison Key
+kpa_96
+    0xa92b0c: Mystery?
+    0xa92b18: Dizzy Dial
+    0xa92b24: POW Block
+    0xa92b30: Thunder Rage
+    0xa92b3c: Maple Syrup
+    0xa92b48: Super Shroom
+kpa_100
+    0xa933dc: Castle Key (B)
+kpa_101
+    0xa936dc: Ultra Shroom
+kpa_102
+kpa_111
+    0xa9c760: Super Shroom
+    0xa9c798: Maple Syrup
+kpa_112
+kpa_113
+    0xa9da60: Castle Key (B)
+kpa_114
+kpa_115
+kpa_116
+kpa_117
+kpa_118
+kpa_119
+    0xaa272c: Castle Key (B)
+kpa_121
+kpa_130
+kpa_133
+    0xaa839c: Castle Key (B)
+kpa_134
+    0xaac538: Castle Key (B)
+    0xaac7f8: Maple Syrup
+osr_00
+osr_01
+    0xab12c8: 4264967296
+    0xab14f0: 4264967296
+    0xab1a64: 4264967302
+osr_02
+    0xab2b60: Ultra Shroom
+osr_03
+osr_04
+kkj_00
+kkj_01
+kkj_02
+kkj_03
+kkj_10
+    0xacc510: Castle Key (P)
+kkj_11
+    0xacfd40: Castle Key (P)
+kkj_12
+    0xad51a0: 4264967296
+kkj_13
+kkj_14
+    0xae12e4: Lucky Star
+kkj_15
+kkj_16
+    0xaf1b88: Life Shroom
+    0xaf1bac: Power Rush
+kkj_17
+    0xaf24b8: Deep Focus
+    0xaf2ad4: 4264967296
+    0xaf2b58: 4264967296
+kkj_18
+    0xaf4c6c: 4264967296
+    0xaf4df0: 4264967296
+    0xaf62d4: 4244967296
+    0xaf6a2c: 4264967296
+    0xaf6cf4: 4244967296
+kkj_19
+    0xaf951c: 4264967296
+    0xaf96a0: 4264967296
+    0xaf9780: Sugar
+    0xaf9784: Salt
+    0xaf9788: Egg (KeyItem)
+    0xaf978c: Strawberry
+    0xaf9790: None
+    0xaf9794: Butter
+    0xaf9798: Cleanser
+    0xaf979c: Water
+    0xaf97a0: Flour
+    0xaf97a4: Milk
+    0xaf97cc: None
+    0xaf9800: None
+    0xaf9840: None
+    0xaf9874: None
+    0xaf98b4: None
+    0xaf98e8: None
+    0xaf9928: None
+    0xaf995c: None
+    0xaf999c: None
+    0xaf99d0: None
+    0xaf9a10: None
+    0xaf9a44: None
+    0xaf9ff4: 4264967307
+    0xafa250: 4264967307
+    0xafa51c: None
+    0xafa6f0: None
+    0xafa72c: None
+    0xafa780: None
+    0xafc52c: None
+    0xafcd50: None
+    0xafcdb0: None
+    0xafd000: None
+    0xafd3c8: None
+    0xafd408: None
+kkj_20
+    0xafe494: 4264967306
+    0xafe4b4: 4264967306
+    0xafe4d0: 4264967306
+    0xafe564: 4264967306
+    0xafe518: Last Stand
+kkj_21
+kkj_22
+kkj_23
+kkj_24
+kkj_25
+kkj_26
+kkj_26
+kkj_27
+kkj_28
+kkj_29
+    0xb15dfc: 4264967306
+jan_00
+    0xb22a28: 4264967296
+    0xb22c50: 4264967296
+    0xb231c4: 4264967302
+    0xb25dac: Coin
+    0xb25dd0: Coin
+    0xb25e04: Stop Watch
+    0xb2782c: 4264967300
+    0xb27890: 4264967300
+    0xb27d84: 4264967301
+    0xb27de8: 4264967301
+    0xb27f2c: Coconut
+jan_01
+    0xb2b43c: Letter (11)
+    0xb2b498: Repel Gel
+    0xb2b4f4: Mystery?
+    0xb2b518: Coin
+    0xb2b53c: Coin
+    0xb2b80c: 4264967300
+    0xb2b870: 4264967300
+    0xb2bd64: 4264967301
+    0xb2bdc8: 4264967301
+    0xb2bf40: Coconut
+    0xb2bf98: Coconut
+    0xb2bff0: Coconut
+    0xb2c048: Coconut
+    0xb2c0a0: Coconut
+jan_02
+    0xb2f574: 4264967296
+    0xb31fa4: Jade Raven
+    0xb340cc: 4264967300
+    0xb34130: 4264967300
+    0xb34624: 4264967301
+    0xb34688: 4264967301
+    0xb34800: Coconut
+    0xb34858: Coconut
+jan_03
+    0xb3958c: Snowman Doll
+    0xb39598: Thunder Rage
+    0xb395a4: Fire Flower
+    0xb395b0: Tasty Tonic
+    0xb395bc: Honey Syrup
+    0xb395c8: Super Shroom
+    0xb3c0d0: 4264967296
+    0xb3c254: 4264967296
+    0xb3eaa4: 4264967296
+    0xb3f018: 4264967302
+    0xb3fca4: Melon
+    0xb40e04: Magical Seed 4
+    0xb43ddc: 4264967300
+    0xb43e40: 4264967300
+    0xb44334: 4264967301
+    0xb44398: 4264967301
+    0xb444dc: Coconut
+jan_04
+    0xb46044: 4264967306
+    0xb46064: 4264967306
+    0xb46080: 4264967306
+    0xb460c8: Volcano Vase
+    0xb46180: Star Piece
+    0xb4825c: 4264967300
+    0xb482c0: 4264967300
+    0xb487b4: 4264967301
+    0xb48818: 4264967301
+    0xb489c8: Letter (04)
+    0xb49a6c: 4264967300
+    0xb49ad0: 4264967300
+    0xb49fc4: 4264967301
+    0xb4a028: 4264967301
+jan_05
+    0xb4e2cc: 4264967300
+    0xb4e330: 4264967300
+    0xb4e824: 4264967301
+    0xb4e888: 4264967301
+    0xb4ec70: Coin
+    0xb4ecb8: Coin
+    0xb51a6c: 4264967300
+    0xb51ad0: 4264967300
+    0xb51fc4: 4264967301
+    0xb52028: 4264967301
+    0xb52230: Coin
+    0xb52400: Power Quake
+jan_06
+    0xb55450: Jade Raven
+    0xb55860: Jade Raven
+    0xb55e34: Jade Raven
+    0xb56a6c: 4264967300
+    0xb56ad0: 4264967300
+    0xb56fc4: 4264967301
+    0xb57028: 4264967301
+    0xb57168: Coin
+    0xb572f0: Coin
+    0xb5892c: 4264967300
+    0xb58990: 4264967300
+    0xb58e84: 4264967301
+    0xb58ee8: 4264967301
+jan_07
+    0xb5cccc: 4264967300
+    0xb5cd30: 4264967300
+    0xb5d224: 4264967301
+    0xb5d288: 4264967301
+    0xb5d3d8: Coin
+    0xb5d70c: 4264967300
+    0xb5d770: 4264967300
+    0xb5dc64: 4264967301
+    0xb5dcc8: 4264967301
+jan_08
+    0xb60efc: 4264967300
+    0xb60f60: 4264967300
+    0xb61454: 4264967301
+    0xb614b8: 4264967301
+    0xb61c2c: Coin
+    0xb61c74: Coin
+    0xb62758: Coin
+    0xb6277c: Coin
+    0xb627a0: Coin
+    0xb627fc: Thunder Rage
+    0xb64e0c: 4264967300
+    0xb64e70: 4264967300
+    0xb65364: 4264967301
+    0xb653c8: 4264967301
+    0xb65578: Coin
+    0xb655f8: Coin
+jan_09
+    0xb68a4c: 4264967300
+    0xb68ab0: 4264967300
+    0xb68fa4: 4264967301
+    0xb69008: 4264967301
+    0xb69a3c: Coin
+    0xb69d90: Coin
+    0xb69e78: Coin
+    0xb6b67c: 4264967300
+    0xb6b6e0: 4264967300
+    0xb6bbd4: 4264967301
+    0xb6bc38: 4264967301
+    0xb6bde8: Coin
+    0xb6be68: Fright Jar
+jan_10
+    0xb6f44c: 4264967300
+    0xb6f4b0: 4264967300
+    0xb6f9a4: 4264967301
+    0xb6fa08: 4264967301
+    0xb6fecc: 4264967300
+    0xb6ff30: 4264967300
+    0xb70424: 4264967301
+    0xb70488: 4264967301
+    0xb707cc: Star Piece
+jan_11
+jan_12
+    0xb75120: Egg
+    0xb754cc: 4264967300
+    0xb75530: 4264967300
+    0xb75a24: 4264967301
+    0xb75a88: 4264967301
+    0xb75bd0: Coin
+    0xb75d98: Stone Cap
+jan_13
+    0xb7973c: 4264967300
+    0xb797a0: 4264967300
+    0xb79c94: 4264967301
+    0xb79cf8: 4264967301
+    0xb79e40: Coin
+    0xb79fe4: Volt Mushroom
+jan_14
+    0xb7c1d0: Fire Flower
+    0xb7c290: Mushroom
+    0xb7c8ac: 4264967300
+    0xb7c910: 4264967300
+    0xb7ce04: 4264967301
+    0xb7ce68: 4264967301
+jan_15
+    0xb7f71c: 4264967300
+    0xb7f780: 4264967300
+    0xb7fc74: 4264967301
+    0xb7fcd8: 4264967301
+    0xb7fe78: Coin
+jan_16
+    0xb82f4c: 4264967300
+    0xb82fb0: 4264967300
+    0xb834a4: 4264967301
+    0xb83508: 4264967301
+jan_17
+jan_18
+    0xb83e1c: Happy Heart 2
+jan_19
+jan_22
+    0xb88964: RedPearl??
+    0xb8d8bc: Jammin Jelly
+    0xb8e47c: 4264967300
+    0xb8e4e0: 4264967300
+    0xb8e9d4: 4264967301
+    0xb8ea38: 4264967301
+    0xb8f2ec: 4264967300
+    0xb8f350: 4264967300
+    0xb8f844: 4264967301
+    0xb8f8a8: 4264967301
+jan_23
+mim_01
+mim_02
+    0xb99368: 4264967296
+mim_03
+mim_04
+    0xba00bc: Magical Seed 3
+mim_05
+mim_06
+mim_07
+mim_08
+    0xbb0e50: HP Plus
+mim_09
+    0xbb4150: FP Plus
+mim_10
+mim_11
+    0xbba2b0: Volt Mushroom
+    0xbbab1c: 4264967300
+    0xbbab80: 4264967300
+    0xbbb074: 4264967301
+    0xbbb0d8: 4264967301
+    0xbbb210: Strange Leaf
+mim_12
+obk_01
+    0xbbedf0: Weight
+    0xbbf9fc: 4264967296
+    0xbc0030: Weight
+    0xbc0358: Boo's Portrait
+    0xbc0ca0: Boo's Portrait
+    0xbc13b0: 4264967296
+    0xbc15d8: 4264967296
+    0xbc1b4c: 4264967302
+    0xbc1f20: Old Photo
+obk_02
+obk_03
+    0xbc57cc: Mystery?
+    0xbc57d8: Stop Watch
+    0xbc57e4: Snowman Doll
+    0xbc57f0: Maple Syrup
+    0xbc57fc: Life Shroom
+    0xbc5808: Super Shroom
+    0xbc61d0: Super Shroom
+    0xbc6208: 4294967295
+    0xbc6230: 4294967295
+    0xbc726c: 4264967296
+    0xbc7494: 4264967296
+    0xbc7a08: 4264967302
+obk_04
+    0xbc8ec8: None
+    0xbc8f68: Maple Syrup
+    0xbc8fa0: 4294967295
+    0xbc8fc8: 4294967295
+    0xbcbdac: Super Boots
+obk_05
+    0xbce5ec: Apple
+    0xbce614: 4294967295
+    0xbce63c: Apple
+    0xbce664: 4294967295
+obk_06
+    0xbceaec: Boo's Portrait
+    0xbceb8c: 4294967295
+    0xbcebb4: Star Piece
+obk_07
+    0xbd0c74: 4264967306
+    0xbd0c94: 4264967306
+    0xbd0cb0: 4264967306
+    0xbd0cf8: Weight
+    0xbd1c80: Record
+obk_08
+    0xbd6d1c: Record
+    0xbd6d48: Record
+    0xbd9ea8: Record
+obk_09
+arn_02
+    0xbde48c: Dizzy Dial
+    0xbde4b0: Letter (07)
+    0xbde4e8: Coin
+    0xbde520: Coin
+    0xbde558: Repel Gel
+arn_03
+    0xbe0b18: 4264967296
+    0xbe1354: Package
+    0xbe3590: Coin
+arn_04
+    0xbe7810: Super Shroom
+    0xbe7848: Coin
+    0xbe78a0: Star Piece
+arn_05
+arn_07
+    0xbeee30: Mystical Key
+arn_08
+arn_09
+arn_10
+arn_11
+arn_12
+arn_13
+dgb_00
+dgb_01
+    0xc014c0: Castle Key (T)
+dgb_02
+dgb_03
+    0xc34408: Castle Key (T)
+    0xc34e1c: Star Piece
+dgb_04
+dgb_05
+dgb_06
+    0xc3d774: 4264967306
+    0xc3d794: 4264967306
+    0xc3d7b0: 4264967306
+    0xc3d7f8: Castle Key (T)
+dgb_07
+    0xc3f35c: Star Piece
+    0xc3f394: 4294967295
+    0xc3f3bc: 4294967295
+dgb_08
+dgb_09
+dgb_10
+    0xc4d060: 4104967301
+dgb_11
+    0xc4de70: D-Down Jump
+dgb_12
+    0xc4e834: 4264967306
+    0xc4e854: 4264967306
+    0xc4e870: 4264967306
+    0xc4e8b8: Castle Key (T)
+dgb_13
+    0xc4ebdc: Mega Rush
+    0xc4ec00: Coin
+    0xc4ec24: Coin
+    0xc4ec48: Coin
+    0xc4ec6c: Coin
+    0xc4ec90: Coin
+    0xc4ecb4: Coin
+dgb_14
+    0xc4f4d0: Maple Syrup
+dgb_15
+    0xc50ed0: Castle Key (T)
+dgb_16
+    0xc53ccc: Castle Key (T)
+dgb_17
+dgb_18
+    0xc596f4: 4264967306
+    0xc59714: 4264967306
+    0xc59730: 4264967306
+    0xc59788: Mystical Key
+kzn_01
+kzn_02
+    0xc5f270: 4264967296
+    0xc5f498: 4264967296
+    0xc5fa0c: 4264967302
+kzn_03
+    0xc64fd0: 4264967296
+    0xc651f8: 4264967296
+    0xc6576c: 4264967302
+    0xc6739c: Fire Shield
+    0xc67408: POW Block
+    0xc67440: Coin
+    0xc67478: Coin
+    0xc674b0: Coin
+    0xc674e8: Coin
+kzn_04
+    0xc6a6a0: Coin
+    0xc6a718: Coin
+    0xc6a790: Coin
+kzn_05
+kzn_06
+    0xc6daf0: Life Shroom
+kzn_07
+kzn_08
+    0xc76104: 4264967306
+    0xc76124: 4264967306
+    0xc76140: 4264967306
+    0xc76188: Dizzy Stomp
+kzn_09
+    0xc7c050: 4264967296
+    0xc7c278: 4264967296
+    0xc7c7ec: 4264967302
+kzn_10
+kzn_11
+    0xc83bd4: Coin
+    0xc83c4c: Coin
+    0xc83cc4: Coin
+kzn_17
+    0xc89c44: 4264967296
+    0xc89e6c: 4264967296
+    0xc8a3e0: 4264967302
+kzn_18
+kzn_19
+    0xc91a44: 4264967296
+    0xc91c6c: 4264967296
+    0xc921e0: 4264967302
+    0xc95e90: Super Shroom
+    0xc95ec8: Maple Syrup
+kzn_20
+    0xc977d0: 4264967296
+    0xc979f8: 4264967296
+    0xc97f6c: 4264967302
+kzn_22
+kzn_23
+flo_00
+    0xca64b8: Fertile Soil
+    0xca64bc: Magical Bean
+    0xca64c0: Miracle Water
+    0xca65fc: Fertile Soil
+    0xca6824: Magical Bean
+    0xca6a48: Miracle Water
+    0xca6dcc: Fertile Soil
+    0xca6df8: Magical Bean
+flo_03
+    0xca8ed8: Magical Bean
+    0xcab99c: 4264967300
+    0xcaba00: 4264967300
+    0xcabef4: 4264967301
+    0xcabf58: 4264967301
+    0xcac098: Red Berry
+    0xcac0b4: Red Berry
+flo_07
+    0xcad6b8: 4264967300
+    0xcad71c: 4264967300
+    0xcadc10: 4264967301
+    0xcadc74: 4264967301
+    0xcae15c: Crystal Berry
+    0xcae188: Crystal Berry
+    0xcae398: Fertile Soil
+    0xcae654: Crystal Berry
+    0xcae680: Crystal Berry
+flo_08
+    0xcb1398: Star Piece
+    0xcb1e74: 4264967296
+    0xcb2118: 4264967304
+    0xcb24a4: 4264967304
+    0xcb3efc: 4264967300
+    0xcb3f60: 4264967300
+    0xcb4454: 4264967301
+    0xcb44b8: 4264967301
+    0xcb45f8: Blue Berry
+    0xcb4614: Blue Berry
+    0xcb4b70: 4264967306
+flo_09
+    0xcb74b0: 4264967306
+    0xcb7afc: 4264967300
+    0xcb7b60: 4264967300
+    0xcb8054: 4264967301
+    0xcb80b8: 4264967301
+    0xcb8290: Happy Flower 2
+flo_10
+    0xcba84c: Water Stone
+    0xcbbc44: Miracle Water
+    0xcbc594: Water Stone
+    0xcbc760: Water Stone
+    0xcbd50c: 4264967300
+    0xcbd570: 4264967300
+    0xcbda64: 4264967301
+    0xcbdac8: 4264967301
+    0xcbdc10: Jammin Jelly
+flo_11
+flo_12
+    0xcc1f34: 4264967300
+    0xcc1f98: 4264967300
+    0xcc248c: 4264967301
+    0xcc24f0: 4264967301
+    0xcc273c: 4264967296
+    0xcc2c5c: Water Stone
+    0xcc3054: Crystal Berry
+    0xcc30a4: Water Stone
+    0xcc32ec: Water Stone
+    0xcc3360: Water Stone
+    0xcc33c8: Crystal Berry
+flo_13
+    0xcc7194: Mega Smash
+    0xcc71b8: Shooting Star
+flo_14
+    0xcce3b0: 4264967306
+    0xccf9b8: 4264967296
+    0xcd024c: Star Piece
+flo_15
+flo_16
+    0xcd5170: 4264967306
+    0xcd5d2c: Star Piece
+flo_17
+    0xcdc580: Thunder Rage
+    0xcdc5a4: Letter (09)
+flo_18
+    0xce2fdc: 4264967300
+    0xce3040: 4264967300
+    0xce3534: 4264967301
+    0xce3598: 4264967301
+flo_19
+    0xce41bc: S. Jump Chg.
+flo_21
+flo_22
+    0xced050: Red Berry
+    0xced054: Blue Berry
+    0xced058: Yellow Berry
+    0xced05c: Bubble Berry
+    0xced120: 4264967304
+    0xced36c: Flower Saver 2
+    0xced7a4: Flower Saver 2
+    0xceda5c: 4264967300
+    0xcedac0: 4264967300
+    0xcedfb4: 4264967301
+    0xcee018: 4264967301
+flo_23
+    0xcef618: 4264967296
+    0xcef988: 4264967304
+    0xcefd14: 4264967304
+    0xcf0844: Shooting Star
+    0xcf087c: Coin
+flo_24
+    0xcf18fc: 4264967300
+    0xcf1960: 4264967300
+    0xcf1e54: 4264967301
+    0xcf1eb8: 4264967301
+    0xcf200c: Bubble Berry
+    0xcf2028: Bubble Berry
+    0xcf2b10: Dizzy Dial
+    0xcf2b48: Maple Syrup
+flo_25
+    0xcf5748: 4264967296
+    0xcf59ec: 4264967304
+    0xcf5d78: 4264967304
+    0xcf6b2c: 4264967300
+    0xcf6b90: 4264967300
+    0xcf7084: 4264967301
+    0xcf70e8: 4264967301
+    0xcf7230: Yellow Berry
+    0xcf724c: Yellow Berry
+    0xcf77b0: 4264967306
+sam_01
+    0xcfaefc: 4264967296
+    0xcfb080: 4264967296
+    0xcfd978: 4264967296
+    0xcfdeec: 4264967302
+    0xcfe6e8: Bucket
+    0xd05534: 4264967306
+    0xd05554: 4264967306
+    0xd05570: 4264967306
+    0xd055b8: Attack FX E
+    0xd0566c: None
+    0xd056a8: Bucket
+sam_02
+    0xd08488: 4264967300
+    0xd084ec: 4264967300
+    0xd089e0: 4264967301
+    0xd08a44: 4264967301
+    0xd0ecd0: Iced Potato
+    0xd10c9c: Ultra Shroom
+    0xd10cc0: Mushroom
+    0xd10ce4: Mushroom
+    0xd10d08: Mushroom
+    0xd10d2c: Mushroom
+    0xd10dfc: Dizzy Dial
+    0xd10e08: Shooting Star
+    0xd10e14: Snowman Doll
+    0xd10e20: Maple Syrup
+    0xd10e2c: Life Shroom
+    0xd10e38: Super Shroom
+sam_03
+sam_04
+    0xd141d0: 4264967300
+    0xd14234: 4264967300
+    0xd14728: 4264967301
+    0xd1478c: 4264967301
+    0xd16f08: 4264967296
+    0xd1708c: 4264967296
+    0xd1716c: Bucket
+    0xd17174: Scarf
+    0xd18764: Letter (05)
+    0xd18798: Repel Gel
+sam_05
+    0xd1a89c: Letter (06)
+    0xd1a8d4: Stop Watch
+sam_06
+    0xd22878: 4264967300
+    0xd228dc: 4264967300
+    0xd22dd0: 4264967301
+    0xd22e34: 4264967301
+    0xd24380: 4264967296
+    0xd24504: 4264967296
+    0xd26e14: 4264967296
+    0xd27388: 4264967302
+    0xd287e4: Scarf
+    0xd2bc80: Scarf
+sam_07
+    0xd2e19c: Ultra Shroom
+sam_08
+    0xd31e08: Pebble
+sam_09
+    0xd36d90: 4264967296
+    0xd36e88: 4244967296
+    0xd3702c: 4264967296
+    0xd37124: 4244967297
+    0xd372c8: 4264967296
+    0xd373c0: 4244967298
+    0xd37694: 4244967296
+    0xd3770c: 4244967297
+    0xd37784: 4244967298
+sam_10
+    0xd388cc: Mega Jump
+    0xd388f0: Star Piece
+    0xd39a5c: Star Stone
+sam_11
+    0xd3cb34: 4264967300
+    0xd3cb98: 4264967300
+    0xd3d08c: 4264967301
+    0xd3d0f0: 4264967301
+    0xd3de14: Warehouse Key
+    0xd3f3c8: Warehouse Key
+sam_12
+    0xd4cfb4: Star Stone
+    0xd4cff4: Star Stone
+pra_01
+    0xd4f090: 4264967296
+    0xd4f214: 4264967296
+pra_02
+    0xd52b78: 4264967296
+    0xd52cfc: 4264967296
+    0xd52de0: Red Key
+    0xd52de8: Blue Key
+pra_03
+pra_04
+    0xd5580c: Super Shroom
+pra_05
+    0xd57304: 4264967306
+    0xd57324: 4264967306
+    0xd57340: 4264967306
+    0xd57388: Blue Key
+pra_06
+    0xd5882c: Shooting Star
+pra_09
+    0xd5a6e4: 4264967296
+    0xd5a868: 4264967296
+pra_10
+pra_11
+    0xd62be4: 4264967306
+    0xd62c04: 4264967306
+    0xd62c20: 4264967306
+    0xd62c68: Red Key
+pra_12
+    0xd64494: 4264967306
+    0xd644b4: 4264967306
+    0xd644d0: 4264967306
+    0xd64518: P-Down, D-Up
+pra_13
+    0xd66968: 4264967296
+    0xd66aec: 4264967296
+pra_14
+    0xd69704: 4264967306
+    0xd69724: 4264967306
+    0xd69740: 4264967306
+pra_15
+    0xd69adc: Star Piece
+pra_16
+pra_18
+pra_19
+    0xd70c08: 4264967296
+    0xd70d8c: 4264967296
+pra_20
+pra_21
+    0xd78808: Maple Syrup
+pra_22
+    0xd79978: Jammin Jelly
+pra_27
+    0xd7b154: 4264967306
+    0xd7b174: 4264967306
+    0xd7b190: 4264967306
+    0xd7b1d8: Palace Key
+pra_28
+    0xd7ca04: 4264967306
+    0xd7ca24: 4264967306
+    0xd7ca40: 4264967306
+    0xd7ca88: P-Up, D-Down
+pra_29
+pra_31
+    0xd7ffb8: 4264967296
+    0xd8013c: 4264967296
+pra_32
+pra_33
+pra_34
+    0xd8cb6c: Palace Key
+pra_35
+    0xd91104: 4264967306
+    0xd91124: 4264967306
+    0xd91140: 4264967306
+    0xd91188: Triple Dip
+pra_36
+pra_37
+pra_38
+pra_39
+pra_40
+omo_01
+    0xd9c30c: 4264967307
+    0xd9c420: 4264967307
+    0xd9c450: 4264967307
+    0xd9c480: 4264967307
+    0xd9d27c: Calculator
+    0xd9d2c4: Mystery?
+    0xd9d2fc: Fright Jar
+omo_02
+    0xda04d0: Sleepy Sheep
+    0xda0508: Coin
+    0xda0550: Shooting Star
+omo_03
+    0xda6cb8: Stone Cap
+    0xda70b8: Toy Train
+omo_04
+    0xdafb04: 4264967306
+    0xdafb24: 4264967306
+    0xdafb40: 4264967306
+    0xdafb88: Storeroom Key
+    0xdb00f0: Coin
+    0xdb0128: Coin
+    0xdb0160: Thunder Bolt
+    0xdb0184: Coin
+    0xdb01a8: Coin
+    0xdb01cc: Coin
+    0xdb01f0: Coin
+    0xdb0214: Coin
+    0xdb0238: Coin
+    0xdb025c: Coin
+    0xdb0280: Coin
+    0xdb02a4: Star Piece
+    0xdb02c8: Star Piece
+    0xdb1d8c: 4244967306
+omo_05
+    0xdb5404: 4264967296
+    0xdb5708: 4264967304
+    0xdb69e8: Cookbook
+    0xdb7430: Coin
+    0xdb7468: Coin
+    0xdb74ac: Cookbook
+    0xdb74f4: Dizzy Dial
+    0xdb752c: Super Soda
+omo_06
+    0xdbd0a4: 4264967306
+    0xdbd0c4: 4264967306
+    0xdbd0e0: 4264967306
+    0xdbd1bc: Thunder Rage
+    0xdbd128: Mailbag
+omo_07
+    0xdc3184: 4264967306
+    0xdc31a4: 4264967306
+    0xdc31c0: 4264967306
+    0xdc3208: Frying Pan
+    0xdc3264: Defend Plus
+    0xdc32b0: Ice Power
+    0xdc3668: Coin
+    0xdc3d70: 4244967306
+omo_08
+    0xdc60f4: Coin
+    0xdc61ec: Coin
+    0xdc62e4: Coin
+    0xdc63dc: Coin
+    0xdcb9a4: Fire Flower
+omo_09
+    0xdd2bd0: Coin
+    0xdd2c3c: Coin
+    0xdd2cfc: Mushroom
+    0xdd2d68: Mushroom
+    0xdd3db4: 4264967306
+    0xdd3dd4: 4264967306
+    0xdd3df0: 4264967306
+    0xdd3e94: Coin
+    0xdd3eb8: Coin
+    0xdd3edc: Coin
+    0xdd3f00: Coin
+    0xdd3f24: Coin
+    0xdd3f48: Coin
+    0xdd3f6c: Star Piece
+    0xdd3f90: Coin
+    0xdd3fb4: Coin
+    0xdd3fd8: Coin
+    0xdd3ffc: Coin
+    0xdd4020: Coin
+    0xdd4044: Coin
+    0xdd3e38: Dictionary
+    0xdd4114: Mystery Note
+    0xdd48cc: 4264967307
+    0xdd49d0: 4264967307
+    0xdd4a00: 4264967307
+    0xdd4a30: 4264967307
+    0xdd71f0: 4244967306
+omo_10
+    0xddc740: Super Shroom
+omo_11
+    0xdded70: Volt Mushroom
+    0xddeda8: Snowman Doll
+    0xddede0: Coin
+    0xddee18: Deep Focus 2
+    0xddee50: Coin
+omo_12
+omo_13
+    0xde4140: 4264967296
+    0xde51d4: 4264967306
+    0xde51f4: 4264967306
+    0xde5210: 4264967306
+    0xde5258: Power Plus 2
+    0xde5300: Coin
+    0xde5338: Maple Syrup
+omo_14
+omo_15
+omo_16
+omo_17
+    0xdf63a0: Coin
+    0xdf63d8: Coin
+    0xdf6410: Coin
+tst_01
+    0xb1ab40: Flower
+    0xb1ab68: 2147483648
+    0xb1ab8c: Heart
+    0xb1abb4: Heart
+    0xb1abdc: Flower
+    0xb1ac04: Flower
+tst_02
+tst_03
+    0xb1b260: 2147483648
+    0xb1b284: 2147483648
+    0xb1b314: 2147483648
+    0xb1b35c: Mushroom
+    0xb1b4ec: 4294967295
+    0xb1b518: Mushroom
+    0xb1b544: Mushroom
+tst_04
+tst_10
+tst_11
+tst_12
+tst_13
+    0xb1e1d0: 4104967301
+tst_20
+end_00
+end_01
+mgm_00
+mgm_01
+mgm_02
+mgm_03
+gv_01

@@ -1,0 +1,32 @@
+* Loading a Dry Dry Desert map with a Tweester in it as starting location
+    crashes on load
+* Getting flown away by a Tweester <without a partner>? crashes
+* Hitting an upgrade block without a partner gives "no suitable partner" message and
+    then crashes the game
+
+seek(loc) moves readpointer absolutely from start of file to loc
+seek(loc, os.SEEK_CUR) moves readpointer relatively from current position
+read() returns values read and moves readpointer relatively to current pos to
+        end of read
+
+
+map script stuff
+    kmr_02
+        0x8ba446 - item icon shown when given reward by goombaria (during goompa conversation)
+        0x8ba46c - addObject-call (AddStarPieces)
+        0x8ba470 - id or count to add (star piece 1)
+
+        0x8b905a - item icon shown when given reward by goombaria (when giving dolly back later)
+        0x8b9080 - addObject-call (AddStarPieces)
+        0x8b9084 - id or count to add (star piece 1)
+
+        0x8b899c - item icon when given lucky day badge
+        0x8b89c4 - addObject-call (AddBadge)
+        0x8b89c8 - id or count to add (lucky day)
+
+function byte values
+(00 00 00 02) 80 2D 72 F0 -> AddStarPieces
+(00 00 00 03) 80 2D 6F F8 -> AddBadge
+(00 00 00 02) 80 2D 68 C8 -> AddKeyItem
+              80 2D 6A 98 -> AddItem
+                          -> AddCoin
