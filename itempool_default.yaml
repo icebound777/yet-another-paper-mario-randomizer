@@ -1,0 +1,99 @@
+special: {
+  Hammer: 1,
+  Super Hammer: 1,
+  Ultra Hammer: 1,
+  Boots: 0,
+  Super Boots: 1,
+  Ultra Boots: 1,
+  Ultra Stone: 1,
+  Lucky Star: 1,
+}
+
+star_pieces: {
+  Star Piece (1): 93,
+  Star Piece (3): 1,
+  Star Piece (Quizmo): 64,
+}
+
+badges: {
+  Power Jump: 1,
+  Mega Jump: 1,
+  Multibounce: 1,
+  Power Bounce: 1,
+  Jump Charge: 1,
+  S. Jump Chg.: 1,
+  Sleep Stomp: 1,
+  Dizzy Stomp: 1,
+  Shrink Stomp: 1,
+  D-Down Jump: 1,
+
+  Power Smash: 1,
+  Mega Smash: 1,
+  Quake Hammer: 1,
+  Power Quake: 1,
+  Mega Quake: 1,
+  Smash Charge: 1,
+  S. Smash Chg.: 1,
+  Hammer Throw: 1,
+  Spin Smash: 1,
+  D-Down Pound: 1,
+  
+  Pay-Off: 1,
+  Money Money: 1,
+  Refund: 1,
+  Runaway Pay: 1,
+  Double Dip: 1,
+  Triple Dip: 1,
+
+  Power Plus: 2,
+  Power Rush: 1,
+  Mega Rush: 1,
+  All or Nothing: 1,
+  Defend Plus: 1,
+  Damage Dodge: 2,
+  Dodge Master: 1,
+  Feeling Fine: 1,
+  "P-Up, D-Down": 1,
+  "P-Down, D-Up": 1,
+  Close Call: 1,
+  Last Stand: 1,
+  Pretty Lucky: 1,
+  Lucky Day: 1,
+  HP Plus: 3,
+  HP Drain: 1,
+  Happy Heart: 2,
+  Heart Finder: 1,
+  FP Plus: 3,
+  Happy Flower: 2,
+  Flower Finder: 1,
+  Flower Saver: 2,
+  
+  Spike Shield: 1,
+  Fire Shield: 1,
+  Ice Power: 1,
+  Zap Tap: 1,
+  I Spy: 1,
+  Peekaboo: 1,
+  Deep Focus: 3,
+  Group Focus: 1,
+  Quick Change: 1,
+  
+  Speedy Spin: 1,
+  Slow Go: 1,
+
+  First Attack: 1,
+  Spin Attack: 1,
+  Dizzy Attack: 1,
+  Bump Attack: 1,
+  Chill Out: 1,
+
+  Attack FX A: 1,
+  Attack FX B: 1,
+  Attack FX C: 1,
+  Attack FX D: 1,
+  Attack FX E: 1,
+}
+# Regular Items
+
+
+# Key Items

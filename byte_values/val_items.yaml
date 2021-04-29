@@ -8,12 +8,12 @@ Ultra Hammer:   {bytes: 0x0006, isKeyItem: false, isBadge: false} # does nothing
 Lucky Star:     {bytes: 0x0007, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Present??:      {bytes: 0x0008, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Present2??:     {bytes: 0x0009, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Diploma1star??: {bytes: 0x000A, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Diploma2star??: {bytes: 0x000B, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Diploma3star??: {bytes: 0x000C, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Diploma4star??: {bytes: 0x000D, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Diploma5star??: {bytes: 0x000E, isKeyItem: false, isBadge: false} # does nothing when collected from box
-RedPearl??:     {bytes: 0x000F, isKeyItem: false, isBadge: false} # does nothing when collected from box
+First-Degree Card:  {bytes: 0x000A, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Second-Degree Card: {bytes: 0x000B, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Third-Degree Card:  {bytes: 0x000C, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Fourth-Degree Card: {bytes: 0x000D, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Diploma :       {bytes: 0x000E, isKeyItem: false, isBadge: false} # does nothing when collected from box
+Ultra Stone:    {bytes: 0x000F, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Fortress Key:   {bytes: 0x0010, isKeyItem: true, isBadge: false} # Koopa Bros Fortress
 Ruins Key:      {bytes: 0x0011, isKeyItem: true, isBadge: false} # Dry Dry Ruins
 Pulse Stone:    {bytes: 0x0012, isKeyItem: true, isBadge: false} # Opens Dry Dry Ruins 
@@ -255,7 +255,7 @@ Chill Out:      {bytes: 0x00FE, isKeyItem: false, isBadge: true}
 Happy Heart:    {bytes: 0x00FF, isKeyItem: false, isBadge: true}
 Zap Tap:        {bytes: 0x0100, isKeyItem: false, isBadge: true}
 #a:             {bytes: 0x0101, isKeyItem: ?} # angry face badge?
-Right On!:      {bytes: 0x0102, isKeyItem: false, isBadge: true}
+#Right On!:      {bytes: 0x0102, isKeyItem: false, isBadge: true} #unused
 Runaway Pay:    {bytes: 0x0103, isKeyItem: false, isBadge: true}
 Refund:         {bytes: 0x0104, isKeyItem: false, isBadge: true}
 Flower Saver:   {bytes: 0x0105, isKeyItem: false, isBadge: true}
@@ -296,7 +296,7 @@ Power Smash 2:  {bytes: 0x0127, isKeyItem: false, isBadge: true} # present??
 Power Smash 3:  {bytes: 0x0128, isKeyItem: false, isBadge: true} # present??
 Deep Focus:     {bytes: 0x0129, isKeyItem: false, isBadge: true}
 #a:             {bytes: 0x012A, isKeyItem: ?} # golden deep focus badge?
-Shrink Smash:   {bytes: 0x012B, isKeyItem: false, isBadge: true}
+#Shrink Smash:   {bytes: 0x012B, isKeyItem: false, isBadge: true} #unused
 #a:             {bytes: 0x012C, isKeyItem: ?} # present?
 #a:             {bytes: 0x012D, isKeyItem: ?} # pink flower badge?
 D-Down Jump:    {bytes: 0x012E, isKeyItem: false, isBadge: true}
@@ -326,7 +326,7 @@ Attack FX D:    {bytes: 0x0145, isKeyItem: false, isBadge: true}
 Attack FX B:    {bytes: 0x0146, isKeyItem: false, isBadge: true}
 Attack FX E:    {bytes: 0x0147, isKeyItem: false, isBadge: true}
 Attack FX C:    {bytes: 0x0148, isKeyItem: false, isBadge: true}
-Attack FX F:    {bytes: 0x0149, isKeyItem: false, isBadge: true}
+#Attack FX F:    {bytes: 0x0149, isKeyItem: false, isBadge: true}
 HP Plus 3:      {bytes: 0x014A, isKeyItem: false, isBadge: true}
 HP Plus 4:      {bytes: 0x014B, isKeyItem: false, isBadge: true}
 HP Plus 5:      {bytes: 0x014C, isKeyItem: false, isBadge: true}
@@ -345,6 +345,7 @@ Coin:           {bytes: 0x0157, isKeyItem: false, isBadge: false}
 #a:             {bytes: 0x0159, isKeyItem: ?} # does nothing when collected from box
 #a:             {bytes: 0x015A, isKeyItem: ?} # does nothing when collected from box
 Flower:         {bytes: 0x015B, isKeyItem: false, isBadge: false}
-Star Piece:     {bytes: 0x015C, isKeyItem: false, isBadge: false}
+Star Piece (1): {bytes: 0x015C, isKeyItem: false, isBadge: false}
+Star Piece (3): {bytes: 0x015C, isKeyItem: false, isBadge: false}
 #a:             {bytes: 0x015D, isKeyItem: ?} # does nothing when collected from box
 #below here does nothing
