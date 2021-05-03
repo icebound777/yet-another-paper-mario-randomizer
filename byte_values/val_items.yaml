@@ -6,8 +6,8 @@ Hammer:         {bytes: 0x0004, isKeyItem: false, isBadge: false} # does nothing
 Super Hammer:   {bytes: 0x0005, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Ultra Hammer:   {bytes: 0x0006, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Lucky Star:     {bytes: 0x0007, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Present??:      {bytes: 0x0008, isKeyItem: false, isBadge: false} # does nothing when collected from box
-Present2??:     {bytes: 0x0009, isKeyItem: false, isBadge: false} # does nothing when collected from box
+#Present??:      {bytes: 0x0008, isKeyItem: false, isBadge: false} # does nothing when collected from box
+#Present2??:     {bytes: 0x0009, isKeyItem: false, isBadge: false} # does nothing when collected from box
 First-Degree Card:  {bytes: 0x000A, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Second-Degree Card: {bytes: 0x000B, isKeyItem: false, isBadge: false} # does nothing when collected from box
 Third-Degree Card:  {bytes: 0x000C, isKeyItem: false, isBadge: false} # does nothing when collected from box
@@ -136,7 +136,7 @@ Dusty Hammer:   {bytes: 0x0086, isKeyItem: false, isBadge: false}
 Stone Cap:      {bytes: 0x0088, isKeyItem: false, isBadge: false}
 Tasty Tonic:    {bytes: 0x0089, isKeyItem: false, isBadge: false}
 Mushroom:       {bytes: 0x008A, isKeyItem: false, isBadge: false}
-Volt Mushroom:  {bytes: 0x008B, isKeyItem: false, isBadge: false}
+Volt Shroom:    {bytes: 0x008B, isKeyItem: false, isBadge: false}
 Super Shroom:   {bytes: 0x008C, isKeyItem: false, isBadge: false}
 Dried Shroom:   {bytes: 0x008D, isKeyItem: false, isBadge: false}
 Ultra Shroom:   {bytes: 0x008E, isKeyItem: false, isBadge: false}
