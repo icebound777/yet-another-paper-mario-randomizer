@@ -1073,7 +1073,7 @@ jan_18
     0xb83e1c: Happy Heart 2
 jan_19
 jan_22
-    0xb88964: RedPearl??
+    0xb88964: Ultra Stone
     0xb8d8bc: Jammin Jelly
     0xb8e47c: 4264967300
     0xb8e4e0: 4264967300
