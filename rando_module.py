@@ -1,6 +1,10 @@
 import os
+import re
+from math import pow
+
 import yaml
 import json
+
 
 from LocationList import item_locations
 
@@ -14,6 +18,8 @@ with open('byte_values/val_maps.yaml', 'r') as yamlfile:
     byte_maps = (yaml.safe_load(yamlfile))
 with open ('byte_values/val_items.yaml', 'r') as yamlfile:
     byte_items = (yaml.safe_load(yamlfile))
+with open ('byte_values/val_additem_functions.yaml', 'r') as yamlfile:
+    additem_functions = (yaml.safe_load(yamlfile))
 
 def conv_chars_to_bytes(charstring):
     hexval = 0
@@ -22,104 +28,63 @@ def conv_chars_to_bytes(charstring):
     return(int(hexval).to_bytes(len(charstring),'big'))
 
 def randomize(infile, outfile):
-
-    #spoiler_log = json.dumps(item_locations, indent = 4)
-    #print(spoiler_log)
-
     # Write to new ROM
     os.system('copy "%s" "%s"' % (infile, outfile))
     f=open(outfile,'rb+')
+
+    # Skip developer logos
+    f.seek(0xF298)
+    f.write((0x00000000).to_bytes(4, 'big'))
+    f.write((0x24040700).to_bytes(4, 'big'))
+    f.write((0xA44400AC).to_bytes(4, 'big'))
+
+    # Skip intro video
+    f.seek(0x11c84)
+    f.write((0x34051000).to_bytes(4, 'big'))
+
+    # Disable demo reel
+    f.seek(0x12644)
+    f.write((0x1000).to_bytes(2, 'big'))
 
     # Overwrite "First Play" text on new savefile with "Randomized"
     f.seek(bl_text_firstplay)
     f.write(conv_chars_to_bytes('Rand'))
     f.write(conv_chars_to_bytes('omiz'))
-    f.write(conv_chars_to_bytes('e'))
-
-    # Don't start the game from Mario's house
-    f.seek(bl_starting_location)
-    f.write(byte_maps.get('kmr').get('kmr_00').get('bytes').to_bytes(4,'big'))
-#    f.write((0x23000000).to_bytes(4,'big'))
-#    f.seek(0x168083)
-#    f.write((0x00A3).to_bytes(2, 'big'))
+    f.write(conv_chars_to_bytes('ed'))
 
     # Iterate over all item check locations
     for location in item_locations.items():
+        # Write different addObject function if necessary (mostly used in Scripts)
+        cur_locationtype = location[1][0]
+        cur_itemname = location[1][4]
+        if cur_locationtype == 'Script':
+            print('Script!')
+            if byte_items.get(cur_itemname).get('isKeyItem'):
+                cur_additem_function_val = additem_functions.get('addKeyItem')
+            elif byte_items.get(cur_itemname).get('isBadge'):
+                cur_additem_function_val = additem_functions.get('addBadge')
+            elif cur_itemname.startswith('Star Piece'):
+                cur_additem_function_val = additem_functions.get('addStarPieces')
+            else:
+                cur_additem_function_val = additem_functions.get('addItem')
+            func_adress = location[1][2]
+            f.seek(func_adress)
+            f.write(cur_additem_function_val.to_bytes(4,'big'))
+
         # Iterate over all item byte locations of that item check
-        for byte_location in location[1][1]:
+        for item_adress in location[1][1]:
             # Write byte value of item to item byte location
-            byte_value = byte_items.get(location[1][4]).get('bytes')
-            f.seek(byte_location)
-            f.write(byte_value.to_bytes(4,'big'))
-
-    # testing
-    # f.seek(0x8c7a20)
-    # f.write((0x00000100).to_bytes(4, 'big'))
-
-# to try:
-# 0x8b7676 #no #
-# 0x8b77a2 #no #no
-# 0x8b8a5e #no #no
-# 0x8b905a #no #yes
-# 0x8ba446 #yes #no
-# 
-
-# write itemvalue into dgb_14
-# f.seek(0xC4F4D0)
-# f.write((0x0000015E).to_bytes(4,'big'))
-
-    #code patch: start with goombario out
-    # f.seek(0x808A8)
-    # f.write((0xA0820012).to_bytes(4,'big'))
-    # f.write((0xA082000A).to_bytes(4,'big')) # enable action command
-    # f.write((0x2402FFFF).to_bytes(4,'big'))
-    # f.seek(0x808E4)
-    # f.write((0xA0800000).to_bytes(4,'big'))
-    # #have every party member
-    # f.write((0xA0A20014).to_bytes(4,'big'))
-    # #enable menus
-    # f.seek(0x168074)
-    # f.write((0x2406FF81).to_bytes(4,'big'))
-
-# f.seek(0x6B450)
-# testvar = hex(int.from_bytes(f.read(4), 'big'))
-# print(f'{testvar}')
-# testvar = hex(int.from_bytes(f.read(4), 'big'))
-# print(f'{testvar}')
-
-# for i in range(302,303):
-#     f.seek(0x6B450 + i*0x20)
-#     nameptr = int.from_bytes(f.read(4), 'big') - 0x80024C00
-#     f.seek(nameptr)
-#     name = f.read(8).decode().strip('\0')
-#     print(f'{i}: {name}')
-
-# with open('E:/Downloads/_Git/MrCheeze_paper-mario-randomizer/roomdata.json', 'r') as jsonfile:
-#     roomdata = json.load(jsonfile)
-
-# # invert byte_items
-# items_byte = {}
-# for i in byte_items.keys():
-#     items_byte[byte_items.get(i).get('bytes')] = i
-
-# for i in range(421):
-#     f.seek(0x6B450 + i*0x20)
-#     nameptr = int.from_bytes(f.read(4), 'big') - 0x80024C00
-#     f.seek(4, os.SEEK_CUR)
-#     roomptr = int.from_bytes(f.read(4), 'big')
-#     f.seek(nameptr)
-#     name = f.read(8).decode().strip('\0')
-#     print(f'{name}')
-#     count_item = 0
-#     for itemptr in roomdata[name]['items']:
-#         item_location = roomptr + itemptr - 0x80240000
-#         f.seek(item_location)
-#         item = int.from_bytes(f.read(4), 'big')
-#         if 0 < item < 0x200:
-#             print(f'    {hex(item_location)}: {items_byte.get(item)}')
-#         else:
-#             print(f'    {hex(item_location)}: {item}')
-#         count_item += 1
+            if cur_itemname.startswith('Star Piece') and cur_locationtype == 'Script' and item_adress == location[1][1][-1]:
+                # Find # of Star Pieces to set
+                reg_pattern_sp_count = re.compile(r'(?<=\()(\d+)(?=\))')
+                reg_match_sp_count = reg_pattern_sp_count.search(cur_itemname)
+                item_value = int(reg_match_sp_count.group())
+                # print(f'  Calculated Starpieces: {item_value}')
+            else:
+                item_value = byte_items.get(cur_itemname).get('bytes')
+                # print('  Set Itemvalue')
+            f.seek(item_adress)
+            f.write(item_value.to_bytes(4,'big'))
 
     # Save randomized file
     f.close()
