@@ -2,6 +2,7 @@ import os
 import hashlib
 
 from rando_module import randomize
+from patch_module import patch_rom
 
 from statics.version import __version__
 from statics.rom_hash import __rom_hash__
@@ -37,21 +38,29 @@ def main():
     check_rom(infile)
 
     # Randomize
-    randomize(infile, outfile)
+    randomizer_settings = {}
+    # Default Settings
+    randomizer_settings['logic'] = 'no_logic'
+    randomizer_settings['rando_type'] = 'vanilla_shuffle'
+    randomizer_settings['shuffle_type'] = 'within_groups'
+    randomizer_settings['shuffle_groups'] = ('repeatableItems','oneOffItems','keyItems','badges')
+
+    randomized_locations = randomize(randomizer_settings)
 
     # Patch ROM
+    general_settings = ['skip_devlogos', 'skip_intro', 'disable_demo']
+    patch_rom(infile, outfile, general_settings, randomized_locations)
 
     # Create patch file if necessary
 
-    # Create spoiler log if necessary
-
-    # Fix bootcode
-    try:
-        assert(os.path.isfile('rn64crc2\\rn64crc.exe'))
-        os.system('rn64crc2\\rn64crc.exe "%s" -u' % outfile)
-    except AssertionError:
-        print('')
-        exit(1)
+    # Output md5
+    with open(outfile, 'rb') as f:
+            f.seek(0)
+            hasher = hashlib.md5()
+            buf = f.read()
+            hasher.update(buf)
+            print('van: 1a491454b6afe2e8a7ce50967774225b')
+            print('md5: ' + hasher.hexdigest())
 
 
 if __name__ == '__main__':
