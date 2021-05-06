@@ -51,8 +51,9 @@ My personal excursion into the worlds of Python and ROM hacking.
 * Features that would be cool, but I'm not sure if I want to invest the time (in no particular order):
     * Create a proper User Interface for the randomizer
     * Chuck Quizmo
-        * Force CQ to always spawn if the respective fieldmap's question has not been answered yet
+        * Force CQ to always spawn
         * Shuffle CQ star pieces into the item pool and allow CQ questions to give items other than star pieces
+        * Not sure about this modification since one would just reload the map until all questions are answered, which could be quite the chore
     * Option to reenable cut items and badges
     * Option to modify starting items such as level, held items,keyItems,Badges, hammer and boots upgrades, star power, number of star pieces, partners
     * Option to modify badge's badge point cost
@@ -64,8 +65,3 @@ My personal excursion into the worlds of Python and ROM hacking.
     * Option to randomize battle formations (within reason)
     * Option to randomize enemy HP, attack and defense (within reason)
     * Create a sort of hint system for important items
-
-## Sourcecode Dependencies
-The current sourcecode needs the following dependencies:
-* Python 3.x (I think?) 
-    * PyYAML
