@@ -30,3 +30,9 @@ function byte values
 (00 00 00 02) 80 2D 68 C8 -> AddKeyItem
               80 2D 6A 98 -> AddItem
                           -> AddCoin
+
+gotoMap function
+00 00 00 43 00 00 00 04 80 2C A4 20 
+80 24 83 A0 00 00 00 00 00 00 00 06 
+= Call  GotoMapSpecial    ( $ASCII_802483A0 00000000 00000006 ) % kmr_00
+?
