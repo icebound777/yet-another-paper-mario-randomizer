@@ -10,9 +10,12 @@ special: {
 }
 
 star_pieces: {
-  Star Piece (1): 93,
-  Star Piece (3): 1,
-  Star Piece (Quizmo): 64,
+  Star Piece (1): 63, # In the field
+  Star Piece (3): 5,  # Koopa Koot Favors
+  Star Piece (1): 64, # Chuck Quizmo
+  Star Piece (1): 3,  # Rip Cheato
+  Star Piece (1): 11, # Letter Delivery
+  Star Piece (1): 4,  # Return keyItems
 }
 
 badges: {
