@@ -1,3 +1,6 @@
+# This randomizer is no longer in development!
+# Please refer to the #randomizer chat channel on the PM64 discord for current randomizer projects!
+
 # YaPMR - Yet another Paper Mario Randomizer
 
 **Heavy WIP, doesn't randomize at the moment!**
