@@ -26,10 +26,10 @@ vanilla_locations = OrderedDict([
     ("(kmr_02) Goomba Village: Goombaria's Dolly",               ("Script",      (0x8ba444,0x8ba470,
                                                                                   0x8b9058,0x8b9084),  (0x8ba46c,
                                                                                                         0x8b9080,), False,     "Star Piece (1)")),
-    ("(kmr_02) Goomba Village: Veranda",                         ("Collectable", (0x8c519c,),          None,        False,     "Shooting Star")),
+    ("(kmr_02) Goomba Village: Repaired Veranda",                ("Collectable", (0x8c519c,),          None,        False,     "Shooting Star")),
     ("(kmr_02) Goomba Village: Tree Near Fencegate",             ("Collectable", (0x8c7a20,),          None,        True,      "Goomnut")),
-#   ("(kmr_02) Goomba Village: Give Goompa   Letter (02)",       ("Script",      (?,),                 None,        False,     "Star Piece (1)")),
-#   ("(kmr_02) Goomba Village: Give Goompapa Letter (10)",       ("Script",      (?,),                 None,        False,     "Letter (13)")),
+    ("(kmr_02) Goomba Village: Give Goompa Letter (02)",         ("Script",      (0x8b8a5c,0x8b8a88),  (0x8b8a84,), False,     "Star Piece (1)")),
+    ("(kmr_02) Goomba Village: Give Goompapa Letter (10)",       ("Script",      (0x8b88f4,),          (0x8b887c,), False,     "Letter (13)")),
     ("(kmr_02) Goomba Village: Give Goompapa Letter (24)",       ("Script",      (0x8b899c,0x8b89c8),  (0x8b89c4,), False,     "Lucky Day")),
 
     ("(kmr_03) Bottom of the Cliff: On Spring Ledge",            ("Collectable", (0x8c96f4,),          None,        False,     "Fire Flower")),
@@ -44,19 +44,20 @@ vanilla_locations = OrderedDict([
 
     ("(kmr_11) Goomba King's Castle: Tree Left Of Castle",       ("Collectable", (0x8e0f20,),          None,        False,     "Star Piece (1)")),
     ("(kmr_11) Goomba King's Castle: Hammerblock",               ("Collectable", (0x8dff60,0x8e0124),  None,        False,     "Super Shroom")),
-#   ("(kmr_11) Goomba King's Castle: Hidden Panel",              ("Collectable", (?),                  None,        False,     "Star Piece (1)")),
+#   ("(kmr_11) Goomba King's Castle: Hidden Panel",              ("TODO", (?),                         None,        False,     "Star Piece (1)")),
 
-    ("(kmr_10) Toad Town Entrance: Tree",                        ("Collectable", (0x8d9578,),          None,        False,     "Sleepy Sheep")),
+    ("(kmr_10) Toad Town Entrance: Yellow ? Block",              ("Collectable", (0x8d9578,),          None,        False,     "Sleepy Sheep")),
     ("(kmr_10) Toad Town Entrance: Chest On Roof",               ("Collectable", (0x8d9518,),          None,        False,     "Hammer Throw")),
 
-#   ("(kmr_20) Mario's House: Luigi: Koopa Koot Favor",          ("Script",      (?,),                 None,        False,     "Autograph (L)")),
+    ("(kmr_20) Mario's House: Luigi: Koopa Koot Favor",          ("Script",      (0x8f6988,),          (0x8f69b0,), False,     "Autograph (L)")),
 
 ## mac: Toad Town
     ("(mac_00) Gate District: Sushie Swim",                      ("Collectable", (0x7efffc,),          None,        False,     "Star Piece (1)")),
-    ("(mac_00) Gate District: Return Stolen Dictionary",         ("Script",      (0x7f468c,0x7f46b8),  (0x7f46b4,), False,     "Star Piece (1)")),
-#   ("(mac_00) Gate District: Give Miss T. Letter (18)",         ("Script",      (?,),                 None,        False,     "Letter (19)")),
-#   ("(mac_00) Gate District: Give Russ T. Letter (04)",         ("Script",      (?,),                 None,        False,     "Star Piece (1)")),
+    ("(mac_00) Gate District: Give Russ T. Dictionary",          ("Script",      (0x7f468c,0x7f46b8),  (0x7f46b4,), False,     "Star Piece (1)")),
+    ("(mac_00) Gate District: Give Miss T. Letter (18)",         ("Script",      (0x7fa328,),          (0x7fa2b0,), False,     "Letter (19)")),
+    ("(mac_00) Gate District: Give Russ T. Letter (04)",         ("Script",      (0x7f3b98,0x7f3bc4),  (0x7f3bc0,), False,     "Star Piece (1)")),
 #   ("(mac_00) Gate District: Hidden Panel",                     ("TODO",        (?,),                 None,        False,     "Star Piece (1)")),
+#   ("(mac_00) Gate District: Radio Trade Event: Koopa Leaf",    ("TODO",        (?,),                 None,        False,     "Maple Syrup")),
 #   ("(mac_00) Gate District: Shop Item 1",                      ("Shop",        (0x7f8f7c,),          None,        True,      "Fright Jar")),
 #   ("(mac_00) Gate District: Shop Item 2",                      ("Shop",        (0x7f8f88,),          None,        True,      "Sleepy Sheep")),
 #   ("(mac_00) Gate District: Shop Item 3",                      ("Shop",        (0x7f8f94,),          None,        True,      "POW Block")),
@@ -66,10 +67,10 @@ vanilla_locations = OrderedDict([
 
     ("(mac_01) Plaza District: Tree Left Of Merlon's",           ("Collectable", (0x822dc8,),          None,        False,     "Star Piece (1)")),
     ("(mac_01) Plaza District: Spin Jumps Inside Merlon's",      ("Collectable", (0x81086c,0x810afc),  None,        False,     "Quick Change")),
-#   ("(mac_01) Plaza District: Return Stolen Calculator",        ("TODO",        (?,),                 None,        False,     "I Spy")),
-#   ("(mac_01) Plaza District: Return Stolen Mailbag",           ("TODO",        (?,),                 None,        False,     "Star Piece (1)")),
-#   ("(mac_01) Plaza District: Give Merlon Letter (01)",         ("TODO",        (?,),                 None,        False,     "Star Piece (1)")),
-#   ("(mac_01) Plaza District: Give Minh T. Letter (09)",        ("TODO",        (?,),                 None,        False,     "Star Piece (1)")),
+    ("(mac_01) Plaza District: Return Stolen Calculator",        ("Script",      (0x8151f0,),          (0x815218,), False,     "I Spy")),
+#   ("(mac_01) Plaza District: Return Stolen Mailbag",           ("Script",      (?,),                 None,        False,     "Star Piece (1)")),
+#   ("(mac_01) Plaza District: Give Merlon Letter (01)",         ("Script",      (?,),                 None,        False,     "Star Piece (1)")),
+#   ("(mac_01) Plaza District: Give Minh T. Letter (09)",        ("Script",      (?,),                 None,        False,     "Star Piece (1)")),
 #   ("(mac_01) Plaza District: Badge Shop: Chapter 2 Item 1",    ("Shop",        (?,),                 None,        False,     "Speedy Spin")),
 #   ("(mac_01) Plaza District: Badge Shop: Chapter 2 Item 2",    ("Shop",        (?,),                 None,        False,     "Multibounce")),
 #   ("(mac_01) Plaza District: Badge Shop: Chapter 2 Item 3",    ("Shop",        (?,),                 None,        False,     "D-Down Pound")),
@@ -99,7 +100,7 @@ vanilla_locations = OrderedDict([
 
 #   ("(mac_04) Residental District: Shop Storeroom Item 1",      ("Shop",        (?,),                 None,        False,     "Snowman Doll")),
 #   ("(mac_04) Residental District: Shop Storeroom Item 2",      ("Shop",        (?,),                 None,        False,     "Volt Shroom")),
-    ("(mac_04) Residental District: Shop Storeroom Item 3",      ("Shop",        (0x8493f8,0x849820),  None,        False,     "Toy Train")),
+#   ("(mac_04) Residental District: Shop Storeroom Item 3",      ("Shop",        (0x8493f8,0x849820),  None,        False,     "Toy Train")),
 #   ("(mac_04) Residental District: Shop Storeroom Item 4",      ("Shop",        (?,),                 None,        False,     "Dizzy Dial")),
 #   ("(mac_04) Residental District: Shop Item 1",                ("Shop",        (0x84683c,),          None,        True,      "Stone Cap")),
 #   ("(mac_04) Residental District: Shop Item 2",                ("Shop",        (0x846848,),          None,        True,      "Dizzy Dial")),
@@ -235,8 +236,6 @@ vanilla_locations = OrderedDict([
 #   ("(trd_01) Left Tower: Defeat Koopa",                        ("?",           (?,),                 None,        False,     "Fortress Key")),
     ("(trd_01) Left Tower: F2 Far Left Pedestal",                ("Collectable", (0x99fcfc,),          None,        False,     "Smash Charge")),
 
-# all the keys ??
-
 #   ("(trd_03) Central Hall: Inside left Cell",                  ("Collectable", (?,),                 None,        False,     "Fortress Key")),
     ("(trd_03) Central Hall: Inside middle Cell",                ("Collectable", (0x9a60bc,),          None,        False,     "Power Bounce")),
 #   ("(trd_03) Central Hall: Inside right Cell",                 ("Collectable", (?,),                 None,        False,     "Fortress Key")),
@@ -250,7 +249,7 @@ vanilla_locations = OrderedDict([
 ## iwa: Mt Rugged
     ("(iwa_10) Train Station: Inside Center Back Bush",          ("Collectable", (0x9268c8,),          None,        True,      "Egg")),
 
-    ("(iwa_00) Mt Rugged 1: ? Block",                            ("Collectable", (0x90d358,),          None,        False,     "Sleepy Sheep")),
+    ("(iwa_00) Mt Rugged 1: Yellow ? Block",                     ("Collectable", (0x90d358,),          None,        False,     "Sleepy Sheep")),
     ("(iwa_00) Mt Rugged 1: Hitting Whacka",                     ("Collectable", (0x90ebd4,),          None,        True,      "Whacka's Bump")),
 
     ("(iwa_01) Mt Rugged 2: Kooper Ledge",                       ("Collectable", (0x913004,),          None,        False,     "Letter (01)")),
@@ -269,7 +268,7 @@ vanilla_locations = OrderedDict([
     ("(iwa_04) Suspension Bridge: Bottom Of CLiff",              ("Collectable", (0x91cf70,),          None,        False,     "Letter (10)")),
 
 ## dro: Dry Dry Outpost
-#   ("(dro_01) Outpost 1: Give Lyrics To Composer",              ("Script",      (0x964334,),          None,        True,      "Melody")),
+#   ("(dro_01) Outpost 1: Give Composer Lyrics",                 ("Script",      (0x964334,),          None,        True,      "Melody")),
 #   ("(dro_01) Outpost 1: Give Mouser Letter (19)",              ("Script",      (?,),                 None,        True,      "Letter (12)")),
 #   ("(dro_01) Outpost 1: Shop Item 1",                          ("Collectable", (0x9666fc,),          None,        True,      "Thunder Bolt")),
 #   ("(dro_01) Outpost 1: Shop Item 2",                          ("Collectable", (0x966708,),          None,        True,      "Dusty Hammer")),
@@ -284,6 +283,14 @@ vanilla_locations = OrderedDict([
 #   ("(dro_02) Outpost 2: Hidden Panel",                         ("Collectable", (?,),                 None,        False,     "Star Piece (1)")),
 
 ## sbk: Dry Dry Desert
+    ("(sbk_00) N3W3: ? Block",                                   ("Collectable", (0x929a20,),          None,        False,     "Fright Jar")),
+
+    ("(sbk_05) N3E2 Pokey Army: ? Block",                        ("Collectable", (0x9310fc,),          None,        False,     "Fire Flower")),
+
+    ("(sbk_10) N2W3: Hidden ? Block",                            ("Collectable", (0x933ff0,),          None,        False,     "Thunder Rage")),
+
+    ("(sbk_14) N2E1 (Tweester A): ? Block",                      ("Collectable", (0x936c70,),          None,        False,     "Honey Syrup")),
+
     ("(sbk_20) N1W3 Special Block: ? Block 1 Hit",               ("Collectable", (0x938abc,0x938cf8),  None,        False,     "Mushroom")),
     ("(sbk_20) N1W3 Special Block: ? Block 10 Hits",             ("Collectable", (0x938b8c,0x938d48),  None,        False,     "Super Shroom")),
     ("(sbk_20) N1W3 Special Block: ? Block 100 Hits",            ("Collectable", (0x938c5c,0x938d98),  None,        False,     "Ultra Shroom")),
@@ -297,11 +304,14 @@ vanilla_locations = OrderedDict([
 
 #   ("(sbk_33) Center (Tweester C): Hidden Panel",               ("Script", (,),                       None,        False,     "Star Piece (1)")),
 
+#   ("(sbk_34) E1 Nomadimouse: Give Nomadimous Letter (08)",     ("Script", (?,),                      None,        False,     "Star Piece (1)")),
+
 #   ("(sbk_36) E3 Outside Outpost: Bottom Right Tree",           ("Script", (?,),                      None,        False,     "Letter (03)")),
 
-#   ("(sbk_45) E1 Nomadimouse: Give Nomadimous Letter (08)",     ("Script", (?,),                      None,        False,     "Star Piece (1)")),
     ("(sbk_45) S1E2 Small Bluffs: Ontop Of Floating Block",      ("Collectable", (0x94e934,),          None,        False,     "Stop Watch")),
     ("(sbk_45) S1E2 Small Bluffs: Tweester Rock",                ("Collectable", (0x94e958,),          None,        False,     "Spin Attack")),
+
+    ("(sbk_46) S1E3 North of Oasis: Hidden ? Block",             ("Collectable", (0x9505c8,),          None,        False,     "Life Shroom")),
 
     ("(sbk_55) S2E2 West of Oasis: Behind Bush",                 ("Collectable", (0x953f70,),          None,        False,     "Tasty Tonic")),
 
@@ -324,7 +334,6 @@ vanilla_locations = OrderedDict([
     ("(isk_07) Sarcophagus Hall 2: Behind The Grey Block",       ("Collectable", (0x982c74,),          None,        False,     "Artifact")),
 
 #   ("(isk_09) Super Hammer Room: Hidden Room Chest",            ("Collectable", (0x986f48,),          None,        False,     "Slow Go")),
-
 #   ("(isk_09) Super Hammer Room: Big Chest",                    ("Script",      (?,),                 None,        False,     "Super Hammer")),
 
     ("(isk_12) Sand Drainage Room 3: Behind The Grey Block",     ("Collectable", (0x98dc80,),          None,        False,     "Ruins Key")),
@@ -337,6 +346,8 @@ vanilla_locations = OrderedDict([
 
 ## mim: Forever Forest
 #   ("(mim_04) Tree Face (Bub-ulb): Talk To Bub-ulb",            ("Script",      (0xba00bc,),          None,        False,     "Magical Seed 3")),
+
+    ("(mim_08) Laughing Rock: ? Block in Center",                ("Collectable", (0xbb0e50,),          None,        False,     "HP Plus")),
 
     ("(mim_09) Flowers Appear (FP Plus): ? Block in Center",     ("Collectable", (0xbb4150,),          None,        False,     "FP Plus")),
 
@@ -368,6 +379,9 @@ vanilla_locations = OrderedDict([
 #   ("(obk_03) Basement: Shop Item 4",                           ("Shop",        (0xbc57e4,),          None,        True,      "Snowman Doll")),
 #   ("(obk_03) Basement: Shop Item 5",                           ("Shop",        (0xbc57d8,),          None,        True,      "Stop Watch")),
 #   ("(obk_03) Basement: Shop Item 6",                           ("Shop",        (0xbc57cc,),          None,        True,      "Mystery?")),
+
+    ("(obk_05) Pot Room: Storage Crate 1",                      ("Collectable", (0xbce5ec,),          None,        False,     "Apple")),
+    ("(obk_05) Pot Room: Storage Crate 2",                      ("Collectable", (0xbce63c,),          None,        False,     "Apple")),
 
     ("(obk_06) Library: Ontop Of Bookshelf",                     ("Collectable", (0xbceaec,),          None,        False,     "Boo's Portrait")),
     ("(obk_06) Library: Inside Storage Crate",                   ("Collectable", (0xbcebb4,),          None,        False,     "Star Piece (1)")),
